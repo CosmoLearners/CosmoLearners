@@ -1,0 +1,51 @@
+.math {
+  align-self: stretch;
+  position: relative;
+  line-height: 44px;
+  flex-shrink: 0;
+  /* debug_commit: 1de1738; */
+}
+.math-parent,
+.math1 {
+  align-self: center;
+  display: flex;
+}
+.math1 {
+  height: 604.4px;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs-7) 0;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-46xl-5);
+  flex-shrink: 0;
+  /* debug_commit: 1de1738; */
+}
+.math-parent {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--font-size-19xl-5);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .math {
+    font-size: var(--font-size-12xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .math {
+    font-size: var(--font-size-4xl);
+    line-height: 26px;
+  }
+  .math-parent {
+    gap: var(--gap-xl);
+  }
+}

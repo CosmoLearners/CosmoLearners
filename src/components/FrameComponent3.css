@@ -1,0 +1,124 @@
+.programming-languages {
+  align-self: stretch;
+  position: relative;
+  line-height: 44px;
+}
+.programming-languages-parent,
+.programming-languages1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  font-family: var(--font-inter);
+}
+.programming-languages1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-242xl);
+  gap: 8px 64.1px;
+  font-size: var(--font-size-lgi-3);
+  color: var(--color-black);
+}
+.programming-languages-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-19xl-5);
+  color: var(--color-white);
+}
+
+.course-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 280px;
+  width: 240px; 
+ 
+  /* flex: 0 0 100px; */
+  border-radius: 15px;
+  background-color: var(--color-lightgray-100);
+  align-items: center;
+  padding: var(--padding-smi-5) var(--padding-smi-5) var(--padding-mid-3);
+  box-sizing: border-box;
+  /* gap: var(--gap-3xs-6); */
+  /* gap: 80px;  */
+  min-width: auto;
+  text-align: center;
+  font-size: var(--font-size-lgi-3);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  gap: 20px; 
+}
+
+.course-img-wrapper {
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  /* max-width: 60%; */
+  width: 90%; 
+  overflow:clip;
+  /* max-height: 60%; */
+  object-fit: contain;
+
+}
+
+.course-img {
+  width: 100%; 
+  height: auto; 
+}
+
+.course-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: center;
+}
+
+.heading-text {
+  position: relative;
+  z-index: 1;
+  line-height: 27px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 66px;
+}
+
+.description-text {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi-5);
+  line-height: 26.95px;
+  z-index: 1;
+
+}
+
+
+@media screen and (max-width: 1050px) {
+  .programming-languages {
+    font-size: var(--font-size-12xl);
+    line-height: 35px;
+  }
+  .programming-languages1 {
+    gap: var(--gap-13xl);
+    padding-left: var(--padding-111xl);
+    padding-right: var(--padding-111xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .programming-languages {
+    font-size: var(--font-size-4xl);
+    line-height: 26px;
+  }
+  .programming-languages1 {
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .programming-languages-parent {
+    gap: var(--gap-xl);
+  }
+}

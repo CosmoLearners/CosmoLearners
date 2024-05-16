@@ -1,0 +1,67 @@
+.python-child {
+  width: 207.9px;
+  height: 261.8px;
+  position: relative;
+  border-radius: 14.44px;
+  background-color: var(--color-lightgray-100);
+  display: none;
+}
+.python-item,
+.python3 {
+  position: relative;
+  z-index: 1;
+}
+.python-item {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 14.44px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.python3 {
+  line-height: 27px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 66px;
+}
+.python-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-39xl) 0 var(--padding-36xl-9);
+}
+.embark-on-a {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-smi-5);
+  line-height: 26.95px;
+  z-index: 1;
+}
+.frame-parent1,
+.python2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.python2 {
+  height: 261.8px;
+  flex: 1;
+  border-radius: 14.44px;
+  background-color: var(--color-lightgray-100);
+  align-items: flex-end;
+  padding: var(--padding-smi-5) var(--padding-smi-5) var(--padding-mid-3);
+  box-sizing: border-box;
+  gap: var(--gap-3xs-6);
+  min-width: 83px;
+  text-align: center;
+  font-size: var(--font-size-lgi-3);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

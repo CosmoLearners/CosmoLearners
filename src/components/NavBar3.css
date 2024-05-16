@@ -1,0 +1,116 @@
+.cosmo-logo-invert-original-1-icon3 {
+  height: 72px;
+  width: 72px;
+  position: relative;
+  object-fit: cover;
+  min-height: 72px;
+}
+.logo-image-icon {
+  align-self: stretch;
+  width: 281px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 72px;
+}
+.cosmo-logo-edit3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.link-about3 {
+  left: 0;
+  min-width: 60px;
+}
+.link-about3,
+.link-become3,
+.link-courses3,
+.link-parents3 {
+  position: absolute;
+  top: 0;
+  letter-spacing: 0.5px;
+  line-height: 72px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.link-courses3 {
+  left: 79px;
+  min-width: 81px;
+}
+.link-become3,
+.link-parents3 {
+  left: 179px;
+  white-space: nowrap;
+}
+.link-become3 {
+  left: 387px;
+}
+.divdivider-vertical3 {
+  position: absolute;
+  top: 16px;
+  left: 557px;
+  background-color: var(--color-white);
+  width: 1px;
+  height: 40px;
+}
+.book-an-appointment6 {
+  position: relative;
+  letter-spacing: 0.49px;
+  line-height: 41px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.link11,
+.navigation-divider {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.link11 {
+  border: 1px solid var(--color-goldenrod-100);
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  cursor: pointer;
+}
+.navigation-divider {
+  position: absolute;
+  top: 0;
+  left: 578px;
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+  text-align: center;
+}
+.navigation-links1 {
+  height: 72px;
+  width: 805px;
+  position: relative;
+  max-width: 100%;
+}
+.navbar3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(8px);
+  background-color: var(--color-midnightblue-300);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
