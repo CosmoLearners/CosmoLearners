@@ -132,15 +132,16 @@
 }
 .mission-statement {
   position: relative;
-  top: 2600px;  
+  /* top: 2600px;   */
   margin-left: auto; 
   margin-right: auto; 
   margin-bottom: 60px; 
-
+  margin-top: 200px; 
   text-align: center; 
   /* margin: 0 auto;  */
   border-radius: var(--br-46xl);
-  width: 1694px;
+  width: 85%; 
+  /* width: 1694px; */
   flex-direction: column;
   justify-content: center;
   align-items: center; 
@@ -244,7 +245,7 @@
 .coach-qualities {
   position: relative;
   /* top: 4527px; */
-  top: 3100px; 
+  /* top: 3100px;  */
   /* left: 0; */
   width: 100%;
   display: flex;
@@ -309,7 +310,7 @@
   background-color: transparent;
   /* position: absolute; */
   position: relative; 
-  top: 3150px;
+  /* top: 3150px; */
   /* left: 732.5px; */
   margin: auto; 
   width: 229px;
@@ -387,8 +388,10 @@
   justify-content: flex-start;
 }
 .learn-more-about-cosmo3 {
-  position: absolute;
-  top: 5332px;
+  /* position: absolute; */
+  position: relative; 
+  /* top: 5332px; */
+  top: 200px; 
   left: 0;
   width: 100%;
   display: flex;
@@ -406,7 +409,7 @@
 }
 .why-cosmo {
   width: 100%;
-  height: 6800px;
+  /* height: 6800px; */
   position: relative;
   overflow-y: hidden;
   background-image: url(/public/why-cosmo@3x.png);
@@ -417,13 +420,11 @@
   letter-spacing: normal;
 }
 
-.footer {
+/* .footer {
 top: 55%; 
 bottom: 0; 
 
-
-
-}
+} */
 
 @media screen and (max-width: 1050px) {
   .learn-more-about1,

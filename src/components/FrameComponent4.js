@@ -46,6 +46,16 @@ const FrameComponent4 = () => {
             <div class="description-text">Begin programming with a visual language perfect for beginners.</div>
           </div>
         </div>
+
+        <div class="course-item">
+          <div class="course-img-wrapper"> 
+            <img class="course-img" src="/htmlcssjs.jpg"/>
+          </div>
+          <div class="course-text-wrapper">
+            <div class="heading-text"> Web Development </div>
+            <div class="description-text">Learn to create basic and complex websites with HTML, CSS, Javascript and a variety of Frameworks such as Flask.</div>
+          </div>
+        </div>
         {/* <Python
           rectangle32="/rectangle-32@2x.png"
           python="Python"

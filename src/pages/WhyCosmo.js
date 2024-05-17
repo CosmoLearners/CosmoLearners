@@ -134,7 +134,7 @@ const WhyCosmo = () => {
       <section className="learn-more-about-cosmo3">
         <h1 className="learn-more-about2">Take the Leap Into Your Future</h1>
         <div className="ready-to-be">
-          Ready to be the architect of your own success? At [Your Company Name],
+          Ready to be the architect of your own success? At Cosmo Scholar,
           every lesson is an opportunity to grow, every challenge a chance to
           shine. With the support of our dedicated Coaches and a community that
           cheers you on, there's no limit to what you can achieve. Embrace your

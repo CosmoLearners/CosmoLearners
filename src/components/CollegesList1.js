@@ -36,6 +36,28 @@ const CollegesList1 = () => {
           alt=""
           src="/image-14@2x.png"
         />
+
+        <img
+          className="image-15-icon2"
+          loading="lazy"
+          alt=""
+          src="/san-jose-state-university.png"
+        />
+
+<img
+          className="image-16-icon2"
+          loading="lazy"
+          alt=""
+          src="/university-southern-california.png"
+        />
+
+        {/* <img
+          className="image-14-icon2"
+          loading="lazy"
+          alt=""
+          src="/image-14@2x.png"
+        /> */}
+
         <img className="image-7-icon3" alt="" src="/image-7@2x.png" />
         <img className="image-8-icon3" alt="" src="/image-8@2x.png" />
         <img className="image-9-icon3" alt="" src="/image-9@2x.png" />

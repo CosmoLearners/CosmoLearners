@@ -111,6 +111,20 @@
   min-height: 112px;
 }
 
+.image-15-icon2 {
+  position: relative;   
+  width: 200px; 
+
+}
+
+.image-16-icon2 {
+
+  position: relative;
+  flex-shrink: 0;
+  height: 100px;
+
+}
+
 .image-12-icon3 {
   height: 112px;
   width: 109.9px;
@@ -147,15 +161,26 @@
   /* debug_commit: 1de1738; */
 }
 
+
 .colleges-list1 {
-  position: absolute;
-  top: 5120px;
+  position: relative;
+  top: 10px;
   /* left: 0; */
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   background-color: var(--color-powderblue);
 }
+
+/* .colleges-list1 {
+  position: absolute;
+  top: 5120px;
+  /* left: 0; */
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: var(--color-powderblue);
+} */ 
 
 
 /*keyframe animations*/

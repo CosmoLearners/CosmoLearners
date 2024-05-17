@@ -16,7 +16,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0 var(--padding-242xl);
-  gap: 8px 64.1px;
+  gap: 64px 64px;
   font-size: var(--font-size-lgi-3);
   color: var(--color-black);
 }

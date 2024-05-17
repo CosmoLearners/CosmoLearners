@@ -425,7 +425,7 @@
 .divw-node-dafeecd6-e254-d620-1 {
   flex: 1;
   gap: var(--gap-mini);
-  min-width: 105px;
+  min-width: 120px;
 }
 .footer-navigation {
   width: 415px;
@@ -647,9 +647,10 @@
 }
 .about-us {
   width: 100%;
-  height: 2480.2px;
+  height: 100%; 
+  /* height: 2480.2px; */
   position: relative;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   background-image: url(/public/aboutus@3x.png);
   background-size: cover;
   background-repeat: no-repeat;

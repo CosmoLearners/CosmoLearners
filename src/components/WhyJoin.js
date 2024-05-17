@@ -7,7 +7,7 @@ const WhyJoin = () => {
       <h1 className="what-makes-us1">What Makes Us Different?</h1>
       <div className="coach-features">
 
-        <div className="item">
+        <div className="why-feature">
           <img className="one-on-one-1-icon2" src="/oneonone-12@2x.png"/>
           <div className="feature-descriptions">
             <b className="craft-individualized-strategie">
@@ -19,7 +19,7 @@ const WhyJoin = () => {
           </div>
         </div>
 
-        <div className="item">
+        <div className="why-feature">
           <img className="one-on-one-1-icon2" src="/oneonone-111@2x.png"/>
           <div className="feature-descriptions">
             <b className="craft-individualized-strategie">
@@ -31,7 +31,7 @@ const WhyJoin = () => {
           </div>
         </div>
 
-        <div className="item">
+        <div className="why-feature">
           <img className="one-on-one-1-icon2" src="/oneonone-111@2x.png"/>
           <div className="feature-descriptions">
             <b className="craft-individualized-strategie">
@@ -43,7 +43,7 @@ const WhyJoin = () => {
         </div>
 
 
-        <div className="item">
+        <div className="why-feature">
           <img className="one-on-one-1-icon2" src="/oneonone-111@2x.png"/>
           <div className="feature-descriptions">
             <b className="craft-individualized-strategie">
@@ -54,7 +54,7 @@ const WhyJoin = () => {
           </div>
         </div>
 
-        <div className="item">
+        <div className="why-feature">
           <img className="one-on-one-1-icon2" src="/oneonone-111@2x.png"/>
           <div className="feature-descriptions">
             <b className="craft-individualized-strategie">
@@ -66,7 +66,7 @@ const WhyJoin = () => {
           </div>
         </div>
 
-        <div className="item">
+        <div className="why-feature">
           <img className="one-on-one-1-icon2" src="/oneonone-12@2x.png"/>
           <div className="feature-descriptions">
             <b className="craft-individualized-strategie">

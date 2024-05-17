@@ -16,6 +16,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* align-items: flex-end;  */
+    /* justify-content: end; */
     max-width: 100%;
   }
   .appointment-button {
@@ -25,7 +27,9 @@
     background-color: transparent;
     width: 434px;
     box-sizing: border-box;
-    justify-content: center;
+    /* justify-content: center; */
+    /* justify-content: flex-end;  */
+    margin-left: auto;  
   }
   .appointment-button:hover {
     background-color: var(--color-tan-200);
@@ -39,14 +43,15 @@
   .footer-logo {
     flex: 1;
     justify-content: space-between;
-    padding: 0 137.2px;
+    /* padding: 0 120px; */
     box-sizing: border-box;
-    gap: var(--gap-xl);
+    /* gap: var(--gap-xl); */
+    /* border: white solid 2px;  */
   }
-  .footer1 {
-    width: 1624px;
+  /* .footer1 {
+    width: 1700px;
     justify-content: center;
-  }
+  } */
   .link-california {
     position: relative;
     line-height: 20px;
@@ -195,7 +200,8 @@
   .footer {
     position: relative;
     /* top: 1936.2px; */
-    margin-top: 360px; 
+    /* margin-top: 360px;  */
+    margin-bottom: 100px; 
     left: 0;
     background-color: var(--color-midnightblue-200);
     width: 100%;
@@ -261,6 +267,7 @@
       padding-left: var(--padding-15xl);
       padding-right: var(--padding-15xl);
       box-sizing: border-box;
+      /* border: white solid 2px;  */
     }
     .footer1 {
       gap: var(--gap-18xl);

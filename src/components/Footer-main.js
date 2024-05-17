@@ -43,7 +43,7 @@ export default function Footer() {
                                         Become a Tutor
                                     </div>
                                     <div className="item-link4">Contact Us</div>
-                                    <div className="item">
+                                    <div className="footer-item">
                                         <div className="link-help">Help Center</div>
                                     </div>
                                     <div className="item-link5">Code of Conduct</div>

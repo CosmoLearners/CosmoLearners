@@ -212,6 +212,7 @@
 }
 .personalized9 {
   align-self: stretch;
+  position: relative; 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -222,9 +223,23 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.coaches-vs-tutors,
+/* .coaches-vs-tutors, */
 .learning-journeys {
   width: 1194px;
+  display: flex;
+  position: relative; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  /* margin-bottom: 100px;  */
+}
+
+.coaches-vs-tutors {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,8 +248,19 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-13xl);
+  margin-bottom: 100px; 
+  top: 150px; 
+  left: 0;
+  width: 100%;
+  overflow: clip;
+  padding: var(--padding-41xl) var(--padding-xl);
+  box-sizing: border-box;
+  /* text-align: center; */
+  font-size: var(--font-size-25xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
 }
-.coaches-vs-tutors {
+/* .coaches-vs-tutors {
   position: absolute;
   top: 1883px;
   left: 0;
@@ -246,7 +272,7 @@
   font-size: var(--font-size-25xl);
   color: var(--color-white);
   font-family: var(--font-inter);
-}
+} */
 @media screen and (max-width: 1200px) {
   .personalized5,
   .personalized6,
