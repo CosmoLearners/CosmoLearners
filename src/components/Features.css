@@ -17,7 +17,9 @@
     gap: var(--gap-19xl); */
   max-width: 100%;
   text-align: center;
-  font-size: var(--font-size-21xl);
+  font-size: 26px; 
+  /* font-size: minmax(18px, 20px);  */
+  /* font-size: var(--font-size-21xl); */
   color: var(--color-black);
   font-family: var(--font-inter);
   /* /* new */
@@ -62,8 +64,8 @@
   background: #0F0F6D;
   color: #ffffff;
   cursor: pointer;
-  font-size: 30px;
-  padding: 1.5rem;
+  font-size: 16px;
+  padding: 0.8rem;
   border: 0;
   transition: all 0.5s;
   border-radius: 10px;
@@ -89,7 +91,7 @@
     transition: all 0.5s;
     border-radius: 10px;
     box-shadow: 0px 6px 15px #0000ff61;
-    padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+    padding: 1rem 2rem 1rem 1rem;
 
     &::after {
       opacity: 1;
@@ -150,8 +152,9 @@
 }
 
 .single-feature {
-  width: 347px;
+  width: 20vw;
   max-width: 350px;
+  min-width: 250px; 
   height: auto;
   /* height: 650px; Change this */
   /* margin: 0 !important; */
@@ -185,7 +188,9 @@
 
 
 .single-feature-img {
-  height: 180px;
+  height: 12vw;
+  min-height: 120px; 
+  max-height: 180px; 
   flex: 1;
   position: relative;
   max-width: 100%;
@@ -211,10 +216,12 @@
 
 .single-feature {
   transition: transform 0.5s;
+ 
 }
 
 .single-feature.show {
   transform: scale(1.05);
+  margin-bottom: 20px; 
 }
 
 @media screen and (max-width:1200px)  {
@@ -226,7 +233,6 @@
     height: auto;
     grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(350px, 100%/3)), 3fr));
     grid-template-rows: repeat(3, minmax(350px, auto));
-    row-gap: 0;
     /* height: 1114px; */
     /* flex-direction: row;
       flex-wrap: wrap;

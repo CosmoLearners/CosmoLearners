@@ -2,11 +2,11 @@ import "./StoryJoinUsFooter.css";
 import { Link } from "react-router-dom";
 
 
-const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7"; 
+const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7";
 
 const onGoogleFormClick = () => {
   window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
-}; 
+};
 
 const StoryJoinUsFooter = () => {
   return (
@@ -158,23 +158,26 @@ const StoryJoinUsFooter = () => {
       </div>
       <div className="frame-group">
         {/* <div className="frame-wrapper"> */}
-          <div className="frame-container">
-            <div className="wrapper-frame-31-wrapper">
-              <div className="wrapper-frame-31">
-                <img
-                  className="wrapper-frame-31-child"
-                  loading="lazy"
-                  alt=""
-                  src="/frame-31@2x.png"
-                />
+        <div className="frame-container">
+
+          <div className="heading-2-join-our-movement-parent">
+            <h3 className="heading-22">
+              Join COSMO today and embark on a cosmic learning adventure like
+              no other. Together, we'll reach for the stars and unlock your
+              full potential!
+            </h3>
+            <div id="planet-stack-rocket">
+
+              <div className="wrapper-frame-31-wrapper">
+                <div className="wrapper-frame-31">
+                  <img
+                    className="wrapper-frame-31-child"
+                    loading="lazy"
+                    alt=""
+                    src="/frame-31@2x.png"
+                  />
+                </div>
               </div>
-            </div>
-            <div className="heading-2-join-our-movement-parent">
-              <h3 className="heading-22">
-                Join COSMO today and embark on a cosmic learning adventure like
-                no other. Together, we'll reach for the stars and unlock your
-                full potential!
-              </h3>
               <div className="divchakra-stack15">
                 <button className="link-button1">
                   <div className="start-learning-now" onClick={onGoogleFormClick}>Start Learning Now</div>
@@ -190,18 +193,21 @@ const StoryJoinUsFooter = () => {
                   </button>
                 </div>
               </div>
-            </div>
-            <div className="cloudlargerightsvg-parent">
-              <div className="cloudlargerightsvg">
-                <img className="circle-container-icon" alt="" src="/vector-1.svg" />
+
+              <div className="cloudlargerightsvg-parent">
+                <div className="cloudlargerightsvg">
+                  <img className="circle-container-icon" alt="" src="/vector-1.svg" />
+                </div>
+                <img
+                  className="rocket-clipart-1-icon"
+                  loading="lazy"
+                  alt=""
+                  src="/rocketclipart-1@2x.png"
+                />
               </div>
-              <img
-                className="rocket-clipart-1-icon"
-                loading="lazy"
-                alt=""
-                src="/rocketclipart-1@2x.png"
-              />
             </div>
+          </div>
+
           {/* </div> */}
         </div>
       </div>
