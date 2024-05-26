@@ -84,7 +84,8 @@
 .link7 {
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
+
 }
 .link7 {
   cursor: pointer;
@@ -137,8 +138,145 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
+
+.hamburger-menu {
+  display: none; /* Hide hamburger menu on larger screens */
+  transform: translateY(5px);
+}
+
+.hamburger-menu div {
+  width: 25px;
+  height: 3px;
+  background-color: var(--color-white);
+  margin: 5px 0;
+  transition: 0.4s; ;
+}
+
+@media screen and (max-width: 1240px) {
+  /* .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center; 
+    flex-wrap:wrap; 
+  } */
+
+  .navbar {
+    font-size: 0.8rem; 
+  }
+  .cosmo-logo-invert-original-1-icon{
+    width: 60px; 
+    height: 60px; 
+    object-fit: contain; 
+    min-height: 50px;  
+  }
+  .cosmo-logo-edit-child {
+    align-self: stretch;
+    width:240px;
+    position: relative;
+    max-height: 90%;
+    object-fit: cover;
+    min-height: 60px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center; 
+    flex-wrap:wrap; 
+  }
+
+  .cosmo-logo-edit {
+    justify-content:flex-start;
+    padding: var(--padding-md);
+  }
+  
+  .cosmo-logo-invert-original-1-icon{
+    width: 50px; 
+    height: 50px; 
+    object-fit: contain; 
+    min-height: 50px;  
+  }
+  .cosmo-logo-edit-child {
+    align-self: stretch;
+    width: 200px;
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 50px;
+  }
+
+  .navigation-links {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: none; /* Initially hide the navigation links */
+    overflow: hidden; /* Hide overflowing content */
+    transition: opacity 3s ease;
+    opacity: 0; /* Initial opacity for transition */
+
+  }
+
+  .navigation-links.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: white solid 1px; 
+    opacity: 1; /* Make visible */
+  }
+
+  .navigation-links > div {
+    width: 100%;
+    text-align: center;
+    padding: var(--padding-md) 0;
+    font-size: 1rem;
+  }
+
+  .appointment-button-container {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    text-align: center; 
+  }
+
+  .link-divider {
+    display: none; 
+  }
+
+  .hamburger-menu {
+    display: block;
+    cursor: pointer;
+    padding: var(--padding-md);
+    z-index: 1001;
+  }
+
+  .hamburger-menu.open div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .hamburger-menu.open div:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-menu.open div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  
+}
+
+
+/* @media screen and (max-width: 1200px) {
   .navigation-links {
     display: none;
   }
-}
+} */

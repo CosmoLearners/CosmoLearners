@@ -1,8 +1,17 @@
 // import ProgressTracking from "./ProgressTracking";
 // import Collaborate from "./Collaborate";
+import React, { useState } from 'react';
 import "./Features.css";
 
+
 const Features = () => {
+
+    const [visible, setVisible] = useState(false);
+
+    const toggleVisibility = () => {
+        setVisible(!visible);
+    };
+
     return (
         <section className="features">
             <div className="wrapper-progress-icon">
@@ -16,8 +25,10 @@ const Features = () => {
             <h1 className="features-unlocking-cosmic">
                 Features: Unlocking Cosmic Potential 🚀
             </h1>
+            <button class="btn-1" onClick={toggleVisibility} role="button">{visible ? 'Hide All' : 'Open All' }</button>
+
             <div className="features-flexbox">
-                <div className="single-feature">
+                <div className={`single-feature ${visible ? 'show' : ''}`}>
                     <div className="single-feature-img-container">
                         <img
                             className="single-feature-img"
@@ -30,7 +41,7 @@ const Features = () => {
                         <h3 className="feature-text-header">
                             Personalized 1-on-1 Private Classes
                         </h3>
-                        <div className="feature-text-box">
+                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
                             <span>
                                 <i>Tailored Learning</i>
                                 <span>
@@ -43,7 +54,7 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
-                <div className="single-feature">
+                <div className={`single-feature ${visible ? 'show' : ''}`}>
                     <div className="single-feature-img-container">
                         <img
                             className="single-feature-img"
@@ -56,7 +67,7 @@ const Features = () => {
                         <h3 className="feature-text-header">
                             Project-Based Learning
                         </h3>
-                        <div className="feature-text-box">
+                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
                             <span>
                                 <i>Boost Your Skills:</i>
                                 <span>
@@ -70,7 +81,7 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
-                <div className="single-feature">
+                <div className={`single-feature ${visible ? 'show' : ''}`}>
                     <div className="single-feature-img-container">
                         <img
                             className="single-feature-img"
@@ -83,7 +94,7 @@ const Features = () => {
                         <h3 className="feature-text-header">
                         Progress Tracking
                         </h3>
-                        <div className="feature-text-box">
+                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
                             <span>
                                 <i>Stay Informed: </i>
                                 <span>
@@ -97,7 +108,7 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
-                <div className="single-feature">
+                <div className={`single-feature ${visible ? 'show' : ''}`}>
                     <div className="single-feature-img-container">
                         <img
                             className="single-feature-img"
@@ -110,7 +121,7 @@ const Features = () => {
                         <h3 className="feature-text-header">
                         Collaborative Group Classes
                         </h3>
-                        <div className="feature-text-box">
+                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
                             <span>
                                 <i>Learn Together: </i>
                                 <span>
@@ -125,7 +136,7 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className="single-feature">
+                <div className={`single-feature ${visible ? 'show' : ''}`}>
                     <div className="single-feature-img-container">
                         <img
                             className="single-feature-img"
@@ -138,7 +149,7 @@ const Features = () => {
                         <h3 className="feature-text-header">
                         Achievement Showcase
                         </h3>
-                        <div className="feature-text-box">
+                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
                             <span>
                                 <i>Celebrate Success: </i>
                                 <span>
@@ -153,7 +164,7 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
-                <div className="single-feature">
+                <div className={`single-feature ${visible ? 'show' : ''}`}>
                     <div className="single-feature-img-container">
                         <img
                             className="single-feature-img"
@@ -166,7 +177,7 @@ const Features = () => {
                         <h3 className="feature-text-header">
                         Safety and Supportive Environment
                         </h3>
-                        <div className="feature-text-box">
+                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
                             <span>
                                 <i>Cosmic Community: </i>
                                 <span>

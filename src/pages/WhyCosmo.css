@@ -248,6 +248,8 @@
   /* top: 3100px;  */
   /* left: 0; */
   width: 100%;
+  margin-top: 100px; 
+  margin-bottom: 50px; 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -256,7 +258,7 @@
   padding: var(--padding-16xl) 371px var(--padding-16xl) 367px;
   box-sizing: border-box;
   /* gap: var(--gap-xl); */
-  gap: 90px; 
+  gap: 60px; 
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-13xl);
