@@ -39,6 +39,20 @@ body {
   --font-size-4xl: 23px;
   --font-size-12xl: 31px;
 
+  /* Responsive texts */
+  --font-size-heading: 2em; 
+  --font-size-description: 1em; 
+  --font-size-small: 0.5em; 
+
+  /* Responsive paddings */ 
+  --padding-large-button-vertical: 1.5em; 
+  --padding-medium-button-vertical: 0.25em; 
+  --padding-small-button-vertical: 0.1em; 
+
+  --padding-large-button-horizontal: 1em; 
+  --padding-medium-button-horizontal: 0.5em; 
+  --padding-small-button-horizontal: 0.25em; 
+
   /* Colors */
   --color-tan-100: #e6b5a6;
   --color-tan: #b4ad93;

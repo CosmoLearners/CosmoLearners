@@ -14,7 +14,7 @@
 .personalized-child2 {
   height: 280px;
   width: 280px;
-  position: relative;
+  /* position: relative; */
   object-fit: cover;
 }
 .blank-line9,
@@ -74,7 +74,7 @@
 .personalized-child3 {
   height: 280px;
   width: 280px;
-  position: relative;
+  /* position: relative; */
   object-fit: cover;
 }
 .personalized6 {
@@ -92,7 +92,7 @@
 .personalized-child4 {
   height: 280px;
   width: 280px;
-  position: relative;
+  /* position: relative; */
   object-fit: cover;
 }
 .developing-skills-beyond {
@@ -124,7 +124,7 @@
   width: 100%;
 }
 .developing-skills-beyond-container {
-  height: 212px;
+  /* height: 212px; */
   width: 561px;
   position: relative;
   display: flex;
@@ -143,6 +143,7 @@
   box-sizing: border-box;
   max-width: 100%;
   gap: var(--gap-xl);
+  /* margin-bottom: 50px;  */
 }
 .a-holistic-approach,
 .blank-line14 {
@@ -158,7 +159,7 @@
 }
 .a-holistic-approach-container {
   width: 561px;
-  position: relative;
+  /* position: relative; */
   line-height: 28px;
   display: flex;
   align-items: center;
@@ -168,7 +169,7 @@
 .personalized-child5 {
   height: 280px;
   width: 280px;
-  position: relative;
+  /* position: relative; */
   object-fit: cover;
 }
 .personalized8 {
@@ -186,7 +187,7 @@
 .personalized-child6 {
   height: 280px;
   width: 280px;
-  position: relative;
+  /* position: relative; */
   object-fit: cover;
 }
 .blank-line15,
@@ -225,13 +226,15 @@
 }
 /* .coaches-vs-tutors, */
 .learning-journeys {
-  width: 1194px;
+  /* width: 1194px; */
   display: flex;
   position: relative; 
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: var(--gap-41xl);
+  /* gap: var(--gap-41xl); */
+  /* gap: 100px;  */
+  /* row-gap: 100px;  */
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-13xl);
@@ -248,8 +251,9 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-13xl);
-  margin-bottom: 350px; 
-  top: 150px; 
+  /* margin-bottom: 350px;  */
+  /* margin-bottom: 500px;  */
+  /* top: 150px;  */
   left: 0;
   width: 100%;
   overflow: clip;
@@ -282,9 +286,12 @@
     padding-left: var(--padding-44xl);
     padding-right: var(--padding-44xl);
     box-sizing: border-box;
+    flex-direction: column; 
+    /* flex-direction: column; 
+    text-align: center;  */
   }
   .learning-journeys {
-    gap: var(--gap-11xl);
+    gap: 80px;
   }
 }
 @media screen and (max-width: 1050px) {

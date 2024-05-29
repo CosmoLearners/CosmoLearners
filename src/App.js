@@ -35,7 +35,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/why-cosmo":
+      case "/parents&students":
         title = "";
         metaDescription = "";
         break;
@@ -67,7 +67,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomepageV />} />
       <Route path="/become-a-tutor" element={<BecomeATutor />} />
-      <Route path="/why-cosmo" element={<WhyCosmo />} />
+      <Route path="/parents&students" element={<WhyCosmo />} />
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/courses" element={<Courses />} />
     </Routes>

@@ -133,9 +133,11 @@
   box-sizing: border-box;
   /* align-self: stretch; */
   height: auto;
-  grid-template-columns: repeat(3, 3fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, minmax(350px, auto));
-  row-gap: 0;
+  /* grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, minmax(350px, auto)); */
+  row-gap: 20px;
   /* height: 1114px; */
   /* flex-direction: row;
     flex-wrap: wrap;
@@ -153,6 +155,7 @@
 
 .single-feature {
   width: 20vw;
+  /* width: 100%;  */
   max-width: 350px;
   min-width: 250px; 
   height: auto;
@@ -224,6 +227,24 @@
   margin-bottom: 20px; 
 }
 
+@media screen and (max-width: 600px) {
+  .features-flexbox {
+    display: grid;
+    box-sizing: border-box;
+    height: auto;
+    grid-template-columns: repeat(1, 1fr) !important; /* Default to 1 column */
+    /* row-gap: 20px; Adjust as necessary */
+    /* column-gap: 20px; Adjust as necessary */
+    position: relative;
+    /* min-height: 800px; */
+
+  }
+
+  /* .single-feature {
+    width: 100%; 
+  } */
+}
+
 @media screen and (max-width:1200px)  {
 
   .features-flexbox {
@@ -231,8 +252,10 @@
     box-sizing: border-box;
     /* align-self: stretch; */
     height: auto;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(350px, 100%/3)), 3fr));
-    grid-template-rows: repeat(3, minmax(350px, auto));
+    grid-template-columns: repeat(2, 1fr);
+
+    /* grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(350px, 100%/3)), 3fr)); */
+    /* grid-template-rows: repeat(3, minmax(350px, auto)); */
     /* height: 1114px; */
     /* flex-direction: row;
       flex-wrap: wrap;
