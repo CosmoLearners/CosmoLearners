@@ -50,7 +50,9 @@ const BecomeATutor = () => {
       <section className="learn-more-about-cosmo">
         <h1 className="learn-more-about-container">
           <span className="learn-more-about-container1">
-            <p className="empower-the-next">{`Empower the Next Generation `}</p>
+            {/* <p className="empower-the-next">{`Empower the Next Generation `}</p> */}
+            <p className="empower-the-next">Empower the Next Generation </p>
+
             <p className="join-our-tutoring">Join Our Tutoring Family!</p>
           </span>
         </h1>

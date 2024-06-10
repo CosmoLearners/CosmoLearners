@@ -19,7 +19,7 @@ const NavBar = () => {
   }, [navigate]);
 
   const onLinkPARENTSClick = useCallback(() => {
-    navigate("/why-cosmo");
+    navigate("/students&parents");
     setMenuOpen(false); // Close menu on navigation
   }, [navigate]);
 

@@ -127,7 +127,7 @@ const WhyCosmo = () => {
         <div className="link4">
           <div className="button4" onClick={onGoogleFormClick}>
             <div className="apply-today3">Apply Today</div>
-          </div>
+          </div>w
         </div>
       </button>
       <CollegesList1 />

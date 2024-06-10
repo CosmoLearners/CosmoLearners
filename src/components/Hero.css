@@ -51,7 +51,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center; 
-  padding: var(--padding-large-button-vertical)  var(--padding-large-button-horizontal) ; 
+  padding: var(--padding-btn-lg-v)  var(--padding-btn-lg-h) ; 
   /* padding: var(--padding-large-button-top) var(--padding-) */
   /* padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
     var(--padding-sm-6); */
@@ -85,7 +85,7 @@
   flex-wrap: wrap;
 }
 .the-first-step-into-your-cosmi-parent {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,10 +191,13 @@
   flex-shrink: 0;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  /* align-items: flex-start;
+  justify-content: flex-start; */
+  margin-top: 80px; 
+  align-items: center; 
+  justify-content: center;
   padding: var(--padding-71xl) var(--padding-26xl) var(--padding-71xl)
-    var(--padding-181xl);
+    var(--padding-26x1);
   box-sizing: border-box;
   gap: var(--gap-41xl);
   max-width: 100%;
@@ -202,15 +205,19 @@
   font-size: var(--font-size-21xl);
   color: var(--color-white);
   font-family: var(--font-jetbrains-mono);
+  /* transform: translateX(-5%); */
   margin-bottom: 250px; 
 }
 @media screen and (max-width: 1200px) {
   .scholar-kid-2-parent {
-    flex: 1;
+    /* flex: 1; */
+    display: none; 
   }
   .hero {
     flex-wrap: wrap;
+    justify-content: center;
   }
+
 }
 @media screen and (max-width: 825px) {
   .the-first-step-container {
@@ -229,7 +236,7 @@
   .hero {
     gap: var(--gap-11xl);
     padding: var(--padding-39xl) var(--padding-3xl) var(--padding-39xl)
-      var(--padding-81xl);
+      var(--padding-3xl);
     box-sizing: border-box;
   }
 }

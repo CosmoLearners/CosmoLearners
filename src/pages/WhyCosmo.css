@@ -21,7 +21,9 @@
 .start-today {
   flex: 1;
   position: relative;
-  font-size: var(--font-size-5xl);
+  /* font-size: var(--font-size-5xl); */
+  /* font-size: var(--font-size-description);  */
+  font-size: 1rem; 
   line-height: 20px;
   font-weight: 800;
   font-family: var(--font-jetbrains-mono);
@@ -31,17 +33,21 @@
   max-height: 23.015972137451172px;
 }
 .button3 {
-  width: 229px;
+  /* width: 229px; */
+  width: 130px; 
   border-radius: var(--br-mid);
   background-color: var(--color-purple-200);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
-    var(--padding-sm-6);
+  /* padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
+    var(--padding-sm-6); */
+  /* padding: var(--padding-large-button-vertical) var(--padding-tiny-button-horizontal);    */
+  padding: 15px 10px; 
   box-sizing: border-box;
-  min-width: 120.08333587646484px;
+  /* min-width: 120.08333587646484px; */
+  min-width: 180px; 
   white-space: nowrap;
 }
 
@@ -51,7 +57,7 @@
 .divchakra-stack3,
 .link3 {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .link3 {
   width: 162px;
@@ -67,7 +73,7 @@
   background-color: transparent;
   width: 229px;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .learn-more-about-cosmo2 {
   position: relative;
@@ -268,7 +274,8 @@
 .apply-today3 {
   flex: 1;
   position: relative;
-  font-size: var(--font-size-5xl);
+  /* font-size: var(--font-size-5xl); */
+  font-size: 1rem; 
   line-height: 20px;
   font-weight: 800;
   font-family: var(--font-jetbrains-mono);
@@ -449,6 +456,28 @@ bottom: 0;
   .learn-more-about-cosmo3 {
     gap: var(--gap-mid);
   }
+  .learn-more-about1,
+  .our-mission1 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .coach-qualities {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .learn-more-about2 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .why-cosmo {
+    height: auto;
+    min-height: 6389;
+  }
+
+  .divchakra-stack3 {
+    margin-top: 20px; 
+  }
 }
 @media screen and (max-width: 450px) {
   .learn-more-about1,
@@ -468,5 +497,9 @@ bottom: 0;
   .why-cosmo {
     height: auto;
     min-height: 6389;
+  }
+
+  .divchakra-stack3 {
+    margin-top: 20px; 
   }
 }

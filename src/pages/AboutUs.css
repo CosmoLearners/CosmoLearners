@@ -1,3 +1,14 @@
+:root {
+
+
+}
+
+@media (max-width) {
+
+  
+}
+
+
 .at-cosmo-we1,
 .learn-more-about3 {
   width: 1404px;
@@ -7,12 +18,13 @@
   flex-direction: column; 
   align-items: center;
   justify-content: center;
-  max-width: 100%;
+  max-width: 90%;
 }
 .learn-more-about3 {
   margin: 0;
   margin-top: 0; 
-  font-size: inherit;
+  /* font-size: inherit; */
+  font-size: var(--font-size-semiheading); 
   line-height: 72px;
   font-weight: 700;
   font-size: 40px; 
@@ -20,13 +32,16 @@
 }
 .at-cosmo-we1 {
   /* font-size: var(--font-size-lg); */
-  font-size: 30px; 
+  /* font-size: 30px;  */
+  font-size: var(--font-size-semimedium); 
   line-height: 43.5px;
   font-weight: 400;
+  /* padding: 0 2em;  */
 }
 .join-us-today {
   position: relative;
-  font-size: var(--font-size-5xl);
+  /* font-size: var(--font-size-5xl); */
+  font-size: var(--font-size-semiheading); 
   line-height: 20px;
   font-weight: 800;
   font-family: var(--font-jetbrains-mono);
@@ -42,12 +57,19 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
-    var(--padding-sm-6);
+  /* padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
+    var(--padding-sm-6); */
+  padding: var(--padding-large-button-vertical) var(--padding-large-button-horizontal) ;
   box-sizing: border-box;
   min-width: 120.08333587646484px;
   white-space: nowrap;
 }
+
+#join-us-btn {
+  margin: var(--line-height-large) 0; 
+
+}
+
 
 /* .button6::before {
   content: "";
@@ -81,7 +103,7 @@
 .divchakra-stack6,
 .link6 {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .link6 {
   width: 162px;
@@ -97,7 +119,8 @@
   background-color: transparent;
   width: 229px;
   flex-direction: row;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  justify-content: center; 
   margin-bottom: 80px; 
 }
 .learn-more-about-cosmo4 {
@@ -132,7 +155,8 @@
   max-width: 100%;
 }
 .our-mission3 {
-  font-size: inherit;
+  /* font-size: inherit; */
+  font-size: var(--font-size-semiheading);
   line-height: 28px;
   font-weight: 700;
 }
@@ -152,8 +176,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-16xl) var(--padding-xl);
+  padding: var(--padding-16xl) 1em;
   gap: var(--gap-6xl);
+  /* margin-left: 1em;  */
   min-height: 223px;
   max-width: calc(100% - 0px);
   flex-shrink: 0;
@@ -162,12 +187,15 @@
 .our-mission2 {
   /* position: absolute; */
   position: relative; 
-  left: 0;
+  /* left: 0; */
+  margin-left: auto; 
+  margin-right: auto; 
   display: flex;
   justify-content: center;
+  text-align: center; 
 }
 .our-mission2 {
-  top: 200px;
+  top: 250px;
   /* new */
   position: relative;
   /* top: 10%;   */
@@ -175,7 +203,7 @@
   width: 100%;
   height: 213px;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
   max-width: 100%;
@@ -187,7 +215,8 @@
 .every-child-deserves{
   top: 166.2px;
   line-height: 45px;
-  font-size: 24px; 
+  /* font-size: 24px;  */
+  font-size: var(--font-size-description); 
   align-items: center;
   width: 90%;
 }
@@ -221,7 +250,7 @@
   width: 95%;
   position: relative;
   max-width: 1500px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
   text-align: center;
   justify-content: center; 
   align-items: center; 
@@ -278,9 +307,12 @@
   width: 1142px;
   position: relative;
   font-size: var(--font-size-5xl);
-  line-height: 45px;
+  /* line-height: 40px; */
+  line-height: var(--line-height-small);
   font-weight: 500;
   display: flex;
+  flex-direction: column; 
+  row-gap: 50px; 
   align-items: center;
   max-width: 100%;
 }
@@ -646,8 +678,9 @@
   font-family: var(--font-inter);
 }
 .about-us {
-  width: 100%;
-  height: 100%; 
+
+  /* width: 100%; */
+  /* height: 100%;  */
   /* height: 2480.2px; */
   position: relative;
   /* overflow-y: auto; */
@@ -657,6 +690,7 @@
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
+  overflow-x: clip; 
 }
 @media screen and (max-width: 1200px) {
   .footer-logo,
@@ -738,7 +772,7 @@
   .every-child-is-container,
   .heading-4 {
     font-size: var(--font-size-lgi);
-    line-height: 36px;
+    line-height: 50px;
   }
   .heading-4 {
     line-height: 21px;

@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer-main";
 import { useNavigate } from "react-router-dom";
 import "./AboutUs.css";
-
+import Button from "../components/Button.js"; 
 
 const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7"; 
 
@@ -34,13 +34,15 @@ const AboutUs = () => {
           education is the cosmic key that unlocks the potential of every
           individual.
         </div>
-        <button className="divchakra-stack6">
+        {/* <button className="divchakra-stack6">
           <div className="link6">
             <div className="button6" onClick={onGoogleFormClick}>
               <div className="join-us-today">Join Us Today!</div>
             </div>
           </div>
-        </button>
+        </button> */}
+
+      <Button text="Join Us today!" id="join-us-btn"/>
       </section>
       <section className="our-mission2">
         <div className="our-mission-group">

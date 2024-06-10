@@ -112,7 +112,7 @@
 .book-an-appointment4 {
   position: relative;
   font-size: var(--font-size-13xl);
-  line-height: 20px;
+  /* line-height: 20px; */
   text-transform: capitalize;
   font-family: var(--font-inter);
   color: var(--color-white);
@@ -318,7 +318,7 @@
 @media screen and (max-width: 1050px) {
   .book-an-appointment4 {
     font-size: var(--font-size-7xl);
-    line-height: 15px;
+    /* line-height: 15px; */
   }
 }
 @media screen and (max-width: 750px) {
@@ -373,7 +373,7 @@
   }
   .book-an-appointment4 {
     font-size: var(--font-size-lgi);
-    line-height: 12px;
+    /* line-height: 12px; */
   }
   .footer-top {
     gap: var(--gap-4xl);

@@ -31,7 +31,7 @@
 .why-join {
   /* position: absolute;*/
   position: relative;  
-  margin-top: 400px; 
+  margin-top: 200px; 
   margin-bottom: 50px; 
   border-radius: var(--br-mini);
   width: 100%;
@@ -103,10 +103,18 @@
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
+  .why-feature {
+    width: 300px; 
+  }
 }
 @media screen and (max-width: 750px) {
   .why-join {
     gap: var(--gap-9xl);
+  }
+  .what-makes-us1 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
   }
 }
 @media screen and (max-width: 450px) {

@@ -52,7 +52,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <button className="appointment-button" onClick={onGoogleFormClick}>
-                        <h2 className="book-an-appointment">BOOK AN APPOINTMENT</h2>
+                        <h2 className="book-an-appointment">BOOK FREE APPOINTMENT</h2>
                     </button>
                 </div>
             </div>

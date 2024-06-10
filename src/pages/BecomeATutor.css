@@ -28,7 +28,8 @@
 .apply-today {
   flex: 1;
   position: relative;
-  font-size: var(--font-size-5xl);
+  /* font-size: var(--font-size-5xl); */
+  font-size: var(--font-size-description);
   line-height: 20px;
   font-weight: 800;
   font-family: var(--font-jetbrains-mono);
@@ -38,17 +39,18 @@
   max-height: 23.015972137451172px;
 }
 .button {
-  width: 229px;
+  /* width: 229px; */
   border-radius: var(--br-mid);
   background-color: var(--color-purple-200);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
-    var(--padding-sm-6);
+  /* padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
+    var(--padding-sm-6); */
+  padding: 0.5rem 1rem; 
   box-sizing: border-box;
-  min-width: 120.08333587646484px;
+  /* min-width: 120.08333587646484px; */
   white-space: nowrap;
 }
 .button:hover {
@@ -79,6 +81,7 @@
 .learn-more-about-cosmo {
   align-self: stretch;
   display: flex;
+  margin-top: var(--padding-10xl);
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
