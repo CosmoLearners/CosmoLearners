@@ -6,6 +6,7 @@ import CouchTestimonies1 from "../components/CouchTestimonies1";
 import CollegesList1 from "../components/CollegesList1";
 // import Footer from "../components/Footer";
 import Footer from "../components/Footer-main";
+import Button from "../components/Button.js"
 
 import "./WhyCosmo.css";
 
@@ -32,13 +33,14 @@ const WhyCosmo = () => {
           exploring the frontiers of AI, we're here to support you every step of
           the way. Get ready to learn, grow, and succeed with us!
         </div>
-        <button className="divchakra-stack3">
+        {/* <button className="divchakra-stack3">
           <div className="link3">
             <div className="button3" onClick={onGoogleFormClick}>
               <div className="start-today">Start Today</div>
             </div>
           </div>
-        </button>
+        </button> */}
+        <Button text="Start Today"/>
       </section>
       <WhyJoin />
       <CoachesVsTutors />
@@ -123,13 +125,14 @@ const WhyCosmo = () => {
           </span>
         </div>
       </section>
-      <button className="divchakra-stack4">
+      {/* <button className="divchakra-stack4">
         <div className="link4">
           <div className="button4" onClick={onGoogleFormClick}>
             <div className="apply-today3">Apply Today</div>
-          </div>w
+          </div>
         </div>
-      </button>
+      </button> */}
+      <Button text="Apply today"/>
       <CollegesList1 />
       <section className="learn-more-about-cosmo3">
         <h1 className="learn-more-about2">Take the Leap Into Your Future</h1>
@@ -142,13 +145,14 @@ const WhyCosmo = () => {
           goals into achievements. Join us now and start crafting the future you
           envision.
         </div>
-        <button className="divchakra-stack5">
+        {/* <button className="divchakra-stack5">
           <div className="link5">
             <div className="button5" onClick={onGoogleFormClick}>
               <div className="start-today1">Start Today</div>
             </div>
           </div>
-        </button>
+        </button> */}
+        <Button text="Start Learning"/>
       </section>
       <Footer class="footer"/>
       {/* <Footer
