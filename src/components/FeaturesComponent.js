@@ -1,7 +1,7 @@
 import Features from "./Features";
-import "./FrameComponent1.css";
+import "./FeaturesComponent.css";
 
-const FrameComponent1 = () => {
+const FeaturesComponent = () => {
   return (
     <section className="features-wrapper">
       <Features />
@@ -9,4 +9,4 @@ const FrameComponent1 = () => {
   );
 };
 
-export default FrameComponent1;
+export default FeaturesComponent;
