@@ -4,7 +4,7 @@ import NavBar1 from "../components/NavBar1";
 import NavBar from "../components/NavBar";
 import WhatMakesUsDifferent from "../components/WhatMakesUsDifferent";
 import FrameComponent2 from "../components/FrameComponent2";
-import CouchTestimonies from "../components/CouchTestimonies";
+import CoachTestimonies from "../components/CoachTestimonies";
 import CollegesList from "../components/CollegesList";
 import Footer from "../components/Footer";
 import "./BecomeATutor.css";

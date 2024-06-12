@@ -2,7 +2,7 @@ import NavBar2 from "../components/NavBar2";
 import WhyJoin from "../components/WhyJoin";
 import NavBar from "../components/NavBar"
 import CoachesVsTutors from "../components/CoachesVsTutors";
-import CouchTestimonies1 from "../components/CouchTestimonies1";
+import CoachTestimonies from "../components/CoachTestimonies";
 import CollegesList1 from "../components/CollegesList1";
 // import Footer from "../components/Footer";
 import Footer from "../components/Footer-main";
@@ -56,7 +56,7 @@ const WhyCosmo = () => {
           engaging and effective.
         </div>
       </section>
-      <CouchTestimonies1 />
+      <CoachTestimonies />
       <section className="coach-qualities">
         <div className="qualities-image">
           <img

@@ -1,6 +1,6 @@
-import "./CouchTestimony2.css";
+import "./CoachTestimony2.css";
 
-const CouchTestimony2 = ({ ellipse2 }) => {
+const CoachTestimony2 = ({ ellipse2 }) => {
   return (
     <div className="couch-testimony-1">
       <div className="testimonial-quotes">
@@ -30,4 +30,4 @@ const CouchTestimony2 = ({ ellipse2 }) => {
   );
 };
 
-export default CouchTestimony2;
+export default CoachTestimony2;
