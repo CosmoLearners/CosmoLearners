@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import HomepageV from "./pages/HomepageV";
+import Homepage from "./pages/Homepage";
 import BecomeATutor from "./pages/BecomeATutor";
 import WhyCosmo from "./pages/WhyCosmo";
 import AboutUs from "./pages/AboutUs";
@@ -65,7 +65,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<HomepageV />} />
+      <Route path="/" element={<Homepage />} />
       <Route path="/become-a-tutor" element={<BecomeATutor />} />
       <Route path="/students&parents" element={<WhyCosmo />} />
       <Route path="/aboutus" element={<AboutUs />} />

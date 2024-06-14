@@ -1,7 +1,6 @@
-import Python from "./Python";
-import "./FrameComponent4.css";
+import "./MathFrame.css";
 
-const FrameComponent4 = () => {
+const MathFrame = () => {
   return (
     <section className="programming-languages-parent">
       <b className="programming-languages">Programming Languages</b>
@@ -120,4 +119,4 @@ const FrameComponent4 = () => {
   );
 };
 
-export default FrameComponent4;
+export default MathFrame;

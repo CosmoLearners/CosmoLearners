@@ -1,7 +1,7 @@
 
-import "./FrameComponent3.css";
+import "./MathFrame.css";
 
-const FrameComponent3 = () => {
+const ProgrammingFrame  = () => {
   return (
         <section className="programming-languages-parent">
           <b className="programming-languages">Math</b>
@@ -72,7 +72,7 @@ const FrameComponent3 = () => {
       );
     };
     
-    export default FrameComponent3;
+    export default ProgrammingFrame ;
     
 
 
@@ -195,4 +195,4 @@ const FrameComponent3 = () => {
 //   );
 // };
 
-// export default FrameComponent3;
+// export default ProgrammingFrame ;

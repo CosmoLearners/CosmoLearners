@@ -3,9 +3,9 @@ import Hero from "../components/Hero";
 import FeaturesComponent from "../components/FeaturesComponent";
 import FrameComponent from "../components/FrameComponent";
 import StoryJoinUsFooter from "../components/StoryJoinUsFooter";
-import "./HomepageV.css";
+import "./Homepage.css";
 
-const HomepageV = () => {
+const Homepage = () => {
   return (
     <div className="homepage-v3">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes"></meta>
@@ -19,4 +19,4 @@ const HomepageV = () => {
   );
 };
 
-export default HomepageV;
+export default Homepage;

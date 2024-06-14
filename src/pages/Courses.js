@@ -2,8 +2,8 @@ import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import NavBar1 from "../components/NavBar1";
 import NavBar from "../components/NavBar"
-import FrameComponent4 from "../components/FrameComponent4";
-import FrameComponent3 from "../components/FrameComponent3";
+import MathFrame from "../components/MathFrame.js";
+import ProgrammingFrame  from "../components/ProgrammingFrame.js";
 import Footer from "../components/Footer-main";
 import "./Courses.css";
 
@@ -50,8 +50,8 @@ const Courses = () => {
           journey.
         </div>
       </section>
-      <FrameComponent4 />
-      <FrameComponent3 />
+      <ProgrammingFrame  />
+      <MathFrame />
       <Footer />
       {/* <Footer
         cosmo12="/cosmo-1-23@2x.png"
