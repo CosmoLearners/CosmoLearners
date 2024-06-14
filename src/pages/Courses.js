@@ -1,6 +1,5 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import NavBar1 from "../components/NavBar1";
 import NavBar from "../components/NavBar"
 import MathFrame from "../components/MathFrame.js";
 import ProgrammingFrame  from "../components/ProgrammingFrame.js";

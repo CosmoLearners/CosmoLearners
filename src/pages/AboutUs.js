@@ -1,5 +1,4 @@
 import { useCallback } from "react";
-import NavBar3 from "../components/NavBar3";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer-main";
 import { useNavigate } from "react-router-dom";

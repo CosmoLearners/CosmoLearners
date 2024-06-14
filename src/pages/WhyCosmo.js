@@ -1,10 +1,8 @@
-import NavBar2 from "../components/NavBar2";
 import WhyJoin from "../components/WhyJoin";
 import NavBar from "../components/NavBar"
 import CoachesVsTutors from "../components/CoachesVsTutors";
 import CoachTestimonies from "../components/CoachTestimonies";
 import CollegesList1 from "../components/CollegesList1";
-// import Footer from "../components/Footer";
 import Footer from "../components/Footer-main";
 import Button from "../components/Button.js"
 
