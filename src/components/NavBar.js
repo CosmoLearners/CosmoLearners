@@ -38,6 +38,11 @@ const NavBar = () => {
     setMenuOpen(false); // Close menu on navigation
   }, [navigate]);
 
+  const onLinkFORMClick = useCallback(() => {
+    navigate("/");
+    setMenuOpen(false); // Close menu on navigation
+  }, [navigate]);
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };

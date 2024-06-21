@@ -340,7 +340,7 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   .heading-46 {
     font-size: var(--font-size-lgi);
     line-height: 21px;

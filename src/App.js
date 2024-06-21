@@ -10,6 +10,7 @@ import BecomeATutor from "./pages/BecomeATutor";
 import WhyCosmo from "./pages/WhyCosmo";
 import AboutUs from "./pages/AboutUs";
 import Courses from "./pages/Courses";
+import Form from "./pages/google-form"
 
 function App() {
   const action = useNavigationType();
@@ -47,6 +48,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/Appointment":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -70,6 +75,7 @@ function App() {
       <Route path="/students&parents" element={<WhyCosmo />} />
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/courses" element={<Courses />} />
+      <Route path="/appointment" element={<Form/>} />
     </Routes>
   );
 }
