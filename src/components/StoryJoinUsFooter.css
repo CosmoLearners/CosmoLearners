@@ -1017,7 +1017,7 @@
   min-width: 202px;
 }
 .divw-node-dafeecd6-e254-d620-parent {
-  width: 415px;
+  /* width: 415px; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1077,13 +1077,13 @@
   object-fit: cover;
 }
 .your-privacy-rights1 {
-  position: relative;
+  /* position: relative; */
   line-height: 20px;
   display: inline-block;
   min-width: 115px;
 }
 .link-california-notice-group {
-  padding: 0 var(--padding-6xs) 0 0;
+  /* padding: 0 var(--padding-6xs) 0 0; */
   gap: var(--gap-mini);
 }
 .divfooter-cali-rights1,
@@ -1099,12 +1099,12 @@
   align-items: flex-start;
   min-width: 119px;
 }
-.all-rights-reserved1,
-.made-in-california1 {
+/* .made-in-california1,  */
+.all-rights-reserved1 {
   margin: 0;
 }
 .made-in-california-container1 {
-  position: relative;
+  /* position: relative; */
   line-height: 19.25px;
 }
 .divfooter-grid-box-21,
@@ -1120,6 +1120,7 @@
   justify-content: center;
   padding: 0 var(--padding-11xl);
   font-size: var(--font-size-xs-6);
+  display: inline-block; 
 }
 .div1,
 .link-privacy1 {
@@ -1172,16 +1173,96 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .divfooter-legal-wrap1 {
   padding: 0 var(--padding-12xs-9) 0 0;
   row-gap: 20px;
 }
 .divfooter-grid-box-31 {
-  min-width: 122px;
+  /* min-width: 122px; */
 }
-.divw-node-dafeecd6-e254-d620-group,
+.divw-node-dafeecd6-e254-d620-group {
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  gap: 30px; 
+}
+
+/* Added NEW*/
+.footer4-new {
+  /* box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  align-items: center; 
+  /* margin-bottom: 50px;  */
+  margin-top: 50px; 
+  margin-bottom: 50px; 
+  border-top: 1px solid var(--color-tan);
+  font-size: var(--font-size-smi-5);
+  height: 100%; 
+  width: 100%; 
+}
+
+.footer-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  /* border-top: 1px solid var(--color-tan); */
+  align-items: center;
+  /* font-size: var(--font-size-smi-5); */
+  width: 100%; 
+  margin-top: 50px; 
+}
+
+
+/* Added NEW*/
+.california-notice-privacy-group{
+  /* flex: 1; */
+  display: flex; 
+  align-items: center;
+  justify-content: flex-start;
+  /* padding: 0 var(--padding-91xl-8); */
+  gap: 20px;
+}
+
+/* Added NEW*/
+.privacy-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px; 
+}
+
+/* Added NEW*/
+.privacy-list-item {
+  padding-right: 20px; 
+}
+
+.copyright-column-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-right: 1px solid var(--color-tan);
+  border-left: 1px solid var(--color-tan);
+  justify-content: center;
+  padding: 0 var(--padding-11xl);
+  font-size: var(--font-size-xs-6);
+  display: inline-block; 
+  line-height: 30px; 
+}
+
 .footer4 {
   box-sizing: border-box;
   display: flex;
@@ -1192,9 +1273,10 @@
 }
 .divw-node-dafeecd6-e254-d620-group {
   flex: 1;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-start;
   padding: 0 var(--padding-91xl-8);
-  gap: 40px 80px;
+  gap: 20px;
 }
 .footer4 {
   width: 1440px;
@@ -1252,6 +1334,7 @@
     min-width: 100%;
   }
   .divw-node-dafeecd6-e254-d620-group {
+    justify-content: flex-start;
     gap: var(--gap-21xl);
     padding-left: var(--padding-36xl);
     padding-right: var(--padding-36xl);
@@ -1320,8 +1403,8 @@
   }
   .divw-node-dafeecd6-e254-d620-group {
     gap: var(--gap-xl);
-    padding-left: var(--padding-8xl);
-    padding-right: var(--padding-8xl);
+    /* padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl); */
     box-sizing: border-box;
   }
   .footer4 {
@@ -1417,4 +1500,19 @@
   .footer3 {
     gap: var(--gap-lgi);
   }
+
+  /* Added NEW*/
+  .privacy-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  /* Added NEW*/
+  .privacy-list-item {
+    padding-right: 2px; 
+  }
+
+
 }

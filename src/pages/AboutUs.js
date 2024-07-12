@@ -41,7 +41,7 @@ const AboutUs = () => {
           </div>
         </button> */}
 
-      <Button text="Join Us today!" id="join-us-btn"/>
+<Button text="Join Us today!" id="join-us-btn"/>
       </section>
       <section className="our-mission2">
         <div className="our-mission-group">

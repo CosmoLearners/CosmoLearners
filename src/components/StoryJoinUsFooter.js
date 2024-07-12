@@ -248,7 +248,44 @@ const StoryJoinUsFooter = () => {
             <b className="book-an-appointment2">BOOK AN APPOINTMENT</b>
           </button>
         </div>
-        <div className="footer4">
+
+        <div className="footer4-new">
+          <div class="footer-container">
+            <div class="california-notice-privacy-group">
+              <div className="link-california1">California Notice</div>
+              <img
+                className="ceb5d14e108cfa7e8f1779-privacy-icon1"
+                loading="lazy"
+                alt=""
+                src="/63ceb5d14e108cfa7e8f1779-privacyoptions201webp@2x.png"
+              />
+              <div className="your-privacy-rights1">
+                Your Privacy Rights
+              </div>
+            </div>
+            <div className="copyright-column-group">
+              <p className="made-in-california">
+                Made in California Copyright
+              </p>
+              <p className="all-rights-reserved">
+                © 2023. All Rights Reserved
+              </p>
+            </div>
+            <div class="privacy-list">
+              <div className="link-privacy-group">
+                <div className="link-privacy1 privacy-list-item">Privacy Policy</div>
+                <div className="div1 privacy-list-item">|</div>
+                <div className="link-terms1 privacy-list-item">Terms of Service</div>
+                <div className="div2 privacy-list-item">|</div>
+                <div className="link-accessibility1 privacy-list-item">Accessibility</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        {/* <div className="footer4">
           <div className="divw-node-dafeecd6-e254-d620-group">
             <div className="divw-node-dafeecd6-e254-d620-6">
               <div className="divfooter-cali-rights1">
@@ -292,9 +329,9 @@ const StoryJoinUsFooter = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </footer>
-    </section>
+    </section >
   );
 };
 

@@ -10,6 +10,7 @@
     color: var(--color-white);
     text-align: center;
     text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+    
   }
 
   .footer-logo,
@@ -34,7 +35,7 @@
     background-color: transparent;
     /* width: 434px; */
     box-sizing: border-box;
-    /* row-gap: 60px !important;  */
+    row-gap: 60px !important; 
     line-height: 90px !important; 
     /* justify-content: center; */
     /* justify-content: flex-end;  */
@@ -267,7 +268,7 @@
     .book-an-appointment {
       font-size: var(--font-size-7xl);
       /* line-height: 15px; */
-      line-height: 80px;
+      line-height: 80px !important;
     }
   }
   @media screen and (max-width: 750px) {

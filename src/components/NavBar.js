@@ -6,7 +6,7 @@ const NavBar = () => {
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7";
+  const googleFormUrl = "https://forms.gle/7k6DMpSoKq8VjYjk7";
 
   const onLinkABOUTClick = useCallback(() => {
     navigate("/aboutus");

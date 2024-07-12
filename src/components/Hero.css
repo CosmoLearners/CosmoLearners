@@ -90,10 +90,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--padding-19xl) 0;
+  padding: var(--padding-19xl) 50px;
   box-sizing: border-box;
   gap: var(--gap-7xl);
-  min-width: 428px;
+  /* min-width: 428px; */
   max-width: 100%;
 }
 .scholar-kid-2-icon {
@@ -196,8 +196,8 @@
   margin-top: 80px; 
   align-items: center; 
   justify-content: center;
-  padding: var(--padding-71xl) var(--padding-26xl) var(--padding-71xl)
-    var(--padding-26x1);
+  /* padding: var(--padding-71xl) var(--padding-26xl) var(--padding-71xl)
+    var(--padding-26x1); */
   box-sizing: border-box;
   gap: var(--gap-41xl);
   max-width: 100%;
@@ -205,6 +205,8 @@
   font-size: var(--font-size-21xl);
   color: var(--color-white);
   font-family: var(--font-jetbrains-mono);
+  padding-left: 66px; 
+  padding-right: 66px; 
   /* transform: translateX(-5%); */
   margin-bottom: 250px; 
 }
@@ -216,6 +218,8 @@
   .hero {
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 60px; 
+    padding-right: 60px; 
   }
 
 }
@@ -227,16 +231,20 @@
   .the-first-step-into-your-cosmi-parent {
     padding-top: var(--padding-6xl);
     padding-bottom: var(--padding-6xl);
+    padding-left:40px; 
+    padding-right: 40px; 
     box-sizing: border-box;
-    min-width: 100%;
+    /* min-width: 100%; */
   }
   .scholar-kid-2-parent {
     min-width: 100%;
   }
   .hero {
     gap: var(--gap-11xl);
-    padding: var(--padding-39xl) var(--padding-3xl) var(--padding-39xl)
-      var(--padding-3xl);
+    /* padding: var(--padding-39xl) var(--padding-3xl) var(--padding-39xl) */
+      /* var(--padding-3xl); */
+    padding-left: 80px !important; 
+    padding-right: 80px;  
     box-sizing: border-box;
   }
 }
@@ -253,5 +261,7 @@
     gap: var(--gap-mini);
     padding-left: var(--padding-xl);
     box-sizing: border-box;
+    padding-left: 40px; 
+    padding-right: 40px;  
   }
 }
