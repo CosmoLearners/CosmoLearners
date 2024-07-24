@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CosmoLearners/CosmoLearners.github.io/static/css/main.53b93ece.css",
-    "main.js": "/CosmoLearners/CosmoLearners.github.io/static/js/main.ec0fc02d.js",
-    "static/js/453.4a52eb9f.chunk.js": "/CosmoLearners/CosmoLearners.github.io/static/js/453.4a52eb9f.chunk.js",
-    "static/media/homepage@3x.png": "/CosmoLearners/CosmoLearners.github.io/static/media/homepage@3x.bf53d5db3cf7d433083d.png",
-    "static/media/scholarkid-2@2x.png": "/CosmoLearners/CosmoLearners.github.io/static/media/scholarkid-2@2x.3e77e1a8e71dabde61a4.png",
-    "static/media/aboutus@3x.png": "/CosmoLearners/CosmoLearners.github.io/static/media/aboutus@3x.d6e6b7caa61a8d8d5218.png",
-    "static/media/courses@3x.png": "/CosmoLearners/CosmoLearners.github.io/static/media/courses@3x.587023720720952e7fc2.png",
-    "static/media/why-cosmo@3x.png": "/CosmoLearners/CosmoLearners.github.io/static/media/why-cosmo@3x.049edd4b96db2d4eba9e.png",
-    "static/media/become-a-tutor@3x.png": "/CosmoLearners/CosmoLearners.github.io/static/media/become-a-tutor@3x.003803267cae653251ae.png",
-    "index.html": "/CosmoLearners/CosmoLearners.github.io/index.html",
-    "main.53b93ece.css.map": "/CosmoLearners/CosmoLearners.github.io/static/css/main.53b93ece.css.map",
-    "main.ec0fc02d.js.map": "/CosmoLearners/CosmoLearners.github.io/static/js/main.ec0fc02d.js.map",
-    "453.4a52eb9f.chunk.js.map": "/CosmoLearners/CosmoLearners.github.io/static/js/453.4a52eb9f.chunk.js.map"
+    "main.css": "/CosmoLearners/CosmoLearners.github.io.git/static/css/main.51771fba.css",
+    "main.js": "/CosmoLearners/CosmoLearners.github.io.git/static/js/main.b00e52a7.js",
+    "static/js/453.4a52eb9f.chunk.js": "/CosmoLearners/CosmoLearners.github.io.git/static/js/453.4a52eb9f.chunk.js",
+    "static/media/homepage@3x.png": "/CosmoLearners/CosmoLearners.github.io.git/static/media/homepage@3x.bf53d5db3cf7d433083d.png",
+    "static/media/scholarkid-2@2x.png": "/CosmoLearners/CosmoLearners.github.io.git/static/media/scholarkid-2@2x.3e77e1a8e71dabde61a4.png",
+    "static/media/aboutus@3x.png": "/CosmoLearners/CosmoLearners.github.io.git/static/media/aboutus@3x.d6e6b7caa61a8d8d5218.png",
+    "static/media/courses@3x.png": "/CosmoLearners/CosmoLearners.github.io.git/static/media/courses@3x.587023720720952e7fc2.png",
+    "static/media/why-cosmo@3x.png": "/CosmoLearners/CosmoLearners.github.io.git/static/media/why-cosmo@3x.049edd4b96db2d4eba9e.png",
+    "static/media/become-a-tutor@3x.png": "/CosmoLearners/CosmoLearners.github.io.git/static/media/become-a-tutor@3x.003803267cae653251ae.png",
+    "index.html": "/CosmoLearners/CosmoLearners.github.io.git/index.html",
+    "main.51771fba.css.map": "/CosmoLearners/CosmoLearners.github.io.git/static/css/main.51771fba.css.map",
+    "main.b00e52a7.js.map": "/CosmoLearners/CosmoLearners.github.io.git/static/js/main.b00e52a7.js.map",
+    "453.4a52eb9f.chunk.js.map": "/CosmoLearners/CosmoLearners.github.io.git/static/js/453.4a52eb9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53b93ece.css",
-    "static/js/main.ec0fc02d.js"
+    "static/css/main.51771fba.css",
+    "static/js/main.b00e52a7.js"
   ]
 }
