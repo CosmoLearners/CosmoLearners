@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/CosmoLearners/static/css/main.0ab551f0.css",
-    "main.js": "/CosmoLearners/static/js/main.a7a2ddcc.js",
-    "static/js/453.4a52eb9f.chunk.js": "/CosmoLearners/static/js/453.4a52eb9f.chunk.js",
-    "static/media/homepage@3x.png": "/CosmoLearners/static/media/homepage@3x.bf53d5db3cf7d433083d.png",
-    "static/media/scholarkid-2@2x.png": "/CosmoLearners/static/media/scholarkid-2@2x.3e77e1a8e71dabde61a4.png",
-    "static/media/aboutus@3x.png": "/CosmoLearners/static/media/aboutus@3x.d6e6b7caa61a8d8d5218.png",
-    "static/media/courses@3x.png": "/CosmoLearners/static/media/courses@3x.587023720720952e7fc2.png",
-    "static/media/why-cosmo@3x.png": "/CosmoLearners/static/media/why-cosmo@3x.049edd4b96db2d4eba9e.png",
-    "static/media/become-a-tutor@3x.png": "/CosmoLearners/static/media/become-a-tutor@3x.003803267cae653251ae.png",
-    "index.html": "/CosmoLearners/index.html",
-    "main.0ab551f0.css.map": "/CosmoLearners/static/css/main.0ab551f0.css.map",
-    "main.a7a2ddcc.js.map": "/CosmoLearners/static/js/main.a7a2ddcc.js.map",
-    "453.4a52eb9f.chunk.js.map": "/CosmoLearners/static/js/453.4a52eb9f.chunk.js.map"
+    "main.css": "/static/css/main.38986c0d.css",
+    "main.js": "/static/js/main.329b2be4.js",
+    "static/js/453.4a52eb9f.chunk.js": "/static/js/453.4a52eb9f.chunk.js",
+    "static/media/homepage@3x.png": "/static/media/homepage@3x.bf53d5db3cf7d433083d.png",
+    "static/media/scholarkid-2@2x.png": "/static/media/scholarkid-2@2x.3e77e1a8e71dabde61a4.png",
+    "static/media/aboutus@3x.png": "/static/media/aboutus@3x.d6e6b7caa61a8d8d5218.png",
+    "static/media/courses@3x.png": "/static/media/courses@3x.587023720720952e7fc2.png",
+    "static/media/why-cosmo@3x.png": "/static/media/why-cosmo@3x.049edd4b96db2d4eba9e.png",
+    "static/media/become-a-tutor@3x.png": "/static/media/become-a-tutor@3x.003803267cae653251ae.png",
+    "index.html": "/index.html",
+    "main.38986c0d.css.map": "/static/css/main.38986c0d.css.map",
+    "main.329b2be4.js.map": "/static/js/main.329b2be4.js.map",
+    "453.4a52eb9f.chunk.js.map": "/static/js/453.4a52eb9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ab551f0.css",
-    "static/js/main.a7a2ddcc.js"
+    "static/css/main.38986c0d.css",
+    "static/js/main.329b2be4.js"
   ]
 }
