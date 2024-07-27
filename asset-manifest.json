@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CosmoLearners/static/css/main.0ab551f0.css",
-    "main.js": "/CosmoLearners/static/js/main.4cf428eb.js",
+    "main.js": "/CosmoLearners/static/js/main.9d5c4bda.js",
     "static/js/453.4a52eb9f.chunk.js": "/CosmoLearners/static/js/453.4a52eb9f.chunk.js",
     "static/media/homepage@3x.png": "/CosmoLearners/static/media/homepage@3x.bf53d5db3cf7d433083d.png",
     "static/media/scholarkid-2@2x.png": "/CosmoLearners/static/media/scholarkid-2@2x.3e77e1a8e71dabde61a4.png",
@@ -11,11 +11,11 @@
     "static/media/become-a-tutor@3x.png": "/CosmoLearners/static/media/become-a-tutor@3x.003803267cae653251ae.png",
     "index.html": "/CosmoLearners/index.html",
     "main.0ab551f0.css.map": "/CosmoLearners/static/css/main.0ab551f0.css.map",
-    "main.4cf428eb.js.map": "/CosmoLearners/static/js/main.4cf428eb.js.map",
+    "main.9d5c4bda.js.map": "/CosmoLearners/static/js/main.9d5c4bda.js.map",
     "453.4a52eb9f.chunk.js.map": "/CosmoLearners/static/js/453.4a52eb9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ab551f0.css",
-    "static/js/main.4cf428eb.js"
+    "static/js/main.9d5c4bda.js"
   ]
 }
