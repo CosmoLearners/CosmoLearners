@@ -1,0 +1,170 @@
+.launch-discount-join1 {
+  position: relative;
+  line-height: 29.09px;
+  font-weight: 800;
+}
+.discount-container {
+  align-self: stretch;
+  background: linear-gradient(90deg, #790000, #e00000 53.5%, #790000);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-base-5) var(--padding-xl);
+}
+.story-icon {
+  width: 1472px;
+  height: 54px;
+  position: relative;
+  max-width: 103%;
+  flex-shrink: 0;
+}
+.heading-2 {
+  margin: 0;
+  width: 940px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.3px;
+  line-height: 44px;
+  font-weight: 700;
+  font-family: inherit;
+  justify-content: center;
+}
+.at-cosmo-we,
+.heading-2,
+.story-heading-container {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.at-cosmo-we {
+  width: 940px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: 0.3px;
+  line-height: 44px;
+  text-align: left;
+  min-height: 220px;
+}
+.story-heading-container {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-16xl);
+}
+.cosmo-scholar-students-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 0.3px;
+  line-height: 44px;
+  color: #f8c450;
+  font-family: inherit;
+}
+.our-story {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-16xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.homepage-v3,
+.story-join-us-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: var(--color-white);
+}
+.story-join-us-footer {
+  align-self: stretch;
+  background: linear-gradient(180deg, #39155f 11.5%, #0277ff 39%, #fcf2ed 85%);
+  align-items: center;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-lato);
+}
+.homepage-v3 {
+  width: 100%;
+  position: relative;
+  overflow-y: auto;
+  align-items: flex-start;
+  background-image: url(/public/homepagev3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 1440px;
+  max-width: 1440px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1425px) {
+  .homepage-v3 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .homepage-v3 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .heading-2 {
+    font-size: var(--font-size-10xl);
+    line-height: 35px;
+  }
+  .story-heading-container {
+    gap: var(--gap-mid);
+  }
+  .cosmo-scholar-students-container {
+    font-size: var(--font-size-7xl);
+    line-height: 35px;
+  }
+  .our-story {
+    gap: var(--gap-11xl);
+    padding-top: var(--padding-4xl);
+    padding-bottom: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+  .story-join-us-footer {
+    gap: var(--gap-xl);
+  }
+  .homepage-v3 {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .launch-discount-join1 {
+    font-size: var(--font-size-lgi);
+  }
+  .heading-2 {
+    font-size: var(--font-size-3xl);
+    line-height: 26px;
+  }
+  .at-cosmo-we {
+    font-size: var(--font-size-lgi);
+    line-height: 35px;
+  }
+  .cosmo-scholar-students-container {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .homepage-v3 {
+    max-width: 100%;
+  }
+}

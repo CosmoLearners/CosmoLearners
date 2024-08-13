@@ -38,8 +38,8 @@ const NavBar = () => {
     setMenuOpen(false); // Close menu on navigation
   }, [navigate]);
 
-  const onLinkFORMClick = useCallback(() => {
-    navigate("/");
+  const onParentStudentClick = useCallback(() => {
+    navigate("/parent&student");
     setMenuOpen(false); // Close menu on navigation
   }, [navigate]);
 

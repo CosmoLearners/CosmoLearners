@@ -69,10 +69,10 @@ const BecomeATutor = () => {
         </button>
       </section>
       <WhatMakesUsDifferent />
-      <FrameComponent2 />
+      {/* <FrameComponent2 /> */}
       <section className="mission">
         <div className="our-mission-parent">
-          <h1 className="our-mission">Meet Our Couches!</h1>
+          <h1 className="our-mission">Meet Our Coaches!</h1>
           <div className="at-cosmo-our">
             At Cosmo, our Coaches are more than just tutors; they are mentors,
             motivators, and educators with a passion for igniting a love of
@@ -83,7 +83,7 @@ const BecomeATutor = () => {
             engaging and effective.
           </div>
         </div>
-        <CouchTestimonies />
+        <CoachTestimonies />
         <div className="content-container-parent">
           <div className="content-container">
             <img

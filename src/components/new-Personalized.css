@@ -1,0 +1,96 @@
+.personalized-frame-item {
+  width: 235px;
+  height: 235px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.par-stud-personalized-inner {
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+}
+.par-stu-feature-title {
+  margin: 0;
+  font-weight: 600;
+}
+.meet-with-our {
+  margin: 0;
+  font-size: var(--font-size-lg);
+}
+.par-stu-feature-title-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+}
+.par-stu-feature-title-coordinator-meet-par-stu-personalized-wrapper {
+  height: 168px;
+  width: 561px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-33xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.div2 {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  font-weight: 800;
+  text-shadow: 3px 0 0#000, 0 3px 0#000, -3px 0 0#000, 0-3px 0#000;
+  z-index: 1;
+}
+.personalized,
+.par-stu-personalized-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.par-stu-personalized-wrapper {
+  width: 28px;
+}
+.personalized {
+  align-self: stretch;
+  border-radius: var(--br-71xl);
+  background-color: var(--color-dodgerblue-300);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  padding: var(--padding-lgi) var(--padding-51xl) var(--padding-9xl);
+  gap: var(--gap-25xl);
+  min-height: 291px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .personalized {
+    flex-wrap: wrap;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .div2 {
+    font-size: var(--font-size-7xl);
+    line-height: 28px;
+  }
+  .personalized {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .div2 {
+    font-size: var(--font-size-lgi);
+    line-height: 21px;
+  }
+}

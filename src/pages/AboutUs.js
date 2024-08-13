@@ -3,9 +3,9 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer-main";
 import { useNavigate } from "react-router-dom";
 import "./AboutUs.css";
-import Button from "../components/Button.js"; 
+import Button from "../components/Button.js";
 
-const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7"; 
+const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7";
 
 const onGoogleFormClick = () => {
   window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
@@ -22,7 +22,7 @@ const AboutUs = () => {
   return (
     <div className="about-us">
       {/* <NavBar3 /> */}
-      { <NavBar/>}
+      {<NavBar />}
       <section className="learn-more-about-cosmo4">
         <h2 className="learn-more-about3">Learn More About COSMO!</h2>
         <div className="at-cosmo-we1">
@@ -41,7 +41,7 @@ const AboutUs = () => {
           </div>
         </button> */}
 
-<Button text="Join Us today!" id="join-us-btn"/>
+        <Button text="Join Us today!" id="join-us-btn" />
       </section>
       <section className="our-mission2">
         <div className="our-mission-group">
@@ -54,8 +54,8 @@ const AboutUs = () => {
       </section>
       <section className="vision-divider">
         <section className="every-child-deserves-a-world-c-parent">
-        <h1 className="our-vision">OUR VISION</h1>
-        <img className="frame-child" loading="lazy" alt="" />
+          <h1 className="our-vision">OUR VISION</h1>
+          <img className="frame-child" loading="lazy" alt="" />
           <div className="every-child-deserves">
             Every child deserves a world class education. Our capitalistic
             societies have ensured that only those that can pay their way
@@ -70,7 +70,7 @@ const AboutUs = () => {
             to allow children all over the world to learn and appreciate the
             STEM sciences, to use their imagination, just as a child is supposed
             to, to kindle their aspirations.
-          </div>          
+          </div>
         </section>
       </section>
       <section className="our-mission4">

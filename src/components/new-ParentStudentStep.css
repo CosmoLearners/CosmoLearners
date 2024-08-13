@@ -1,0 +1,287 @@
+.par-stu-step-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-grow: 1;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: var(--br-71xl);
+    width: 90%; 
+    /* height: calc(3vh + 10vw + 100px); */
+    height: auto;
+    margin: auto;
+    border: 2px solid var(--color-white);
+    border-radius: 8vw;
+    min-width: 300px;
+    padding: 10px;
+
+    /* aspect-ratio: 25 / 9; */
+
+    /* padding: var(--padding-base) var(--padding-51xl) var(--padding-6xl); */
+    /* gap: var(--gap-25xl); */
+}
+
+.par-stu-step-container.expanded {
+    /* max-height: 600px; Expanded height to fit content (adjust as needed) */
+    aspect-ratio: auto;
+}
+
+.par-stu-step-image-container {
+    /* display: flex;
+  flex-direction: column; */
+    /* border: solid red 1px;  */
+    width: 20%;
+    padding: 0 calc(0.8vw + 10px);
+    min-width: 60px;
+
+    /* justify-content: center;
+  align-items: center; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* padding: var(--padding-4xs) var(--padding-2xs) 0 0; */
+}
+
+.par-stu-step-pic {
+    /* width: 235px;
+  height: 235px; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    /* object-fit: cover; */
+}
+
+.par-stu-step-texts {
+    /* align-self: stretch; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    /* margin-top: 5%;  */
+    /* margin-left: -10%;  */
+    /* gap: 10px;  */
+    max-height: 80%;
+    width: 80%;
+    margin-right: 10%;
+    /* border: 1px green solid;  */
+}
+
+
+.par-stu-step-bookmark-container {
+    /* height: 100%;  */
+    /* max-height: 100%;  */
+    /* transform: translateX(-6vw);  */
+    /* border: 1px orange solid;  */
+    position: absolute;
+    display: flex;
+    z-index: 99;
+    top: 0;
+    right: 8%;
+    max-width: 40px;
+    border: white 1px solid;
+}
+
+.par-stu-step-bookmark {
+    width: 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.par-stu-step-bookmark-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.par-stu-step-number {
+    /* flex: 1; */
+    position: absolute;
+    margin-top: 20%;
+    line-height: 38px;
+    font-weight: 800;
+    font-size: min(3vw, 32px);
+    text-shadow: 0.2vmin 0 0#000, 0 0.2vmin 0#000, -0.2vmin 0 0#000, 0.2vmin 0#000;
+    z-index: 2;
+}
+
+.book-an-appointment4 {
+    /* line-height: 10px; */
+    text-align: left !important;
+    /* border: 1px red solid;  */
+}
+
+.par-stu-step-title-wrapper-inner {
+    font-weight: 600;
+}
+
+.par-stu-step-title-wrapper-outer {
+    margin: 0;
+}
+
+#par-stu-step-title {
+    font-size: calc(2vw + 10px);
+}
+
+.par-stu-step-description {
+    font-size: calc(0.25vw + 10px);
+    line-height: 28px;
+    line-height: 0.1vw;
+    /* font-size: 16px; */
+    margin-top: 10px;
+    transition: max-height 0.3s ease;
+}
+
+.begin-by-filling-out-our-appli {
+    /* margin: 0; */
+    font-size: var(--font-size-lg);
+}
+
+/* .par-stu-frame-inner {
+  height: 115px;
+  width: 54px;
+  position: absolute;
+  margin: 0 !important;
+  right: -12px;
+  bottom: -58px;
+} */
+
+.par-stu-description-toggle-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+/* .drop-down-arrow {
+    filter: invert(100%); 
+} */
+
+/* .par-stu-description-toggle-button {
+    display: none; 
+} */
+
+
+/* .par-stu-child1,
+.par-stu-child2,
+.vector-icon {
+  height: 115px;
+  width: 54px;
+  position: absolute;
+  margin: 0 !important;
+  right: -12px;
+  bottom: -409px;
+}
+.par-stu-child1,
+.par-stu-child2 {
+  bottom: -760px;
+}
+.par-stu-child2 {
+  bottom: -1110px;
+} */
+/* .personalized-steps,
+.personalized1, */
+.par-stu-step-container {
+    /* display: flex; */
+    /* align-items: flex-start; */
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* .personalized-steps {
+  width: 1126px;
+  border: 1px solid var(--color-black);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  gap: var(--gap-41xl);
+}
+.personalized1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-101xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+} */
+@media screen and (max-width: 1200px) {
+    .par-stu-step-container {
+        /* flex-wrap: wrap;
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box; */
+    }
+
+    .personalized-steps {
+        gap: var(--gap-11xl);
+    }
+
+    .personalized1 {
+        padding-bottom: var(--padding-59xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    /* .par-stu-step-description {
+        display: none;
+    } */
+
+}
+    /* .par-stu-description-toggle-button {
+        display: block;
+        margin-left: 3%;
+        background-color: #333;
+        /* dark grey background */
+        /* color: #fff; */
+        /* white text */
+        /* border: none; */
+        /* no border */
+        /* border-radius: 4px; */
+        /* slightly rounded corners */
+        /* padding: 4px 8px; */
+        /* padding for touch target */
+        /* cursor: pointer; */
+        /* pointer cursor on hover */
+        /* font-size: 14px; */
+        /* standard font size */
+        /* transition: background-color 0.3s ease; */
+        /* smooth transition on hover */
+    /* } */ 
+
+    /* .par-stu-description-toggle-button {
+        background-color: #555;
+        /* Slightly lighter grey on hover */
+    /* } */ 
+
+
+@media screen and (max-width: 850px) {
+    .par-stu-step-number {
+        /* font-size: var(--font-size-7xl); */
+        line-height: 28px;
+    }
+
+    .par-stu-step-container {
+        gap: var(--gap-3xl);
+    }
+
+    .personalized1 {
+        padding-bottom: var(--padding-32xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .par-stu-step-number {
+        /* font-size: var(--font-size-lgi); */
+        line-height: 21px;
+    }
+}

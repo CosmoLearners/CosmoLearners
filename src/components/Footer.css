@@ -116,6 +116,7 @@
   text-transform: capitalize;
   font-family: var(--font-inter);
   color: var(--color-white);
+  /* color: pink; */
   text-align: center;
   text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
 }
@@ -131,7 +132,8 @@
 .footer-appointment {
   cursor: pointer;
   border: 5px solid var(--color-peachpuff);
-  padding: var(--padding-sm) var(--padding-mini);
+  /* padding: var(--padding-sm) var(--padding-mini); */
+  /* padding: var(--padding-sm) red; */
   background-color: transparent;
   width: 434px;
   box-sizing: border-box;

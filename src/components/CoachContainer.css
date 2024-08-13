@@ -1,0 +1,193 @@
+.coach-container {
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-25xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  gap: 80px; 
+}
+
+.coach-text-parent {
+  /* align-self: stretch; */
+  display: flex; 
+  border-radius: var(--br-46xl);
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px; 
+  /* padding: 0 var(--padding-xl); */
+  /* box-sizing: border-box; */
+  /* gap: var(--gap-26xl); */
+}
+
+
+.coach-text-description {
+  /* width: 1482px; */
+  width: 80%; 
+  margin: 40px auto; 
+  position: relative;
+  /* font-size: var(--font-size-lg); */
+  font-size: clamp(12px, calc(1.5vw + 10px), 32px); 
+  /* line-height: 30px; */
+  justify-content: center;
+}
+
+.coach-qualities-container {
+  /* height: 20vw; */
+  /* height: 10%;  */
+  /* width: 233px; */
+  display: flex;
+  flex-direction: column;
+  /* object-fit: cover; */
+  height: clamp(150px, 1.5vw, 300px); 
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+  /* padding: var(--padding-2xl-5) 0 0; */
+  /* box-sizing: border-box; */
+}
+
+.coach-qualities-container-parent {
+  /* align-self: stretch; */
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  /* width: 50%;  */
+  /* padding: var(--padding-16xl) 299px var(--padding-16xl) 295px; */
+  padding: 20px;
+  /* box-sizing: border-box; */
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  /* font-size: var(--font-size-13xl); */
+}
+
+.coach-qualities-container-child {
+  /* align-self: stretch; */
+  /* flex: 1; */
+  position: relative;
+  width: 100%; 
+  /* border-radius: var(--br-31xl); */
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.qualities-of-our {
+  font-weight: 600;
+}
+.blank-line,
+.qualities-of-our-coaches {
+  margin: 0;
+}
+.expert-knowledge {
+  font-family: var(--font-inter);
+}
+.expert-knowledge-our-coaches1 {
+  margin-bottom: 0;
+}
+.engaging-methodologies,
+.they-use-innovative {
+  font-family: var(--font-inter);
+}
+.engaging-methodologies-they-u {
+  margin-bottom: 0;
+}
+.inspirational-mentors,
+.with-their-enthusiastic {
+  font-family: var(--font-inter);
+}
+.inspirational-mentors-with-th {
+  margin-bottom: 0;
+}
+.empathetic-guides,
+.they-listen-and {
+  font-family: var(--font-inter);
+}
+.expert-knowledge-our-coaches {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  padding-left: var(--padding-5xl);
+}
+.qualities-of-our-container1 {
+  width: 100%;
+}
+.qualities-of-our-container {
+  /* width: 642px; */
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 90%;
+}
+@media screen and (max-width: 1050px) {
+  .coach-text-description {
+    font-size: var(--font-size-16xl);
+    line-height: 43px;
+  }
+  .coach-qualities {
+    padding-left: 183px;
+    padding-right: 185px;
+    box-sizing: border-box;
+  }
+  .learn-more-about2 {
+    font-size: var(--font-size-16xl);
+    line-height: 43px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .learn-more-about-cosmo2,
+  .learn-more-about-cosmo3 {
+    gap: var(--gap-mid);
+  }
+  .learn-more-about1,
+  .our-mission1 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .coach-qualities {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .learn-more-about2 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .why-cosmo {
+    height: auto;
+    min-height: 6389;
+  }
+
+  .divchakra-stack3 {
+    margin-top: 20px; 
+  }
+}
+@media screen and (max-width: 450px) {
+  .learn-more-about1,
+  .our-mission1 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .coach-qualities {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .learn-more-about2 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .why-cosmo {
+    height: auto;
+    min-height: 6389;
+  }
+
+  .divchakra-stack3 {
+    margin-top: 20px; 
+  }
+}

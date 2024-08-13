@@ -1,0 +1,77 @@
+.personalized-child {
+  height: 280px;
+  width: 280px;
+  position: relative;
+  object-fit: cover;
+}
+.expertise-and-passion {
+  line-height: 35px;
+}
+.expertise-and-passion-for-teac1 {
+  font-weight: 600;
+}
+.expertise-and-passion-for-teac {
+  margin: 0;
+}
+.blank-line96 {
+  line-height: 28px;
+}
+.we-seek-coaches-with-a-strong {
+  margin: 0;
+  font-size: var(--font-size-lg);
+}
+.expertise-and-passion-container1 {
+  width: 100%;
+}
+.expertise-and-passion-container {
+  height: 149px;
+  width: 561px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.personalized3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-mini);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.adaptability-and-creativity {
+  margin: 0;
+  font-weight: 600;
+}
+.adaptability-and-creativity-container {
+  width: 561px;
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.qualities-grid {
+  width: 970px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .qualities-grid {
+    gap: var(--gap-11xl);
+  }
+}

@@ -1,0 +1,100 @@
+.learn-more-about7,
+.ready-to-be {
+  width: 968px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.learn-more-about7 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.ready-to-be {
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+}
+.start-today1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 20px;
+  font-weight: 800;
+  font-family: var(--font-jetbrains-mono);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  max-height: 23.02px;
+}
+.button7 {
+  width: 229px;
+  border-radius: var(--br-mid);
+  background-color: var(--color-purple-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-8xl-4) var(--padding-smi) var(--padding-7xl-6);
+  box-sizing: border-box;
+  min-width: 120.08px;
+  white-space: nowrap;
+}
+.divchakra-stack7,
+.link10 {
+  display: flex;
+  align-items: flex-start;
+}
+.link10 {
+  width: 162px;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
+  box-sizing: border-box;
+}
+.divchakra-stack7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 229px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.learn-more-about-cosmo3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-25xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 850px) {
+  .learn-more-about7 {
+    font-size: var(--font-size-16xl);
+    line-height: 43px;
+  }
+  .learn-more-about-cosmo3 {
+    gap: var(--gap-mid);
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .learn-more-about7 {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+}

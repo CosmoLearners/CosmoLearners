@@ -1,0 +1,184 @@
+.why-join-cosmo {
+  margin: 0;
+  width: 1388px;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.benefit-icons {
+  width: 235px;
+  height: 235px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.craft-individualized-strategie,
+.our-coaches-design {
+  align-self: stretch;
+  position: relative;
+  line-height: 54px;
+}
+.our-coaches-design {
+  height: 171px;
+  font-size: var(--font-size-sm);
+  line-height: 28.5px;
+  flex-shrink: 0;
+}
+.benefits-list,
+.build-lasting-relationships,
+.our-coaches-design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefits-list {
+  width: 347px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.build-lasting-relationships {
+  width: 264px;
+}
+.build-lasting-relationships,
+.empower-students,
+.inspire-lifelong-learners {
+  position: relative;
+  line-height: 54px;
+}
+.empower-students {
+  width: 186px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.we-foster-a {
+  width: 298px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 28.5px;
+  display: flex;
+}
+.benefits-list5,
+.coach-benefits,
+.we-foster-a {
+  align-items: center;
+  justify-content: center;
+}
+.benefits-list5 {
+  width: 347px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-200);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.coach-benefits {
+  width: 1388px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-108xl);
+  gap: 46px 44px;
+  min-height: 1166px;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.coach-benefits,
+.coach-testimonies,
+.testimonies {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.coach-testimonies {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-101xl) var(--padding-xl) var(--padding-71xl);
+  gap: var(--gap-xl);
+}
+.testimonies {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-51xl);
+  text-align: center;
+  font-size: var(--font-size-25xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .coach-benefits {
+    padding-left: var(--padding-44xl);
+    padding-right: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .coach-testimonies {
+    padding-top: var(--padding-59xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+  .testimonies {
+    padding-bottom: var(--padding-26xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .why-join-cosmo {
+    font-size: var(--font-size-16xl);
+    line-height: 43px;
+  }
+  .benefits-list,
+  .benefits-list5 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .coach-benefits {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .coach-testimonies {
+    padding-top: var(--padding-32xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .testimonies {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .why-join-cosmo {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .build-lasting-relationships,
+  .craft-individualized-strategie,
+  .empower-students,
+  .inspire-lifelong-learners {
+    font-size: var(--font-size-base);
+    line-height: 43px;
+  }
+}

@@ -1,8 +1,9 @@
 .book-an-appointment {
     margin: 0;
     position: relative;
-    font-size: var(--font-size-13xl);
-    line-height: 70px;
+    /* font-size: var(--font-size-13xl); */
+    font-size: var(--font-size-16x1);
+    line-height: 80px;
     /* line-height: 40px;  */
     text-transform: capitalize;
     font-weight: 700;
@@ -10,7 +11,6 @@
     color: var(--color-white);
     text-align: center;
     text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
-    
   }
 
   .footer-logo,
@@ -24,7 +24,7 @@
     /* row-gap: 30px !important;  */
     max-width: 100%;
   }
-  .appointment-button {
+  /* .appointment-button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,18 +34,68 @@
     padding: var(--padding-sm) var(--padding-mini);
     background-color: transparent;
     /* width: 434px; */
-    box-sizing: border-box;
-    row-gap: 60px !important; 
-    line-height: 90px !important; 
+    /* box-sizing: border-box; */
+    /* row-gap: 60px !important;  */
+    /* line-height: 90px !important;  */
     /* justify-content: center; */
     /* justify-content: flex-end;  */
 
-    margin-left: auto;  
-  }
+    /* margin-left: auto;   */
+  /* } */
+
+.footer {
+  position: relative;
+  /* top: 1936.2px; */
+  margin-top: 360px; 
+  left: 0;
+  background-color: var(--color-midnightblue-200);
+  width: 100%;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-xl) 0;
+  gap: var(--gap-16xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+} 
+
+.appointment-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    cursor: pointer;
+    border: 4px solid var(--color-peachpuff);
+    /* padding: var(--padding-sm) var(--padding-mini); */
+    background-color: transparent;
+    box-sizing: border-box;
+    margin-left: 10%;
+    /* line-height: 40px;  */
+    /* Adjust text properties */
+    /* word-wrap: break-word; */
+    /* word-break: break-word; */
+    /* line-height: normal; */
+    /* Optional adjustments */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 25px; 
+    /* Adjust font size as needed */
+}
+
+
   .appointment-button:hover {
     background-color: var(--color-tan-200);
     border: 5px solid var(--color-tan-100);
     box-sizing: border-box;
+  }
+
+  div[class^="item-link"] {
+    cursor: pointer; 
+    
+  }
+
+  div[class^="item-link"]:active {
+    color: yellow; 
+    
   }
   .footer-logo,
   .footer1 {
@@ -83,16 +133,16 @@
   }
   .link-california-notice-parent {
     padding: 0 var(--padding-6xs) 0 0;
-    gap: var(--gap-mini);
+    /* gap: var(--gap-mini); */
   }
   .divfooter-cali-rights,
   .divw-node-dafeecd6-e254-d620-2,
   .link-california-notice-parent {
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
   }
   .divw-node-dafeecd6-e254-d620-2 {
     align-items: flex-start;
@@ -131,34 +181,35 @@
     font-size: var(--font-size-base-4);
     min-width: 6px;
   }
-  .divbreadcrumb-item-wrap {
+  .divbreadcrumb-item-wrap, 
+  .divbreadcrumb-item-wrap1 {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     padding: 0 var(--padding-4xs-2) 0 0;
     gap: var(--gap-2xs-3);
   }
   .div,
   .link-terms {
-    position: relative;
+    /* position: relative; */
     line-height: 20px;
-    display: inline-block;
-    min-width: 93px;
+    /* display: inline-block; */
+    min-width: 60px;
   }
   .div {
     font-size: var(--font-size-base-4);
     min-width: 6px;
   }
-  .divbreadcrumb-item-wrap1 {
+  /* .divbreadcrumb-item-wrap1 {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     padding: 0 var(--padding-5xs) 0 0;
     gap: var(--gap-base-6);
     font-size: var(--font-size-xs-6);
-  }
+  } */
   .link-accessibility {
     position: relative;
     line-height: 20px;
@@ -184,7 +235,7 @@
   .footer2,
   .legal-content {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     box-sizing: border-box;
     max-width: 100%;
   }
@@ -192,9 +243,21 @@
     flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     padding: 0 322.8px;
-    gap: 40px 78px;
+    gap: var(--gap-20xl);
+    /* padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl); */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    /* gap: 40px 78px; */
+    /* display: block;  */
+    padding-left: var(--padding-49xl);
+    padding-right: var(--padding-49xl);
+    box-sizing: border-box;
   }
   .footer,
   .footer2 {
@@ -207,12 +270,13 @@
     flex-wrap: wrap;
     padding: var(--padding-25xl) 0 var(--padding-26xl);
     font-size: var(--font-size-smi-5);
+    align-items: center; 
   }
   .footer {
     position: relative;
     /* top: 1936.2px; */
     /* margin-top: 360px;  */
-    margin-bottom: 100px; 
+    /* margin-bottom: 100px;  */
     left: 0;
     background-color: var(--color-midnightblue-200);
     width: 100%;
@@ -247,6 +311,9 @@
       padding-left: var(--padding-142xl);
       padding-right: var(--padding-142xl);
     }
+    .appointment-button {
+      font-size: 20px; 
+    }
   }
   @media screen and (max-width: 1050px) {
     .learn-more-about3,
@@ -265,11 +332,16 @@
       font-size: var(--font-size-13xl);
       line-height: 36px;
     }
+
     .book-an-appointment {
-      font-size: var(--font-size-7xl);
-      /* line-height: 15px; */
+      font-size: 15px;
+      line-height: 15px;
       line-height: 80px !important;
     }
+    .appointment-button {
+      font-size: 20px; 
+    }
+
   }
   @media screen and (max-width: 750px) {
     .learn-more-about-cosmo4 {
@@ -341,19 +413,21 @@
     .item-link5,
     .link-help {
       font-size: var(--font-size-base);
-      line-height: 20px;
+      line-height: 20px
     }
     .footer-navigation {
       flex-wrap: wrap;
       gap: var(--gap-23xl);
     }
     .book-an-appointment {
-      font-size: var(--font-size-lgi);
+      /* font-size: var(--font-size-lgi); */
+      font-size: 30px; 
       line-height: 50px !important; 
       /* line-height: 12px; */
     }
     .book-an-appointment h2{
-      font-size: var(--font-size-lgi);
+      /* font-size: var(--font-size-lgi); */
+      font-size: 30px; 
       line-height: 50px !important; 
       /* line-height: 12px; */
     }

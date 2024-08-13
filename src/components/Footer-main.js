@@ -1,8 +1,13 @@
 import { useNavigate } from "react-router-dom";
 import { useCallback } from "react";
+import "./Footer-main.css"; 
 
 export default function Footer() {
     const navigate = useNavigate();
+
+    const aboutusLink = useCallback(() => {
+        navigate("/aboutus");
+    }, [navigate]);
 
     const onItemLink1Click = useCallback(() => {
         navigate("/become-a-tutor");
@@ -26,9 +31,9 @@ export default function Footer() {
                     />
                     <div className="footer-navigation">
                         <div className="divw-node-dafeecd6-e254-d620-">
-                            <b className="heading-4">About</b>
+                            <b className="heading-4" onClick={aboutusLink}>About</b>
                             <div className="list">
-                                <div className="item-link">Company</div>
+                                <div className="item-link" onClick={aboutusLink}>Company</div>
                                 <div className="item-link1">Newsroom</div>
                                 <div className="item-link2">Privacy and Trust</div>
                             </div>
@@ -92,7 +97,7 @@ export default function Footer() {
                             </div>
                             <div className="divbreadcrumb-item-wrap1">
                                 <div className="link-terms">Terms of Service</div>
-                                <div className="div">|</div>
+                                <div className="separator">|</div>
                             </div>
                             <div className="link-accessibility">Accessibility</div>
                         </div>

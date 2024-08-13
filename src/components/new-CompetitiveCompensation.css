@@ -1,0 +1,100 @@
+.competitive-compensation-child {
+  align-self: stretch;
+  height: 499px;
+  position: relative;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-25xl);
+  background-color: var(--color-papayawhip);
+  display: none;
+}
+.one-on-one-1-icon1 {
+  height: 178px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.feature-icon-row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-44xl);
+}
+.competitive-compensation1,
+.earn-what-you {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.competitive-compensation1 {
+  align-self: stretch;
+  height: 28px;
+  line-height: 54px;
+  flex-shrink: 0;
+}
+.earn-what-you {
+  height: 198px;
+  flex: 1;
+  line-height: 28.5px;
+}
+.feature-description-row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  margin-top: -7px;
+  font-size: var(--font-size-sm);
+}
+.compensation-description,
+.competitive-compensation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.compensation-description {
+  align-self: stretch;
+}
+.competitive-compensation {
+  flex: 1;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-25xl);
+  background-color: var(--color-papayawhip);
+  padding: var(--padding-47xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  min-width: 139px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .competitive-compensation {
+    padding-top: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .feature-icon-row {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .competitive-compensation1 {
+    font-size: var(--font-size-base);
+    line-height: 43px;
+  }
+  .competitive-compensation {
+    gap: var(--gap-lg);
+  }
+}
