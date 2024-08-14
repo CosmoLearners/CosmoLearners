@@ -29,7 +29,7 @@ const Question = ({
         <h2 className="accordion-faqs" style={accordionFAQsStyle}>
           {accordionFAQs}
         </h2>
-        <ButtonDropdown onClick={setToggle} />
+        <ButtonDropdown onClick={setToggle} isOpen={toggleDescription} />
       </div>
       {/* <img className="question-1-child" alt="" src={vector9} /> */}
       <div className={`description ${toggleDescription ? 'show' : ''}`}>

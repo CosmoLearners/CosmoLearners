@@ -43,7 +43,7 @@ const StudentParentStep = ({
               {title}
             </span>
             <button className="par-stu-description-toggle-button" onClick={toggleDescriptionVisibility}>
-              {isDescriptionVisible ? <img src={DownArrow} style={ArrowStyle} OnClick={toggleDescriptionVisibility} /> : <img src={UpArrow}  style={ArrowStyle} OnClick={toggleDescriptionVisibility} />}
+              {isDescriptionVisible ? <img src={DownArrow} style={ArrowStyle} onClick={toggleDescriptionVisibility} /> : <img src={UpArrow}  style={ArrowStyle} onClick={toggleDescriptionVisibility} />}
             </button>
           </span>
         </p>
