@@ -225,7 +225,7 @@ const StoryJoinUsFooter = () => {
               <div className="list2">
                 <div className="item-link6">< Link to="./aboutus">Company</Link></div>
                 <div className="item-link7">< Link to="./aboutus">Newsroom</Link></div>
-                <div className="item-link8">< Link to="./aboutus">Privacy and Trust</Link></div>
+                <div className="item-link8">< Link to="./privacy-policy">Privacy and Trust</Link></div>
               </div>
             </div>
             <div className="divw-node-dafeecd6-e254-d620-5">

@@ -12,6 +12,7 @@ import AboutUs from "./pages/AboutUs";
 import Courses from "./pages/Courses";
 import Form from "./pages/google-form"
 import StudentsParents from "./pages/new-StudentsParents"
+import PrivacyPolicy from "./pages/new-PrivacyPolicy"
 
 function App() {
   const action = useNavigationType();
@@ -73,11 +74,11 @@ function App() {
     <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/become-a-tutor" element={<BecomeATutor />} />
-      {/* <Route path="/students&parents" element={<WhyCosmo />} /> */}
       <Route path="/students&parents" element={<StudentsParents />} />
       <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/courses" element={<Courses />} />
       <Route path="/appointment" element={<Form/>} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
     </Routes>
   );
 }

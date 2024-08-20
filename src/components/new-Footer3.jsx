@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Footer3.css";
+import "./new-Footer3.css";
 
 const Footer3 = ({ className = "", cosmo12, ceb5d14e108cfa7e8f1779Pri }) => {
   return (

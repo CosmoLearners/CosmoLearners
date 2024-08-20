@@ -1,25 +1,31 @@
 .form-container {
-
-    /* width: 100%; */
-    /* height: 100%;  */
-    /* height: 2480.2px; */
     width: 100%; 
-    /* height: 1500px;  */
+    height: 100%; 
     position: relative;
-    /* overflow-y: auto; */
     background-image: url(/public/aboutus@3x.png);
-    background-size: cover;
+    /* background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    line-height: normal;
+    line-height: normal; */
     letter-spacing: normal;
-    overflow-x: clip;
-    overflow: hidden; 
+    overflow: hidden;  
 }
 
 
 #google-form {
     width: 100%; 
-    height: 1500px; 
+    height: 1900px; 
+    /* height: min(100%, 1900px); */
+}  
 
+
+
+/* @media (max-width: 600px) {
+
+#google-form {
+    width: 100%; 
+    height: 800px; 
+    overflow-y: clip; 
 }
+
+} */

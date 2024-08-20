@@ -1,11 +1,11 @@
-import NavBar1 from "../components/NavBar1";
-import Footer3 from "../components/Footer3";
-import "./PrivacyPolicy.css";
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer-main";
+import "./new-PrivacyPolicy.css";
 
 const PrivacyPolicy = () => {
   return (
     <div className="privacy-policy1">
-      <NavBar1 logoImage="/rectangle-47@2x.png" />
+      <NavBar logoImage="/rectangle-47@2x.png" />
       <section className="intro-content-wrapper">
         <div className="intro-content">
           <h1 className="learn-more-about2">Privacy Policy</h1>
@@ -216,7 +216,7 @@ const PrivacyPolicy = () => {
           </div>
         </div>
       </section>
-      <Footer3
+      <Footer
         cosmo12="/cosmo-1-21@2x.png"
         ceb5d14e108cfa7e8f1779Pri="/63ceb5d14e108cfa7e8f1779-privacyoptions201webp1@2x.png"
       />

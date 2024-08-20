@@ -28,10 +28,10 @@ const NavBar = () => {
     setMenuOpen(false); // Close menu on navigation
   }, [navigate]);
 
-  const onGoogleFormClick = () => {
-    window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
+  const onGoogleFormClick = useCallback(() => {
+    navigate("/appointment"); 
     setMenuOpen(false); // Close menu on navigation
-  };
+  }, [navigate]);
 
   const onLinkHOMEClick = useCallback(() => {
     navigate("/");

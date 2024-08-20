@@ -4,7 +4,7 @@ import Footer from "../components/Footer-main.js";
 import { useNavigate } from "react-router-dom";
 import "./google-form.css";
 
-const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7"; 
+const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7";
 
 const onGoogleFormClick = () => {
   window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
@@ -20,10 +20,12 @@ const Form = () => {
 
   return (
     <div className="form-container">
-      { <NavBar/>}
+      {<NavBar />}
 
-      <iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSe2LgDbvYhP5K4zD707gB3V2MN0PHS6ZcmYG-b2vQ5iH6AE5g/viewform?embedded=true" scrolling= "no" 
-      frameBorder="0" >Loading…</iframe>
+      <div id="google-form">
+        <iframe height="100%" width="100%" src="https://docs.google.com/forms/d/e/1FAIpQLSe2LgDbvYhP5K4zD707gB3V2MN0PHS6ZcmYG-b2vQ5iH6AE5g/viewform?embedded=true" scrolling="yes"
+          frameBorder="0" >Loading…</iframe>
+      </div>
 
       <Footer />
     </div>

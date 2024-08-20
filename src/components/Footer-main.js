@@ -13,6 +13,12 @@ export default function Footer() {
         navigate("/become-a-tutor");
     }, [navigate]);
 
+    const onClickPrivacyLink = useCallback(() => {
+        navigate("/privacy-policy");
+    }, [navigate]);
+
+
+
     const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7"; 
 
     const onGoogleFormClick = () => {
@@ -35,7 +41,7 @@ export default function Footer() {
                             <div className="list">
                                 <div className="item-link" onClick={aboutusLink}>Company</div>
                                 <div className="item-link1">Newsroom</div>
-                                <div className="item-link2">Privacy and Trust</div>
+                                <div className="item-link2" onClick={onClickPrivacyLink}> Privacy and Trust</div>
                             </div>
                         </div>
                         <div className="divw-node-dafeecd6-e254-d620-1">
