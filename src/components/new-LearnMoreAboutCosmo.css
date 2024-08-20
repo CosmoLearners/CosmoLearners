@@ -43,7 +43,7 @@
   min-width: 120.08px;
   white-space: nowrap;
 }
-.divchakra-stack7,
+.learnmore-button,
 .link10 {
   display: flex;
   align-items: flex-start;
@@ -55,7 +55,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
   box-sizing: border-box;
 }
-.divchakra-stack7 {
+.learnmore-button {
   cursor: pointer;
   border: 0;
   padding: 0;

@@ -40,7 +40,7 @@ const LearnMoreAboutCosmo = ({
       <div className="ready-to-be" style={readyToBeStyle}>
         {readyToBeTheArchitectOfYo}
       </div>
-      <button className="divchakra-stack7">
+      <button className="learnmore-button">
         <div className="link10">
           <div className="button7">
             <div className="start-today1">{startToday}</div>
