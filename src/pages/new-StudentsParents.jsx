@@ -54,23 +54,7 @@ const StudentsParents = () => {
           </div>
         </div>
       </section>
-      {/* <Testimonies /> */}
       <CoachContainer />
-      {/* <section className="par-stu-coach-section">
-        <div className="par-stu-coach-container">
-          <h1 className="par-stu-coach-heading">Meet Our Coaches!</h1>
-      <CoachTestimonies />
-          <div className="at-cosmo-our">
-            At Cosmo, our Coaches are more than just tutors; they are mentors,
-            motivators, and educators with a passion for igniting a love of
-            learning in every child. Each Coach is hand-selected for their deep
-            subject matter expertise, creative teaching approach, and an
-            unwavering commitment to student success. They are empathetic
-            communicators, skilled in connecting with students to make learning
-            engaging and effective.
-          </div>
-        </div>
-      </section> */}
           <button className="divchakra-stack6">
             <div className="link9">
               <div className="button6">
@@ -78,15 +62,6 @@ const StudentsParents = () => {
               </div>
             </div>
           </button>
-      {/* <div className="apply">
-        <button className="divchakra-stack3">
-          <div className="link5">
-            <div className="button3">
-              <div className="apply-today">Apply Today</div>
-            </div>
-          </div>
-        </button>
-      </div> */}
       <FrameComponent />
       <FAQs />
       <LearnMoreAboutCosmo
