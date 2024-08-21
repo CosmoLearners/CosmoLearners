@@ -1,14 +1,26 @@
 import "./StoryJoinUsFooter.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useCallback } from "react";
 
 
 const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7";
 
-const onGoogleFormClick = () => {
-  window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
-};
+// const onGoogleFormClick = () => {
+//   window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
+// };
+
+
 
 const StoryJoinUsFooter = () => {
+
+const navigate = useNavigate(); 
+// const onGoogleFormClick = () => { navigate("./google-form") }; 
+
+  const onGoogleFormClick = useCallback(() => {
+    navigate("/appointment"); 
+    // setMenuOpen(false); // Close menu on navigation
+  }, [navigate]);
+
   return (
     <section className="story-join-us-footer">
       <div className="wrapper-vector-4">
@@ -180,7 +192,7 @@ const StoryJoinUsFooter = () => {
               </div>
               <div className="divchakra-stack15">
                 <button className="link-button1">
-                  <div className="start-learning-now" onClick={onGoogleFormClick}>Start Learning Now</div>
+                  <div className="start-learning-now" onClick={onGoogleFormClick} >Start Learning Now</div>
                 </button>
                 <div className="linkmargin">
                   <button className="link-button2">
@@ -188,7 +200,7 @@ const StoryJoinUsFooter = () => {
                   </button>
                 </div>
                 <div className="linkmargin1">
-                  <button className="link-button3" onClick={onGoogleFormClick}>
+                  <button className="link-button3" onClick={onGoogleFormClick} >
                     <div className="for-parents">For Parents</div>
                   </button>
                 </div>

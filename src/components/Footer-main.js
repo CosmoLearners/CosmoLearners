@@ -17,13 +17,16 @@ export default function Footer() {
         navigate("/privacy-policy");
     }, [navigate]);
 
+    const onGoogleFormClick = useCallback(() => {
+        navigate("/appointment");
+    }, [navigate]);
 
 
-    const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7"; 
+    // const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7"; 
 
-    const onGoogleFormClick = () => {
-        window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
-      };
+    // const onGoogleFormClick = () => {
+    //     window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
+    //   };
 
     return (
         <footer className="footer">
