@@ -132,7 +132,7 @@
 .book-an-appointment-wrapper {
   cursor: pointer;
   border: 5px solid var(--color-peachpuff);
-  padding: var(--padding-sm) var(--padding-smi);
+  padding: var(--padding-md) var(--padding-smi);
   background-color: transparent;
   width: 434px;
   box-sizing: border-box;

@@ -34,9 +34,8 @@
 
 .start-learning {
   position: relative;
-
-  /* font-size: var(--font-size-5xl); */
-  font-size: var(--font-size-base); 
+  font-size: var(--font-size-5xl); 
+  /*font-size: var(--font-size-base);*/ 
   line-height: 20px;
   font-weight: 800;
   font-family: var(--font-jetbrains-mono);
