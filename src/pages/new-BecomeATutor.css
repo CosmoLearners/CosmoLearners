@@ -1,9 +1,11 @@
 .empower-the-next {
   margin: 0;
 }
+
 .learn-more-about-container1 {
   width: 100%;
 }
+
 .at-cosmo-we2,
 .learn-more-about-container {
   width: 870px;
@@ -12,6 +14,7 @@
   align-items: center;
   max-width: 100%;
 }
+
 .learn-more-about-container {
   margin: 0;
   font-size: inherit;
@@ -19,11 +22,13 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .at-cosmo-we2 {
   font-size: var(--font-size-lg);
   line-height: 28px;
   justify-content: center;
 }
+
 .apply-today1 {
   flex: 1;
   position: relative;
@@ -36,6 +41,7 @@
   display: inline-block;
   max-height: 23.02px;
 }
+
 .button4 {
   width: 229px;
   border-radius: var(--br-mid);
@@ -49,11 +55,13 @@
   min-width: 120.08px;
   white-space: nowrap;
 }
+
 .divchakra-stack4,
 .link6 {
   display: flex;
   align-items: flex-start;
 }
+
 .link6 {
   width: 162px;
   flex-direction: column;
@@ -61,6 +69,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
   box-sizing: border-box;
 }
+
 .divchakra-stack4 {
   cursor: pointer;
   border: 0;
@@ -70,6 +79,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .learn-more-about-cosmo1 {
   align-self: stretch;
   display: flex;
@@ -85,6 +95,7 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .who-are-we,
 .who-are-we-looking-for-parent {
   display: flex;
@@ -92,6 +103,7 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .who-are-we {
   margin: 0;
   width: 970px;
@@ -101,6 +113,7 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .who-are-we-looking-for-parent {
   align-self: stretch;
   overflow: hidden;
@@ -114,6 +127,7 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .become-a-tutor {
   width: 100%;
   position: relative;
@@ -123,26 +137,29 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-81xl);
-  background-image: url(/public/become-a-tutor@3x.png);
+  background-image: url("/public/become-a-tutor@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (width <= 1200px) {
   .who-are-we-looking-for-parent {
     padding-top: var(--padding-20xl);
     padding-bottom: var(--padding-20xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .learn-more-about-container,
   .who-are-we {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .who-are-we-looking-for-parent {
     gap: var(--gap-11xl);
     padding-top: var(--padding-6xl);
@@ -150,31 +167,37 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .who-are-we-looking-for-parent {
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .become-a-tutor {
     gap: var(--gap-31xl);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .learn-more-about-container {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .learn-more-about-cosmo1 {
     gap: var(--gap-mid);
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .who-are-we {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .become-a-tutor {
     gap: var(--gap-6xl);
   }

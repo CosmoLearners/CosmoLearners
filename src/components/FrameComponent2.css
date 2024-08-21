@@ -11,40 +11,51 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .personalized-child {
   height: 280px;
   width: 280px;
   position: relative;
   object-fit: cover;
 }
+
 .expertise-and-passion {
   line-height: 35px;
 }
+
 .expertise-and-passion-for-teac1 {
   font-weight: 600;
 }
+
 .expertise-and-passion-for-teac {
   margin: 0;
 }
+
 .blank-line4 {
   font-weight: 600;
 }
+
 .blank-line3 {
   line-height: 28px;
 }
+
 .blank-line2 {
   margin: 0;
 }
+
 .we-seek-coaches-with-a-strong1 {
   line-height: 28px;
 }
+
 .we-seek-coaches-with-a-strong {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .expertise-and-passion-container1 {
   width: 100%;
 }
+
 .expertise-and-passion-container {
   height: 149px;
   width: 561px;
@@ -54,11 +65,11 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-36xl);
@@ -66,18 +77,22 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .adaptability-and-creativity,
 .blank-line5 {
   margin: 0;
   font-weight: 600;
 }
+
 .ideal-candidates-are {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .adaptability-and-creativity-container1 {
   width: 100%;
 }
+
 .adaptability-and-creativity-container {
   width: 561px;
   position: relative;
@@ -87,17 +102,18 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized-item {
   height: 280px;
   width: 280px;
   position: relative;
   object-fit: cover;
 }
+
 .personalized1 {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-36xl);
@@ -105,24 +121,29 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .personalized-inner {
   height: 280px;
   width: 280px;
   position: relative;
   object-fit: cover;
 }
+
 .blank-line6,
 .commitment-to-growth {
   margin: 0;
   font-weight: 600;
 }
+
 .our-coaches-are {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .commitment-to-growth-container1 {
   width: 100%;
 }
+
 .commitment-to-growth-container {
   width: 561px;
   position: relative;
@@ -132,11 +153,11 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized2 {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-36xl);
@@ -144,18 +165,22 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .blank-line7,
 .communication-and-empathy {
   margin: 0;
   font-weight: 600;
 }
+
 .strong-interpersonal-skills {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .communication-and-empathy-container1 {
   width: 100%;
 }
+
 .communication-and-empathy-container {
   width: 561px;
   position: relative;
@@ -165,17 +190,18 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .rectangle-icon {
   height: 280px;
   width: 280px;
   position: relative;
   object-fit: cover;
 }
+
 .personalized3 {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-36xl);
@@ -183,24 +209,29 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .personalized-child1 {
   height: 280px;
   width: 280px;
   position: relative;
   object-fit: cover;
 }
+
 .blank-line8,
 .community-and-collaboration {
   margin: 0;
   font-weight: 600;
 }
+
 .we-look-for {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .community-and-collaboration-container1 {
   width: 100%;
 }
+
 .community-and-collaboration-container {
   width: 561px;
   position: relative;
@@ -210,11 +241,11 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized4 {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-36xl);
@@ -222,6 +253,7 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .qualities-cards,
 .who-are-we-looking-for-parent {
   display: flex;
@@ -231,11 +263,13 @@
   gap: var(--gap-41xl);
   max-width: 100%;
 }
+
 .qualities-cards {
   width: 1050px;
   text-align: left;
   font-size: var(--font-size-13xl);
 }
+
 .who-are-we-looking-for-parent {
   align-self: stretch;
   overflow: hidden;
@@ -247,7 +281,8 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (width <= 1200px) {
   .who-are-we-looking-for-parent {
     gap: var(--gap-11xl);
     padding-top: var(--padding-20xl);
@@ -255,11 +290,13 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .who-are-we {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .personalized,
   .personalized1,
   .personalized2,
@@ -269,23 +306,27 @@
     padding-right: var(--padding-8xl);
     box-sizing: border-box;
   }
+
   .qualities-cards {
     gap: var(--gap-11xl);
   }
+
   .who-are-we-looking-for-parent {
     padding-top: var(--padding-6xl);
     padding-bottom: var(--padding-6xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .who-are-we-looking-for-parent {
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .who-are-we {
     font-size: var(--font-size-7xl);
     line-height: 32px;

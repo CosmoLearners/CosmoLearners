@@ -2,7 +2,8 @@
     width: 100%; 
     height: 100%; 
     position: relative;
-    background-image: url(/public/aboutus@3x.png);
+    background-image: url("/public/aboutus@3x.png");
+
     /* background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -15,6 +16,7 @@
 #google-form {
     width: 100%; 
     height: 1900px; 
+
     /* height: min(100%, 1900px); */
 }  
 

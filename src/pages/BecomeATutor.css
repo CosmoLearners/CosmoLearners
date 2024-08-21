@@ -2,9 +2,11 @@
 .join-our-tutoring {
   margin: 0;
 }
+
 .learn-more-about-container1 {
   width: 100%;
 }
+
 .at-cosmo-we,
 .learn-more-about-container {
   width: 950px;
@@ -13,6 +15,7 @@
   align-items: center;
   max-width: 100%;
 }
+
 .learn-more-about-container {
   margin: 0;
   font-size: inherit;
@@ -20,14 +23,17 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .at-cosmo-we {
   font-size: var(--font-size-lg);
   line-height: 28px;
   justify-content: center;
 }
+
 .apply-today {
   flex: 1;
   position: relative;
+
   /* font-size: var(--font-size-5xl); */
   font-size: var(--font-size-description);
   line-height: 20px;
@@ -38,6 +44,7 @@
   display: inline-block;
   max-height: 23.015972137451172px;
 }
+
 .button {
   /* width: 229px; */
   border-radius: var(--br-mid);
@@ -46,13 +53,16 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
   /* padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
     var(--padding-sm-6); */
   padding: 0.5rem 1rem; 
   box-sizing: border-box;
+
   /* min-width: 120.08333587646484px; */
   white-space: nowrap;
 }
+
 .button:hover {
   background-color: #9417E2;
 }
@@ -62,6 +72,7 @@
   display: flex;
   align-items: flex-start;
 }
+
 .link {
   width: 162px;
   flex-direction: column;
@@ -69,6 +80,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
   box-sizing: border-box;
 }
+
 .divchakra-stack {
   cursor: pointer;
   border: 0;
@@ -78,6 +90,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .learn-more-about-cosmo {
   align-self: stretch;
   display: flex;
@@ -94,6 +107,7 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .our-mission {
   margin: 0;
   width: 1338px;
@@ -104,6 +118,7 @@
   font-family: inherit;
   justify-content: center;
 }
+
 .at-cosmo-our,
 .our-mission,
 .our-mission-parent {
@@ -111,6 +126,7 @@
   align-items: center;
   max-width: 100%;
 }
+
 .at-cosmo-our {
   width: 1338px;
   position: relative;
@@ -118,6 +134,7 @@
   line-height: 28px;
   justify-content: center;
 }
+
 .our-mission-parent {
   align-self: stretch;
   border-radius: var(--br-46xl);
@@ -127,6 +144,7 @@
   box-sizing: border-box;
   gap: var(--gap-26xl);
 }
+
 .content-container-child {
   align-self: stretch;
   flex: 1;
@@ -137,6 +155,7 @@
   max-height: 100%;
   object-fit: cover;
 }
+
 .content-container {
   height: 264.5px;
   width: 233px;
@@ -147,45 +166,57 @@
   padding: var(--padding-2xl-5) 0 0;
   box-sizing: border-box;
 }
+
 .qualities-of-our {
   font-weight: 600;
 }
+
 .blank-line,
 .qualities-of-our-coaches {
   margin: 0;
 }
+
 .expert-knowledge {
   font-family: var(--font-inter);
 }
+
 .expert-knowledge-our-coaches1 {
   margin-bottom: 0;
 }
+
 .engaging-methodologies,
 .they-use-innovative {
   font-family: var(--font-inter);
 }
+
 .engaging-methodologies-they-u {
   margin-bottom: 0;
 }
+
 .inspirational-mentors,
 .with-their-enthusiastic {
   font-family: var(--font-inter);
 }
+
 .inspirational-mentors-with-th {
   margin-bottom: 0;
 }
+
 .empathetic-guides,
 .they-listen-and {
   font-family: var(--font-inter);
 }
+
 .expert-knowledge-our-coaches {
   margin: 0;
   font-size: var(--font-size-lg);
   padding-left: var(--padding-5xl);
 }
+
 .qualities-of-our-container1 {
   width: 100%;
 }
+
 .qualities-of-our-container {
   width: 642px;
   position: relative;
@@ -195,11 +226,11 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .content-container-parent {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: flex-start;
   justify-content: space-between;
   padding: var(--padding-16xl) 299px var(--padding-16xl) 295px;
@@ -209,6 +240,7 @@
   text-align: left;
   font-size: var(--font-size-13xl);
 }
+
 .apply-today1 {
   flex: 1;
   position: relative;
@@ -221,6 +253,7 @@
   display: inline-block;
   max-height: 23px;
 }
+
 .button1 {
   align-self: stretch;
   border-radius: var(--br-mid);
@@ -235,6 +268,7 @@
   min-width: 120px;
   white-space: nowrap;
 }
+
 .button1:hover {
   background-color: #9417E2;
 }
@@ -245,10 +279,12 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .link1 {
   align-self: stretch;
   justify-content: center;
 }
+
 .divchakra-stack1 {
   cursor: pointer;
   border: 0;
@@ -258,17 +294,20 @@
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .divchakra-stack-wrapper,
 .mission {
   align-self: stretch;
   display: flex;
   align-items: flex-start;
 }
+
 .divchakra-stack-wrapper {
   flex-direction: row;
   justify-content: center;
   padding: 0 var(--padding-xl);
 }
+
 .mission {
   flex-direction: column;
   justify-content: flex-start;
@@ -279,6 +318,7 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .are-you-ready,
 .learn-more-about {
   width: 950px;
@@ -288,6 +328,7 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .learn-more-about {
   margin: 0;
   font-size: inherit;
@@ -295,10 +336,12 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .are-you-ready {
   font-size: var(--font-size-lg);
   line-height: 28px;
 }
+
 .apply-today2 {
   flex: 1;
   position: relative;
@@ -311,6 +354,7 @@
   display: inline-block;
   max-height: 23.015972137451172px;
 }
+
 .button2 {
   width: 229px;
   border-radius: var(--br-mid);
@@ -325,6 +369,7 @@
   min-width: 120.08333587646484px;
   white-space: nowrap;
 }
+
 .button2:hover {
   background-color: #9417E2;
 }
@@ -334,6 +379,7 @@
   display: flex;
   align-items: flex-start;
 }
+
 .link2 {
   width: 162px;
   flex-direction: column;
@@ -341,6 +387,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
   box-sizing: border-box;
 }
+
 .divchakra-stack2 {
   cursor: pointer;
   border: 0;
@@ -350,12 +397,14 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .become-a-tutor,
 .learn-more-about-cosmo1 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .learn-more-about-cosmo1 {
   align-self: stretch;
   align-items: center;
@@ -368,74 +417,89 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .become-a-tutor {
   width: 100%;
   position: relative;
   overflow-y: auto;
   align-items: flex-start;
   gap: var(--gap-81xl);
-  background-image: url(/public/become-a-tutor@3x.png);
+  background-image: url("/public/become-a-tutor@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .learn-more-about-container,
   .our-mission {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .content-container-parent {
     padding-left: 147px;
     padding-right: 149px;
     box-sizing: border-box;
   }
+
   .mission {
     gap: var(--gap-21xl);
   }
+
   .learn-more-about {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .become-a-tutor {
     gap: var(--gap-31xl);
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .learn-more-about-cosmo {
     gap: var(--gap-mid);
   }
+
   .our-mission-parent {
     gap: var(--gap-3xl);
   }
+
   .learn-more-about-cosmo1 {
     gap: var(--gap-mid);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .learn-more-about-container,
   .our-mission {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .content-container-parent {
     padding: var(--padding-4xl) var(--padding-xl);
     box-sizing: border-box;
   }
+
   .mission {
     gap: var(--gap-xl);
   }
+
   .learn-more-about {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .learn-more-about-cosmo1 {
     padding-top: var(--padding-13xl);
     padding-bottom: var(--padding-13xl);
     box-sizing: border-box;
   }
+
   .become-a-tutor {
     gap: var(--gap-6xl);
   }

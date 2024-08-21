@@ -7,28 +7,35 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .blank-line {
   margin: 0;
 }
+
 .eligibility {
   margin: 0;
   font-size: var(--font-size-17xl);
 }
+
 .account-creation {
   margin: 0;
   font-size: var(--font-size-5xl);
 }
+
 .use-of-services {
   margin: 0;
   font-size: var(--font-size-13xl);
 }
+
 .infringe-upon-or-violate-our-i {
   margin-bottom: 0;
 }
+
 .violate-any-applicable-laws-or {
   margin: 0;
   padding-left: var(--padding-5xl);
 }
+
 .introduction-welcome-to-container {
   align-self: stretch;
   height: 2863px;
@@ -39,6 +46,7 @@
   align-items: center;
   font-size: var(--font-size-lg);
 }
+
 .introduction {
   width: 1021px;
   flex-direction: column;
@@ -50,12 +58,14 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .content,
 .introduction,
 .terms-of-service {
   display: flex;
   align-items: flex-start;
 }
+
 .content {
   align-self: stretch;
   flex-direction: row;
@@ -64,6 +74,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .terms-of-service {
   width: 100%;
   position: relative;
@@ -71,32 +82,37 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-106xl);
-  background-image: url(/public/terms-of-service@3x.png);
+  background-image: url("/public/terms-of-service@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .terms-of-service {
     gap: var(--gap-43xl);
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .learn-more-about {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .introduction {
     gap: var(--gap-mid);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .learn-more-about {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .terms-of-service {
     gap: var(--gap-12xl);
   }

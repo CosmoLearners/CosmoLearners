@@ -5,12 +5,14 @@
   object-fit: cover;
   min-height: 112px;
 }
+
 .image-7-icon,
 .image-8-icon,
 .image-9-icon {
   align-self: stretch;
   max-height: 100%;
 }
+
 .image-8-icon {
   width: 173.9px;
   position: relative;
@@ -18,9 +20,11 @@
   object-fit: cover;
   min-height: 112px;
 }
+
 .image-9-icon {
   width: 217.9px;
 }
+
 .image-11-icon,
 .image-12-icon,
 .image-9-icon {
@@ -29,20 +33,24 @@
   object-fit: cover;
   min-height: 112px;
 }
+
 .image-11-icon {
   align-self: stretch;
   width: 163.9px;
   max-height: 100%;
 }
+
 .image-12-icon {
   height: 112px;
   width: 109.9px;
 }
+
 .image-13-icon,
 .image-14-icon {
   align-self: stretch;
   max-height: 100%;
 }
+
 .image-13-icon {
   width: 194.9px;
   position: relative;
@@ -50,9 +58,11 @@
   object-fit: cover;
   min-height: 112px;
 }
+
 .image-14-icon {
   width: 184.9px;
 }
+
 .image-14-icon,
 .image-7-icon1,
 .image-8-icon1 {
@@ -61,20 +71,24 @@
   object-fit: cover;
   min-height: 112px;
 }
+
 .image-7-icon1 {
   align-self: stretch;
   width: 233.9px;
   max-height: 100%;
 }
+
 .image-8-icon1 {
   width: 173.9px;
 }
+
 .image-11-icon1,
 .image-8-icon1,
 .image-9-icon1 {
   align-self: stretch;
   max-height: 100%;
 }
+
 .image-9-icon1 {
   width: 217.9px;
   position: relative;
@@ -82,9 +96,11 @@
   object-fit: cover;
   min-height: 112px;
 }
+
 .image-11-icon1 {
   width: 163.9px;
 }
+
 .image-11-icon1,
 .image-12-icon1,
 .image-13-icon1,
@@ -94,19 +110,23 @@
   object-fit: cover;
   min-height: 112px;
 }
+
 .image-12-icon1 {
   height: 112px;
   width: 109.9px;
 }
+
 .image-13-icon1,
 .image-14-icon1 {
   align-self: stretch;
   width: 194.9px;
   max-height: 100%;
 }
+
 .image-14-icon1 {
   width: 184.9px;
 }
+
 .best-colleges,
 .colleges-list {
   overflow-x: auto;
@@ -116,26 +136,31 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .best-colleges {
   width: 1550px;
   flex-shrink: 0;
   gap: var(--gap-81xl);
   debug_commit: 1de1738;
 }
+
 .colleges-list {
   background-color: var(--color-powderblue);
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .colleges-list {
     gap: var(--gap-31xl);
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .best-colleges {
     gap: var(--gap-31xl);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .best-colleges,
   .colleges-list {
     gap: var(--gap-6xl);

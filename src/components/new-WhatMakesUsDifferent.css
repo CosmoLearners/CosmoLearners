@@ -4,6 +4,7 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .what-makes-us {
   margin: 0;
   width: 970px;
@@ -15,6 +16,7 @@
   align-items: center;
   flex-shrink: 0;
 }
+
 .different-heading-wrapper {
   width: 1230px;
   flex-direction: row;
@@ -22,16 +24,17 @@
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
 }
+
 .features-grid,
 .what-makes-us-different {
   display: flex;
   align-items: center;
   max-width: 100%;
 }
+
 .features-grid {
   width: 1230px;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: center;
   padding: 0 var(--padding-18xl);
   box-sizing: border-box;
@@ -39,6 +42,7 @@
   font-size: var(--font-size-xl);
   color: var(--color-black);
 }
+
 .what-makes-us-different {
   align-self: stretch;
   border-radius: var(--br-mini);
@@ -50,21 +54,25 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .what-makes-us {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .features-grid {
     gap: var(--gap-8xl);
   }
+
   .what-makes-us-different {
     gap: var(--gap-9xl);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .what-makes-us {
     font-size: var(--font-size-7xl);
     line-height: 32px;

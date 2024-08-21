@@ -1,9 +1,11 @@
 .book-an-appointment {
     margin: 0;
     position: relative;
+
     /* font-size: var(--font-size-13xl); */
     font-size: var(--font-size-16x1);
     line-height: 80px;
+
     /* line-height: 40px;  */
     text-transform: capitalize;
     font-weight: 700;
@@ -18,12 +20,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
     /* gap: 20px;  */
+
     /* align-items: flex-end;  */
+
     /* justify-content: end; */
+
     /* row-gap: 30px !important;  */
     max-width: 100%;
   }
+
   /* .appointment-button {
     display: flex;
     flex-direction: column;
@@ -34,17 +41,24 @@
     padding: var(--padding-sm) var(--padding-mini);
     background-color: transparent;
     /* width: 434px; */
+
     /* box-sizing: border-box; */
+
     /* row-gap: 60px !important;  */
+
     /* line-height: 90px !important;  */
+
     /* justify-content: center; */
+
     /* justify-content: flex-end;  */
 
     /* margin-left: auto;   */
+
   /* } */
 
 .footer {
   position: relative;
+
   /* top: 1936.2px; */
   margin-top: 360px; 
   left: 0;
@@ -66,18 +80,26 @@
     max-width: 100%;
     cursor: pointer;
     border: 4px solid var(--color-peachpuff);
+
     /* padding: var(--padding-sm) var(--padding-mini); */
     background-color: transparent;
     box-sizing: border-box;
     margin-left: 10%;
+
     /* line-height: 40px;  */
+
     /* Adjust text properties */
+
     /* word-wrap: break-word; */
+
     /* word-break: break-word; */
+
     /* line-height: normal; */
+
     /* Optional adjustments */
     padding: 10px 20px; /* Adjust padding as needed */
     font-size: 25px; 
+
     /* Adjust font size as needed */
 }
 
@@ -97,18 +119,24 @@
     color: yellow; 
     
   }
+
   .footer-logo,
   .footer1 {
     flex-wrap: wrap;
   }
+
   .footer-logo {
     flex: 1;
     justify-content: space-between;
+
     /* padding: 0 120px; */
     box-sizing: border-box;
+
     /* gap: var(--gap-xl); */
+
     /* border: white solid 2px;  */
   }
+
   /* .footer1 {
     width: 1700px;
     justify-content: center;
@@ -119,22 +147,27 @@
     display: inline-block;
     min-width: 98px;
   }
+
   .ceb5d14e108cfa7e8f1779-privacy-icon {
     height: 23.1px;
     width: 48.1px;
     position: relative;
     object-fit: cover;
   }
+
   .your-privacy-rights {
     position: relative;
     line-height: 20px;
     display: inline-block;
     min-width: 115px;
   }
+
   .link-california-notice-parent {
     padding: 0 var(--padding-6xs) 0 0;
+
     /* gap: var(--gap-mini); */
   }
+
   .divfooter-cali-rights,
   .divw-node-dafeecd6-e254-d620-2,
   .link-california-notice-parent {
@@ -144,18 +177,22 @@
     align-items: center;
     justify-content: space-around;
   }
+
   .divw-node-dafeecd6-e254-d620-2 {
     align-items: flex-start;
     min-width: 119px;
   }
+
   .all-rights-reserved,
   .made-in-california {
     margin: 0;
   }
+
   .made-in-california-container {
     position: relative;
     line-height: 19.25px;
   }
+
   .divfooter-grid-box-2,
   .divw-node-dafeecd6-e254-d620-3 {
     display: flex;
@@ -163,6 +200,7 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
+
   .divfooter-grid-box-2 {
     border-right: 1px solid var(--color-tan);
     border-left: 1px solid var(--color-tan);
@@ -170,6 +208,7 @@
     padding: 0 var(--padding-11xl);
     font-size: var(--font-size-xs-6);
   }
+
   .link-privacy,
   .separator {
     position: relative;
@@ -177,10 +216,12 @@
     display: inline-block;
     min-width: 83px;
   }
+
   .separator {
     font-size: var(--font-size-base-4);
     min-width: 6px;
   }
+
   .divbreadcrumb-item-wrap, 
   .divbreadcrumb-item-wrap1 {
     display: flex;
@@ -190,17 +231,21 @@
     padding: 0 var(--padding-4xs-2) 0 0;
     gap: var(--gap-2xs-3);
   }
+
   .div,
   .link-terms {
     /* position: relative; */
     line-height: 20px;
+
     /* display: inline-block; */
     min-width: 60px;
   }
+
   .div {
     font-size: var(--font-size-base-4);
     min-width: 6px;
   }
+
   /* .divbreadcrumb-item-wrap1 {
     display: flex;
     flex-direction: row;
@@ -216,6 +261,7 @@
     display: inline-block;
     min-width: 74px;
   }
+
   .divfooter-grid-box-3,
   .divfooter-legal-wrap {
     flex: 1;
@@ -224,13 +270,16 @@
     align-items: center;
     justify-content: flex-start;
   }
+
   .divfooter-legal-wrap {
     padding: 0 var(--padding-12xs-9) 0 0;
     row-gap: 20px;
   }
+
   .divfooter-grid-box-3 {
     min-width: 122px;
   }
+
   .footer,
   .footer2,
   .legal-content {
@@ -239,43 +288,49 @@
     box-sizing: border-box;
     max-width: 100%;
   }
+
   .legal-content {
     flex: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-items: center;
     padding: 0 322.8px;
     gap: var(--gap-20xl);
+
     /* padding-left: var(--padding-61xl);
     padding-right: var(--padding-61xl); */
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
-    box-sizing: border-box;
     max-width: 100%;
+
     /* gap: 40px 78px; */
+
     /* display: block;  */
     padding-left: var(--padding-49xl);
     padding-right: var(--padding-49xl);
     box-sizing: border-box;
   }
+
   .footer,
   .footer2 {
     align-items: center;
   }
+
   .footer2 {
     width: 1624px;
     border-top: 1px solid var(--color-tan);
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     padding: var(--padding-25xl) 0 var(--padding-26xl);
     font-size: var(--font-size-smi-5);
     align-items: center; 
   }
+
   .footer {
     position: relative;
+
     /* top: 1936.2px; */
+
     /* margin-top: 360px;  */
+
     /* margin-bottom: 100px;  */
     left: 0;
     background-color: var(--color-midnightblue-200);
@@ -288,46 +343,55 @@
     color: var(--color-white);
     font-family: var(--font-inter);
   }
+
   .about-us {
     width: 100%;
     height: 2480.2px;
     position: relative;
     overflow-y: auto;
-    background-image: url(/public/aboutus@3x.png);
+    background-image: url("/public/aboutus@3x.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+
     /* line-height: normal; */
     letter-spacing: normal;
   }
-  @media screen and (max-width: 1200px) {
+
+  @media screen and (width <= 1200px) {
     .footer-logo,
     .legal-content {
       padding-left: var(--padding-49xl);
       padding-right: var(--padding-49xl);
       box-sizing: border-box;
     }
+
     .legal-content {
       padding-left: var(--padding-142xl);
       padding-right: var(--padding-142xl);
     }
+
     .appointment-button {
       font-size: 20px; 
     }
   }
-  @media screen and (max-width: 1050px) {
+
+  @media screen and (width <= 1050px) {
     .learn-more-about3,
     .our-mission3 {
       font-size: var(--font-size-7xl);
       line-height: 58px;
     }
+
     .our-mission3 {
       line-height: 22px;
     }
+
     .our-vision {
       font-size: 38px;
       line-height: 22px;
     }
+
     .our-mission5 {
       font-size: var(--font-size-13xl);
       line-height: 36px;
@@ -335,79 +399,96 @@
 
     .book-an-appointment {
       font-size: 15px;
-      line-height: 15px;
       line-height: 80px !important;
     }
+
     .appointment-button {
       font-size: 20px; 
     }
 
   }
-  @media screen and (max-width: 750px) {
+
+  @media screen and (width <= 750px) {
     .learn-more-about-cosmo4 {
       gap: var(--gap-mid);
     }
+
     .footer-logo {
       padding-left: var(--padding-15xl);
       padding-right: var(--padding-15xl);
       box-sizing: border-box;
+
       /* border: white solid 2px;  */
     }
+
     .footer1 {
       gap: var(--gap-18xl);
     }
+
     .legal-content {
       gap: var(--gap-20xl);
       padding-left: var(--padding-61xl);
       padding-right: var(--padding-61xl);
       box-sizing: border-box;
     }
+
     .footer {
       gap: var(--gap-mid);
     }
   }
-  @media screen and (max-width: 450px) {
+
+  @media screen and (width <= 450px) {
     .learn-more-about3 {
       font-size: var(--font-size-lgi);
       line-height: 43px;
     }
+
     .developing-student-skills,
     .our-mission3 {
       font-size: var(--font-size-lgi);
       line-height: 17px;
     }
+
     .developing-student-skills {
       line-height: 36px;
     }
+
     .our-vision {
       font-size: var(--font-size-10xl);
       line-height: 17px;
     }
+
     .our-mission5 {
       font-size: var(--font-size-5xl);
       line-height: 27px;
     }
+
     .every-child-is-container,
     .heading-4 {
       font-size: var(--font-size-lgi);
       line-height: 36px;
     }
+
     .heading-4 {
       line-height: 21px;
     }
+
     .item-link,
     .item-link1,
     .item-link2 {
       font-size: var(--font-size-base);
       line-height: 20px;
     }
+
     .divw-node-dafeecd6-e254-d620- {
       flex: 1;
     }
+
     .heading-41 {
       font-size: var(--font-size-lgi);
       line-height: 21px;
     }
+
     .item-link3,
     .item-link4,
     .item-link5,
@@ -415,35 +496,44 @@
       font-size: var(--font-size-base);
       line-height: 20px
     }
+
     .footer-navigation {
       flex-wrap: wrap;
       gap: var(--gap-23xl);
     }
+
     .book-an-appointment {
       /* font-size: var(--font-size-lgi); */
       font-size: 30px; 
       line-height: 50px !important; 
+
       /* line-height: 12px; */
     }
+
     .book-an-appointment h2{
       /* font-size: var(--font-size-lgi); */
       font-size: 30px; 
       line-height: 50px !important; 
+
       /* line-height: 12px; */
     }
+
     .footer1 {
       gap: var(--gap-lgi);
     }
+
     .divfooter-legal-wrap,
     .link-california-notice-parent {
       flex-wrap: wrap;
     }
+
     .legal-content {
       gap: var(--gap-lgi);
       padding-left: var(--padding-xl);
       padding-right: var(--padding-xl);
       box-sizing: border-box;
     }
+
     .about-us {
       height: auto;
       min-height: 2480.2;

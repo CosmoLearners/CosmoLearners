@@ -4,6 +4,7 @@
   position: relative;
   object-fit: cover;
 }
+
 .heading-42,
 .item-link6 {
   position: relative;
@@ -11,19 +12,23 @@
   display: inline-block;
   min-width: 73px;
 }
+
 .item-link6 {
   line-height: 26px;
   min-width: 91px;
 }
+
 .item-link7 {
   display: inline-block;
   min-width: 102px;
 }
+
 .item-link7,
 .item-link8 {
   position: relative;
   line-height: 26px;
 }
+
 .divw-node-dafeecd6-e254-d620-4,
 .list2 {
   display: flex;
@@ -31,27 +36,32 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .list2 {
   padding: 0 var(--padding-11xs) var(--padding-base-4) 0;
   gap: var(--gap-base-4);
   font-size: var(--font-size-xl);
 }
+
 .divw-node-dafeecd6-e254-d620-4 {
   gap: var(--gap-mini);
   min-width: 168.6px;
 }
+
 .heading-43 {
   position: relative;
   line-height: 27px;
   display: inline-block;
   min-width: 96px;
 }
+
 .heading-4margin1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .item-link10,
 .link-help1 {
   position: relative;
@@ -59,9 +69,11 @@
   display: inline-block;
   min-width: 107px;
 }
+
 .link-help1 {
   min-width: 114px;
 }
+
 .item1 {
   display: flex;
   flex-direction: row;
@@ -69,11 +81,13 @@
   justify-content: flex-start;
   padding: 0 var(--padding-xs) 0 0;
 }
+
 .list3 {
   align-self: stretch;
   padding: 0 0 var(--padding-base-4);
   gap: var(--gap-base-4);
 }
+
 .divw-node-dafeecd6-e254-d620-5,
 .list3,
 .listmargin1 {
@@ -82,15 +96,18 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .listmargin1 {
   align-self: stretch;
   font-size: var(--font-size-xl);
 }
+
 .divw-node-dafeecd6-e254-d620-5 {
   flex: 1;
   gap: var(--gap-mini);
   min-width: 105px;
 }
+
 .footer-links-container {
   width: 415px;
   display: flex;
@@ -100,6 +117,7 @@
   gap: var(--gap-66xl);
   max-width: 100%;
 }
+
 .book-an-appointment5 {
   position: relative;
   font-size: var(--font-size-13xl);
@@ -110,6 +128,7 @@
   text-align: center;
   text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
 }
+
 .book-an-appointment-wrapper {
   cursor: pointer;
   border: 5px solid var(--color-peachpuff);
@@ -119,20 +138,22 @@
   box-sizing: border-box;
   justify-content: center;
 }
+
 .book-an-appointment-wrapper:hover {
   background-color: var(--color-tan-300);
   border: 5px solid var(--color-tan-100);
   box-sizing: border-box;
 }
+
 .book-an-appointment-wrapper,
 .footer-top,
 .footer4 {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   max-width: 100%;
 }
+
 .footer-top {
   flex: 1;
   justify-content: space-between;
@@ -140,32 +161,38 @@
   box-sizing: border-box;
   gap: var(--gap-xl);
 }
+
 .footer4 {
   width: 1368px;
   justify-content: center;
 }
+
 .link-california1 {
   position: relative;
   line-height: 19.25px;
   display: inline-block;
   min-width: 99px;
 }
+
 .ceb5d14e108cfa7e8f1779-privacy-icon1 {
   height: 23.1px;
   width: 48.1px;
   position: relative;
   object-fit: cover;
 }
+
 .your-privacy-rights1 {
   position: relative;
   line-height: 20px;
   display: inline-block;
   min-width: 115px;
 }
+
 .california-notice-link {
   padding: 0 var(--padding-8xs) 0 0;
   gap: var(--gap-mini-5);
 }
+
 .california-notice-link,
 .divfooter-cali-rights1,
 .divw-node-dafeecd6-e254-d620-6 {
@@ -175,13 +202,16 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .divw-node-dafeecd6-e254-d620-6 {
   align-items: flex-start;
   min-width: 119px;
 }
+
 .made-in-california1 {
   margin: 0;
 }
+
 .made-in-california-container1 {
   height: 39px;
   position: relative;
@@ -189,6 +219,7 @@
   display: flex;
   align-items: center;
 }
+
 .divfooter-grid-box-21 {
   border-right: 1px solid var(--color-tan-200);
   border-left: 1px solid var(--color-tan-200);
@@ -199,21 +230,25 @@
   padding: 0 var(--padding-10xl);
   font-size: var(--font-size-xs-6);
 }
+
 .link-privacy1,
 .separator {
   position: relative;
   line-height: 20px;
   display: inline-block;
 }
+
 .link-privacy1 {
   text-decoration: none;
   color: inherit;
   min-width: 83px;
 }
+
 .separator {
   font-size: var(--font-size-base-4);
   min-width: 6px;
 }
+
 .divbreadcrumb-item-wrap2 {
   display: flex;
   flex-direction: row;
@@ -222,12 +257,14 @@
   padding: 0 var(--padding-5xs) 0 0;
   gap: var(--gap-2xs-3);
 }
+
 .link-terms1 {
   position: relative;
   line-height: 19.25px;
   display: inline-block;
   min-width: 94px;
 }
+
 .divbreadcrumb-item-wrap3 {
   display: flex;
   flex-direction: row;
@@ -237,12 +274,14 @@
   gap: var(--gap-mini-6);
   font-size: var(--font-size-xs-6);
 }
+
 .link-accessibility1 {
   position: relative;
   line-height: 20px;
   display: inline-block;
   min-width: 74px;
 }
+
 .divfooter-grid-box-31,
 .divfooter-legal-wrap1 {
   flex: 1;
@@ -251,12 +290,15 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .divfooter-legal-wrap1 {
   row-gap: 20px;
 }
+
 .divfooter-grid-box-31 {
   min-width: 122px;
 }
+
 .footer-legal,
 .footer3,
 .footer5 {
@@ -265,26 +307,28 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .footer-legal {
   flex: 1;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: flex-start;
   padding: 0 var(--padding-175xl);
   gap: 40px 80px;
 }
+
 .footer3,
 .footer5 {
   align-items: center;
 }
+
 .footer5 {
   width: 1368px;
   border-top: 1px solid var(--color-tan-200);
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   padding: var(--padding-25xl) 0 var(--padding-26xl);
   font-size: var(--font-size-smi-5);
 }
+
 .footer3 {
   align-self: stretch;
   background-color: var(--color-midnightblue-300);
@@ -297,71 +341,86 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (width <= 1200px) {
   .footer-legal {
     padding-left: var(--padding-78xl);
     padding-right: var(--padding-78xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 850px) {
+
+@media screen and (width <= 850px) {
   .book-an-appointment5 {
     font-size: var(--font-size-7xl);
     line-height: 15px;
   }
+
   .footer4 {
     gap: var(--gap-18xl);
   }
+
   .footer-legal {
     gap: var(--gap-21xl);
     padding-left: var(--padding-29xl);
     padding-right: var(--padding-29xl);
     box-sizing: border-box;
   }
+
   .footer3 {
     gap: var(--gap-mid);
     padding-top: var(--padding-33xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .heading-42 {
     font-size: var(--font-size-lgi);
     line-height: 21px;
   }
+
   .item-link6,
   .item-link7,
   .item-link8 {
     font-size: var(--font-size-base);
     line-height: 20px;
   }
+
   .divw-node-dafeecd6-e254-d620-4 {
     flex: 1;
   }
+
   .heading-43 {
     font-size: var(--font-size-lgi);
     line-height: 21px;
   }
+
   .item-link10,
   .link-help1 {
     font-size: var(--font-size-base);
     line-height: 20px;
   }
+
   .footer-links-container {
     flex-wrap: wrap;
     gap: var(--gap-23xl);
   }
+
   .book-an-appointment5 {
     font-size: var(--font-size-lgi);
     line-height: 12px;
   }
+
   .footer4 {
     gap: var(--gap-lgi);
   }
+
   .california-notice-link,
   .divfooter-legal-wrap1 {
     flex-wrap: wrap;
   }
+
   .footer-legal {
     gap: var(--gap-xl);
     padding-left: var(--padding-xl);

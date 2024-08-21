@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
 body {
   margin: 0;
   line-height: normal;
 }
+
 :root {
   /* fonts */
-  --font-inter: Inter;
-  --font-lato: Lato;
+  --font-inter: inter;
+  --font-lato: lato;
   --font-jetbrains-mono: "JetBrains Mono";
 
   /* font sizes */
@@ -55,7 +57,7 @@ body {
     --font-size-semimedium: 0.6em;  
     --font-size-small: 0.5em; 
 
-  /* Responsive lines*/ 
+  /* Responsive lines */ 
   --line-height-small: calc(20px + 0.5em); 
   --line-height-medium: 1em; 
   --line-height-large: 1.5em; 
@@ -66,7 +68,6 @@ body {
   --padding-btn-lgmed-v: 1em; 
   --padding-btn-med-v: 0.25em; 
   --padding-btn-sm-v: 0.1em; 
-
   --padding-btn-lg-h: 1em; 
   --padding-btn-med-h: 0.5em; 
   --padding-btn-sm-h: 0.25em; 
@@ -76,7 +77,6 @@ body {
     --large-button-width: 3.5em; 
     --medium-button-width: 0.25em; 
     --small-button-width: 0.1em; 
-  
     --large-button-height: 1em; 
     --medium-button-height: 0.5em; 
     --small-button-height: 0.25em; 
@@ -85,15 +85,15 @@ body {
   /* Colors */
   --color-tan-100: #e6b5a6;
   --color-tan: #b4ad93;
-  --color-tan-200: rgba(230, 181, 166, 0.09);
+  --color-tan-200: rgb(230 181 166 / 9%);
   --color-black: #000;
   --color-midnightblue-100: #3f2787;
   --color-midnightblue-400: #46136f;
   --color-midnightblue-200: #3e166c;
-  --color-midnightblue-300: rgba(28, 3, 58, 0.9);
+  --color-midnightblue-300: rgb(28 3 58 / 90%);
   --color-darkslateblue-100: #755895;
   --color-darkslateblue-200: #7a47a3;
-  --color-darkslateblue-300: rgba(122, 71, 163, 0.09);
+  --color-darkslateblue-300: rgb(122 71 163 / 9%);
   --color-lightgray-100: #d1d7de;
   --color-lightgray-200: #cdd5df;
   --color-white: #fff;
@@ -107,7 +107,7 @@ body {
   --color-goldenrod-100: #ffc648;
   --color-goldenrod-500: #f8c450;
   --color-goldenrod-200: #cc9414;
-  --color-goldenrod-300: rgba(204, 148, 20, 0.09);
+  --color-goldenrod-300: rgb(204 148 20 / 9%);
   --color-cadetblue: #5da596;
   --color-mediumpurple: #9772e7;
   --color-khaki: #fae060;

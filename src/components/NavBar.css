@@ -9,6 +9,7 @@
 .cosmo-logo-invert-original-1-icon:hover {
   animation: rotateY 1s 1 linear; 
 }
+
 @keyframes rotateY {
   to { transform: rotateY(360deg); }
 }
@@ -21,9 +22,11 @@
   object-fit: cover;
   min-height: 72px;
 }
+
 .cosmo-logo-edit-child:hover {
   cursor: pointer; 
 }
+
 .cosmo-logo-edit {
   display: flex;
   flex-direction: row;
@@ -34,10 +37,12 @@
   gap: var(--gap-3xs);
   max-width: 100%;
 }
+
 .link-about {
   display: inline-block;
   min-width: 60px;
 }
+
 .link-about,
 .link-become,
 .link-courses,
@@ -48,20 +53,24 @@
   font-weight: 600;
   cursor: pointer;
 }
+
 .link-courses {
   display: inline-block;
   min-width: 81px;
 }
+
 .link-become,
 .link-parents {
   white-space: nowrap;
 }
+
 .divdivider-vertical {
   width: 1px;
   height: 40px;
   position: relative;
   background-color: var(--color-white);
 }
+
 .link-divider {
   display: flex;
   flex-direction: column;
@@ -69,6 +78,7 @@
   justify-content: flex-start;
   padding: var(--padding-base) 0 0;
 }
+
 .book-an-appointment1 {
   position: relative;
   font-size: var(--font-size-base);
@@ -80,6 +90,7 @@
   text-align: center;
   white-space: nowrap;
 }
+
 .appointment-button-container,
 .link7 {
   display: flex;
@@ -87,6 +98,7 @@
   justify-content: center;
 
 }
+
 .link7 {
   cursor: pointer;
   border: 1px solid var(--color-goldenrod-100);
@@ -95,16 +107,19 @@
   align-self: stretch;
   flex-direction: row;
 }
+
 .link7:hover {
   background-color: var(--color-goldenrod-300);
   border: 1px solid var(--color-goldenrod-200);
   box-sizing: border-box;
 }
+
 .appointment-button-container {
   flex: 1;
   flex-direction: column;
   padding: var(--padding-base-5) 0 0;
 }
+
 .navbar,
 .navigation-links {
   display: flex;
@@ -112,6 +127,7 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .navigation-links {
   width: 805px;
   justify-content: flex-start;
@@ -152,7 +168,7 @@
   transition: 0.4s; ;
 }
 
-@media screen and (max-width: 1240px) {
+@media screen and (width <= 1240px) {
   /* .navbar {
     flex-direction: row;
     justify-content: space-between;
@@ -165,12 +181,14 @@
   .navbar {
     font-size: 0.8rem; 
   }
+
   .cosmo-logo-invert-original-1-icon{
     width: 60px; 
     height: 60px; 
     object-fit: contain; 
     min-height: 50px;  
   }
+
   .cosmo-logo-edit-child {
     align-self: stretch;
     width:240px;
@@ -184,14 +202,13 @@
 
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (width <= 1100px) {
   .navbar {
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     text-align: center; 
-    flex-wrap:wrap; 
   }
 
   .cosmo-logo-edit {
@@ -205,6 +222,7 @@
     object-fit: contain; 
     min-height: 50px;  
   }
+
   .cosmo-logo-edit-child {
     align-self: stretch;
     width: 200px;

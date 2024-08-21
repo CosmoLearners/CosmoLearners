@@ -5,46 +5,56 @@
   justify-content: center;
   box-sizing: border-box;
   flex: 1;
+
   /* background: linear-gradient(180deg, #f5c470 100%, rgba(255, 255, 255, 0)); */
-  background: linear-gradient(180deg, #fec15f 100%, rgba(255, 255, 255, 0.5));
+  background: linear-gradient(180deg, #fec15f 100%, rgb(255 255 255 / 50%));
+
   /* height: 1800px;  */
   height: auto;
 
 
   /* align-items: flex-start;
     justify-content: flex-start; */
+
   /* padding: var(--padding-2xl-5) 0;
     gap: var(--gap-19xl); */
   max-width: 100%;
   text-align: center;
   font-size: 26px; 
+
   /* font-size: minmax(18px, 20px);  */
+
   /* font-size: var(--font-size-21xl); */
   color: var(--color-black);
   font-family: var(--font-inter);
+
   /* /* new */
-  overflow-x: clip;
-  overflow-y: visible;
+  overflow: clip visible;
 }
 
 .wrapper-progress-icon {
   align-self: stretch;
   height: 60px;
   position: relative;
+
   /* max-width: 100%; */
+
   /* flex-shrink: 0; */
   width: 100%;
   min-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+
   /* border: red solid 1px;  */
+
   /* new
     overflow: hidden;  */
 }
 
 .progress-icon {
   align-self: stretch;
+
   /* height: 100%; */
   height: auto;
   overflow: hidden;
@@ -56,13 +66,14 @@
   width: 110%;
   min-width: 110%;
   transform: translateY(-50%);
+
   /* transform: scale(10.067); */
 }
 
 .btn-1 {
   font-family: Hack, monospace;
   background: #0F0F6D;
-  color: #ffffff;
+  color: #fff;
   cursor: pointer;
   font-size: 16px;
   padding: 0.8rem;
@@ -78,10 +89,7 @@
     font-family: "Font Awesome 5 Pro";
     font-weight: 400;
     position: absolute;
-    left: 85%;
-    top: 31%;
-    right: 5%;
-    bottom: 0;
+    inset: 31% 5% 0 85%;
     opacity: 0;
 
   }
@@ -90,7 +98,7 @@
     background: #2b2bff;
     transition: all 0.5s;
     border-radius: 10px;
-    box-shadow: 0px 6px 15px #0000ff61;
+    box-shadow: 0 6px 15px #0000ff61;
     padding: 1rem 2rem 1rem 1rem;
 
     &::after {
@@ -112,7 +120,7 @@
 
 
 .feature-text-box {
-  display: None;
+  display: none;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -122,7 +130,7 @@
   opacity: 1;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (width >= 2000px) {
   .progress-icon {
     display: none;
   }
@@ -131,21 +139,27 @@
 .features-flexbox {
   display: grid;
   box-sizing: border-box;
+
   /* align-self: stretch; */
   height: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, minmax(300px, auto));
+
   /* grid-template-columns: repeat(3, 3fr);
   grid-template-rows: repeat(3, minmax(350px, auto)); */
   row-gap: 20px;
+
   /* height: 1114px; */
+
   /* flex-direction: row;
     flex-wrap: wrap;
     align-items:flex-start;
     justify-content: center;
     padding: var(--padding-25xl) 0 var(--padding-31xl); */
   position: relative;
+
   /* justify-content: space-around; */
+
   /* flex-basis: 25%; */
   gap: var(--gap-27xl);
   font-size: var(--font-size-medium);
@@ -155,13 +169,18 @@
 
 .single-feature {
   width: 20vw;
+
   /* width: 100%;  */
   max-width: 350px;
   min-width: 250px; 
   height: auto;
+
   /* height: 650px; Change this */
+
   /* margin: 0 !important; */
+
   /* position: absolute; */
+
   /* top: 44px;
     left: 153.5px; */
   display: flex;
@@ -173,7 +192,7 @@
   padding: 25px 10px;
   box-sizing: border-box;
   gap: var(--gap-17xl);
-  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
   border-radius: var(--br-25xl);
   background-color: var(--color-papayawhip);
 
@@ -227,15 +246,18 @@
   margin-bottom: 20px; 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (width <= 600px) {
   .features-flexbox {
     display: grid;
     box-sizing: border-box;
     height: auto;
     grid-template-columns: repeat(1, 1fr) !important; /* Default to 1 column */
+
     /* row-gap: 20px; Adjust as necessary */
+
     /* column-gap: 20px; Adjust as necessary */
     position: relative;
+
     /* min-height: 800px; */
 
   }
@@ -245,27 +267,33 @@
   } */
 }
 
-@media screen and (max-width:1200px)  {
-
+@media screen and (width <=1200px)  {
   .features-flexbox {
     display: grid;
     box-sizing: border-box;
+
     /* align-self: stretch; */
     height: auto;
     grid-template-columns: repeat(2, 1fr);
 
     /* grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(350px, 100%/3)), 3fr)); */
+
     /* grid-template-rows: repeat(3, minmax(350px, auto)); */
+
     /* height: 1114px; */
+
     /* flex-direction: row;
       flex-wrap: wrap;
       align-items:flex-start;
       justify-content: center;
       padding: var(--padding-25xl) 0 var(--padding-31xl); */
     position: relative;
+
     /* justify-content: space-around; */
+
     /* flex-basis: 25%; */
     gap: var(--gap-27xl);
+
     /* font-size: var(--font-size-3xl); */
     font-size: var(--font-size-semimedium); 
     min-height: 800px;
@@ -274,6 +302,7 @@
   }
 
 }
+
 /* .progress-icon {
     align-self: stretch;
     height: 100%;

@@ -4,15 +4,18 @@
   object-fit: cover;
   min-height: 72px;
 }
+
 .cosmo-logo-invert-original-1-icon {
   height: 72px;
   width: 72px;
 }
+
 .logo-icon {
   align-self: stretch;
   width: 281px;
   max-height: 100%;
 }
+
 .cosmo-logo-edit {
   display: flex;
   flex-direction: row;
@@ -23,10 +26,12 @@
   gap: var(--gap-3xs);
   max-width: 100%;
 }
+
 .link-about2 {
   display: inline-block;
   min-width: 60px;
 }
+
 .link-about2,
 .link-courses2,
 .link-parents2 {
@@ -38,19 +43,23 @@
   color: inherit;
   cursor: pointer;
 }
+
 .link-courses2 {
   display: inline-block;
   min-width: 81px;
 }
+
 .link-parents2 {
   white-space: nowrap;
 }
+
 .divdivider-vertical2 {
   width: 1px;
   height: 40px;
   position: relative;
   background-color: var(--color-white);
 }
+
 .divdivider-vertical-wrapper {
   display: flex;
   flex-direction: column;
@@ -58,6 +67,7 @@
   justify-content: flex-start;
   padding: var(--padding-base) 0 0;
 }
+
 .book-an-appointment1 {
   text-decoration: none;
   position: relative;
@@ -67,12 +77,14 @@
   color: inherit;
   white-space: nowrap;
 }
+
 .link-wrapper,
 .link8 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .link8 {
   align-self: stretch;
   border: 1px solid var(--color-goldenrod-100);
@@ -80,12 +92,14 @@
   padding: 0 var(--padding-3xs);
   cursor: pointer;
 }
+
 .link-wrapper {
   flex: 1;
   flex-direction: column;
   padding: var(--padding-base-5) 0 0;
   text-align: center;
 }
+
 .navbar2,
 .page-links {
   display: flex;
@@ -93,11 +107,13 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .page-links {
   width: 805px;
   justify-content: flex-start;
   gap: var(--gap-lgi-2);
 }
+
 .navbar2 {
   align-self: stretch;
   backdrop-filter: blur(8px);
@@ -115,7 +131,8 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (width <= 1200px) {
   .page-links {
     display: none;
   }

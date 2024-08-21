@@ -8,13 +8,15 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-@media screen and (max-width: 1425px) {
+
+@media screen and (width <= 1425px) {
   .features-wrapper {
     padding-bottom: var(--padding-64xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 825px) {
+
+@media screen and (width <= 825px) {
   .features-wrapper {
     padding-bottom: var(--padding-35xl);
     box-sizing: border-box;

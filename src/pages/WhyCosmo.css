@@ -7,6 +7,7 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .learn-more-about1 {
   margin: 0;
   font-size: inherit;
@@ -14,14 +15,18 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .welcome-to-cosmo {
   font-size: var(--font-size-lg);
   line-height: 28px;
 }
+
 .start-today {
   flex: 1;
   position: relative;
+
   /* font-size: var(--font-size-5xl); */
+
   /* font-size: var(--font-size-description);  */
   font-size: 1rem; 
   line-height: 20px;
@@ -32,6 +37,7 @@
   display: inline-block;
   max-height: 23.015972137451172px;
 }
+
 .button3 {
   /* width: 229px; */
   width: 130px; 
@@ -41,11 +47,14 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
   /* padding: var(--padding-8xl-4) var(--padding-sm-4) var(--padding-7xl-6)
     var(--padding-sm-6); */
+
   /* padding: var(--padding-large-button-vertical) var(--padding-tiny-button-horizontal);    */
   padding: 15px 10px; 
   box-sizing: border-box;
+
   /* min-width: 120.08333587646484px; */
   min-width: 180px; 
   white-space: nowrap;
@@ -54,11 +63,13 @@
 .button3:hover {
   background-color: #9417E2;
 }
+
 .divchakra-stack3,
 .link3 {
   display: flex;
   align-items: center;
 }
+
 .link3 {
   width: 162px;
   flex-direction: column;
@@ -66,6 +77,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
   box-sizing: border-box;
 }
+
 .divchakra-stack3 {
   cursor: pointer;
   border: 0;
@@ -75,6 +87,7 @@
   flex-direction: row;
   justify-content: center;
 }
+
 .learn-more-about-cosmo2 {
   position: relative;
   top: 150px;
@@ -83,6 +96,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+
   /* padding: 0 var(--padding-xl); */
   padding: 0 30px; 
   box-sizing: border-box;
@@ -122,6 +136,7 @@
   font-family: inherit;
   justify-content: center;
 }
+
 .at-cosmo-our1,
 .mission-statement,
 .our-mission1 {
@@ -129,6 +144,7 @@
   align-items: center;
   max-width: 100%;
 }
+
 .at-cosmo-our1 {
   width: 1482px;
   position: relative;
@@ -136,17 +152,17 @@
   line-height: 28px;
   justify-content: center;
 }
+
 .mission-statement {
   position: relative;
+
   /* top: 2600px;   */
-  margin-left: auto; 
-  margin-right: auto; 
-  margin-bottom: 60px; 
-  margin-top: 200px; 
-  text-align: center; 
+  margin: 200px auto 60px; 
+
   /* margin: 0 auto;  */
   border-radius: var(--br-46xl);
   width: 85%; 
+
   /* width: 1694px; */
   flex-direction: column;
   justify-content: center;
@@ -159,10 +175,12 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 /* .mission-statement {
   position: absolute;
   top: 3857px;
   left: 20%;  */
+
   /* margin-left: auto; 
   margin-right: auto; 
   text-align: center; 
@@ -190,6 +208,7 @@
   max-height: 100%;
   object-fit: cover;
 }
+
 .qualities-image {
   height: 264.5px;
   width: 233px;
@@ -200,45 +219,57 @@
   padding: var(--padding-2xl-5) 0 0;
   box-sizing: border-box;
 }
+
 .qualities-of-our1 {
   font-weight: 600;
 }
+
 .blank-line1,
 .qualities-of-our-coaches1 {
   margin: 0;
 }
+
 .expert-knowledge1 {
   font-family: var(--font-inter);
 }
+
 .expert-knowledge-our-coaches3 {
   margin-bottom: 0;
 }
+
 .engaging-methodologies1,
 .they-use-innovative1 {
   font-family: var(--font-inter);
 }
+
 .engaging-methodologies-they-u1 {
   margin-bottom: 0;
 }
+
 .inspirational-mentors1,
 .with-their-enthusiastic1 {
   font-family: var(--font-inter);
 }
+
 .inspirational-mentors-with-th1 {
   margin-bottom: 0;
 }
+
 .empathetic-guides1,
 .they-listen-and1 {
   font-family: var(--font-inter);
 }
+
 .expert-knowledge-our-coaches2 {
   margin: 0;
   font-size: var(--font-size-lg);
   padding-left: var(--padding-5xl);
 }
+
 .qualities-of-our-container3 {
   width: 100%;
 }
+
 .qualities-of-our-container2 {
   width: 642px;
   position: relative;
@@ -248,21 +279,25 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .coach-qualities {
   position: relative;
+
   /* top: 4527px; */
+
   /* top: 3100px;  */
+
   /* left: 0; */
   width: 100%;
   margin-top: 100px; 
   margin-bottom: 50px; 
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
   padding: var(--padding-16xl) 371px var(--padding-16xl) 367px;
   box-sizing: border-box;
+
   /* gap: var(--gap-xl); */
   gap: 60px; 
   max-width: 100%;
@@ -271,9 +306,11 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .apply-today3 {
   flex: 1;
   position: relative;
+
   /* font-size: var(--font-size-5xl); */
   font-size: 1rem; 
   line-height: 20px;
@@ -284,6 +321,7 @@
   display: inline-block;
   max-height: 23px;
 }
+
 .button4 {
   align-self: stretch;
   border-radius: var(--br-mid);
@@ -302,30 +340,37 @@
 .button4:hover {
   background-color: #9417E2;
 }
+
 .divchakra-stack4,
 .link4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
+
 .link4 {
   align-self: stretch;
   justify-content: center;
 }
+
 .divchakra-stack4 {
   cursor: pointer;
   border: 0;
   padding: 0 0 var(--padding-10xs);
   background-color: transparent;
+
   /* position: absolute; */
   position: relative; 
+
   /* top: 3150px; */
+
   /* left: 732.5px; */
   margin: auto; 
   width: 229px;
   justify-content: center;
   box-sizing: border-box;
 }
+
 .learn-more-about2,
 .ready-to-be {
   width: 1094px;
@@ -335,6 +380,7 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .learn-more-about2 {
   margin: 0;
   font-size: inherit;
@@ -342,10 +388,12 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .ready-to-be {
   font-size: var(--font-size-lg);
   line-height: 28px;
 }
+
 .start-today1 {
   flex: 1;
   position: relative;
@@ -358,6 +406,7 @@
   display: inline-block;
   max-height: 23.015972137451172px;
 }
+
 .button5 {
   width: 229px;
   border-radius: var(--br-mid);
@@ -372,14 +421,17 @@
   min-width: 120.08333587646484px;
   white-space: nowrap;
 }
+
 .button5:hover {
   background-color: #9417E2;
 }
+
 .divchakra-stack5,
 .link5 {
   display: flex;
   align-items: flex-start;
 }
+
 .link5 {
   width: 162px;
   flex-direction: column;
@@ -387,6 +439,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
   box-sizing: border-box;
 }
+
 .divchakra-stack5 {
   cursor: pointer;
   border: 0;
@@ -396,9 +449,11 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .learn-more-about-cosmo3 {
   /* position: absolute; */
   position: relative; 
+
   /* top: 5332px; */
   top: 200px; 
   left: 0;
@@ -416,12 +471,14 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .why-cosmo {
   width: 100%;
+
   /* height: 6800px; */
   position: relative;
   overflow-y: hidden;
-  background-image: url(/public/why-cosmo@3x.png);
+  background-image: url("/public/why-cosmo@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -435,41 +492,48 @@ bottom: 0;
 
 } */
 
-@media screen and (max-width: 1050px) {
+@media screen and (width <= 1050px) {
   .learn-more-about1,
   .our-mission1 {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .coach-qualities {
     padding-left: 183px;
     padding-right: 185px;
     box-sizing: border-box;
   }
+
   .learn-more-about2 {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .learn-more-about-cosmo2,
   .learn-more-about-cosmo3 {
     gap: var(--gap-mid);
   }
+
   .learn-more-about1,
   .our-mission1 {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .coach-qualities {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .learn-more-about2 {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .why-cosmo {
     height: auto;
     min-height: 6389;
@@ -479,21 +543,25 @@ bottom: 0;
     margin-top: 20px; 
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .learn-more-about1,
   .our-mission1 {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .coach-qualities {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .learn-more-about2 {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .why-cosmo {
     height: auto;
     min-height: 6389;

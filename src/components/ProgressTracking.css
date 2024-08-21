@@ -2,11 +2,12 @@
   align-self: stretch;
   height: 487px;
   position: relative;
-  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
   border-radius: var(--br-25xl);
   background-color: var(--color-papayawhip);
   display: none;
 }
+
 .progress-2-icon {
   height: 174px;
   width: 181px;
@@ -14,6 +15,7 @@
   object-fit: cover;
   z-index: 1;
 }
+
 .progress-2-wrapper {
   align-self: stretch;
   display: flex;
@@ -22,6 +24,7 @@
   justify-content: center;
   padding: 0 var(--padding-xl);
 }
+
 .progress-tracking1 {
   margin: 0;
   align-self: stretch;
@@ -32,6 +35,7 @@
   font-family: inherit;
   z-index: 1;
 }
+
 .stay-informed-parents-container {
   height: 171px;
   flex: 1;
@@ -41,6 +45,7 @@
   align-items: center;
   z-index: 1;
 }
+
 .stay-informed-parents-and-stu-wrapper {
   align-self: stretch;
   display: flex;
@@ -50,6 +55,7 @@
   padding: 0 var(--padding-5xl) 0 var(--padding-5xl-5);
   font-size: var(--font-size-sm);
 }
+
 .progress-tracking,
 .progress-tracking-parent {
   display: flex;
@@ -57,17 +63,19 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .progress-tracking-parent {
   align-self: stretch;
   gap: var(--gap-5xs);
 }
+
 .progress-tracking {
   width: 347px;
   margin: 0 !important;
   position: absolute;
   top: 44px;
   left: 939.5px;
-  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
   border-radius: var(--br-25xl);
   background-color: var(--color-papayawhip);
   padding: var(--padding-51xl) 0 0;
@@ -78,7 +86,8 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .progress-tracking1 {
     font-size: var(--font-size-lg);
     line-height: 22px;

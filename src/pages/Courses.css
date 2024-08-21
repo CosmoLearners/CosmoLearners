@@ -8,19 +8,22 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .at-cosmo-we2 {
   font-size: 23.1px;
   line-height: 43.31px;
 }
+
 .courses,
 .learn-more-about-cosmo5 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .learn-more-about-cosmo5 {
   align-self: stretch;
-  background-color: rgba(87, 51, 126, 0.78);
+  background-color: rgb(87 51 126 / 78%);
   align-items: center;
   padding: var(--padding-51xl) var(--padding-xl);
   box-sizing: border-box;
@@ -33,42 +36,49 @@
   margin-top: 5rem; 
   margin-bottom: 5rem; 
 }
+
 .courses {
   width: 100%;
   position: relative;
   overflow-y: auto;
   align-items: flex-start;
   gap: var(--gap-81xl);
-  background-image: url(/public/courses@3x.png);
+  background-image: url("/public/courses@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .learn-more-about4 {
     font-size: var(--font-size-12xl);
     line-height: 35px;
   }
+
   .courses {
     gap: var(--gap-31xl);
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .learn-more-about-cosmo5 {
     gap: var(--gap-mid);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .learn-more-about4 {
     font-size: var(--font-size-4xl);
     line-height: 26px;
   }
+
   .at-cosmo-we2 {
     font-size: var(--font-size-lg);
     line-height: 35px;
   }
+
   .courses {
     gap: var(--gap-6xl);
   }

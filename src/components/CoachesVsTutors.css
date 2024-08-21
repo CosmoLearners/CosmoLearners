@@ -11,24 +11,30 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .personalized-child2 {
   height: 280px;
   width: 280px;
+
   /* position: relative; */
   object-fit: cover;
 }
+
 .blank-line9,
 .personalized-learning-journeys {
   margin: 0;
   font-weight: 600;
 }
+
 .just-like-sports {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .personalized-learning-journeys-container1 {
   width: 100%;
 }
+
 .personalized-learning-journeys-container {
   width: 561px;
   position: relative;
@@ -38,11 +44,11 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized5 {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-108xl);
@@ -50,18 +56,22 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .blank-line10,
 .encouragement-and-motivation {
   margin: 0;
   font-weight: 600;
 }
+
 .our-coaches-do {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .encouragement-and-motivation-container1 {
   width: 100%;
 }
+
 .encouragement-and-motivation-container {
   width: 561px;
   position: relative;
@@ -71,17 +81,19 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized-child3 {
   height: 280px;
   width: 280px;
+
   /* position: relative; */
   object-fit: cover;
 }
+
 .personalized6 {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-108xl);
@@ -89,40 +101,52 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .personalized-child4 {
   height: 280px;
   width: 280px;
+
   /* position: relative; */
   object-fit: cover;
 }
+
 .developing-skills-beyond {
   line-height: 35px;
 }
+
 .developing-skills-beyond-acade1 {
   font-weight: 600;
 }
+
 .developing-skills-beyond-acade {
   margin: 0;
 }
+
 .blank-line13 {
   font-weight: 600;
 }
+
 .blank-line12 {
   line-height: 28px;
 }
+
 .blank-line11 {
   margin: 0;
 }
+
 .while-tutors-often-focus-on-sp1 {
   line-height: 28px;
 }
+
 .while-tutors-often-focus-on-sp {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .developing-skills-beyond-container1 {
   width: 100%;
 }
+
 .developing-skills-beyond-container {
   /* height: 212px; */
   width: 561px;
@@ -132,33 +156,39 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized7 {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-108xl);
   box-sizing: border-box;
   max-width: 100%;
   gap: var(--gap-xl);
+
   /* margin-bottom: 50px;  */
 }
+
 .a-holistic-approach,
 .blank-line14 {
   margin: 0;
   font-weight: 600;
 }
+
 .our-coaches-consider {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .a-holistic-approach-container1 {
   width: 100%;
 }
+
 .a-holistic-approach-container {
   width: 561px;
+
   /* position: relative; */
   line-height: 28px;
   display: flex;
@@ -166,17 +196,19 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized-child5 {
   height: 280px;
   width: 280px;
+
   /* position: relative; */
   object-fit: cover;
 }
+
 .personalized8 {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-108xl);
@@ -184,24 +216,30 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 .personalized-child6 {
   height: 280px;
   width: 280px;
+
   /* position: relative; */
   object-fit: cover;
 }
+
 .blank-line15,
 .continuous-feedback-loop {
   margin: 0;
   font-weight: 600;
 }
+
 .rather-than-just {
   margin: 0;
   font-size: var(--font-size-lg);
 }
+
 .continuous-feedback-loop-container1 {
   width: 100%;
 }
+
 .continuous-feedback-loop-container {
   width: 561px;
   position: relative;
@@ -211,12 +249,12 @@
   flex-shrink: 0;
   max-width: 100%;
 }
+
 .personalized9 {
   align-self: stretch;
   position: relative; 
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--padding-108xl);
@@ -224,6 +262,7 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
+
 /* .coaches-vs-tutors, */
 .learning-journeys {
   /* width: 1194px; */
@@ -232,12 +271,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   /* gap: var(--gap-41xl); */
+
   /* gap: 100px;  */
+
   /* row-gap: 100px;  */
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-13xl);
+
   /* margin-bottom: 100px;  */
 }
 
@@ -250,20 +293,24 @@
   gap: var(--gap-41xl);
   max-width: 100%;
   text-align: left;
-  font-size: var(--font-size-13xl);
+
   /* margin-bottom: 350px;  */
+
   /* margin-bottom: 500px;  */
+
   /* top: 150px;  */
   left: 0;
   width: 100%;
   overflow: clip;
   padding: var(--padding-41xl) var(--padding-xl);
   box-sizing: border-box;
+
   /* text-align: center; */
   font-size: var(--font-size-25xl);
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 /* .coaches-vs-tutors {
   position: absolute;
   top: 1883px;
@@ -277,7 +324,7 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 } */
-@media screen and (max-width: 1200px) {
+@media screen and (width <= 1200px) {
   .personalized5,
   .personalized6,
   .personalized7,
@@ -287,20 +334,24 @@
     padding-right: var(--padding-44xl);
     box-sizing: border-box;
     flex-direction: column; 
+
     /* flex-direction: column; 
     text-align: center;  */
   }
+
   .learning-journeys {
     gap: 80px;
   }
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .why-coaches-and {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .personalized5,
   .personalized6,
   .personalized7,
@@ -310,11 +361,13 @@
     padding-right: var(--padding-12xl);
     box-sizing: border-box;
   }
+
   .coaches-vs-tutors {
     gap: var(--gap-11xl);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .why-coaches-and {
     font-size: var(--font-size-7xl);
     line-height: 32px;

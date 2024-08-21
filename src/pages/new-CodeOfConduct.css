@@ -7,28 +7,35 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .at-cosmo-scholar {
   margin: 0;
 }
+
 .respectful-communication {
   margin: 0;
   font-size: var(--font-size-17xl);
 }
+
 .respect-and-courtesy {
   margin: 0;
   font-size: var(--font-size-5xl);
 }
+
 .avoid-any-form-of-harassment {
   margin-bottom: 0;
 }
+
 .treat-all-users-including-stu {
   margin: 0;
   padding-left: var(--padding-5xl);
 }
+
 .privacy-and-confidentiality {
   margin: 0;
   font-size: var(--font-size-13xl);
 }
+
 .introduction-at-cosmo-container {
   align-self: stretch;
   height: 2723px;
@@ -39,6 +46,7 @@
   align-items: center;
   font-size: var(--font-size-lg);
 }
+
 .learn-more-about-us-parent {
   width: 1021px;
   display: flex;
@@ -52,6 +60,7 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
 .code-of-conduct-inner {
   align-self: stretch;
   display: flex;
@@ -62,6 +71,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .code-of-conduct {
   width: 100%;
   position: relative;
@@ -71,32 +81,37 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-106xl);
-  background-image: url(/public/code-of-conduct@3x.png);
+  background-image: url("/public/code-of-conduct@3x.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1050px) {
+
+@media screen and (width <= 1050px) {
   .code-of-conduct {
     gap: var(--gap-43xl);
   }
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .learn-more-about1 {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .learn-more-about-us-parent {
     gap: var(--gap-mid);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .learn-more-about1 {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .code-of-conduct {
     gap: var(--gap-12xl);
   }

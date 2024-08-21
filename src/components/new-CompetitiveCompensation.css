@@ -2,11 +2,12 @@
   align-self: stretch;
   height: 499px;
   position: relative;
-  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
   border-radius: var(--br-25xl);
   background-color: var(--color-papayawhip);
   display: none;
 }
+
 .one-on-one-1-icon1 {
   height: 178px;
   flex: 1;
@@ -16,6 +17,7 @@
   object-fit: cover;
   z-index: 1;
 }
+
 .feature-icon-row {
   align-self: stretch;
   display: flex;
@@ -24,6 +26,7 @@
   justify-content: flex-start;
   padding: 0 var(--padding-44xl);
 }
+
 .competitive-compensation1,
 .earn-what-you {
   position: relative;
@@ -32,17 +35,20 @@
   justify-content: center;
   z-index: 1;
 }
+
 .competitive-compensation1 {
   align-self: stretch;
   height: 28px;
   line-height: 54px;
   flex-shrink: 0;
 }
+
 .earn-what-you {
   height: 198px;
   flex: 1;
   line-height: 28.5px;
 }
+
 .feature-description-row {
   align-self: stretch;
   display: flex;
@@ -53,6 +59,7 @@
   margin-top: -7px;
   font-size: var(--font-size-sm);
 }
+
 .compensation-description,
 .competitive-compensation {
   display: flex;
@@ -60,12 +67,14 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .compensation-description {
   align-self: stretch;
 }
+
 .competitive-compensation {
   flex: 1;
-  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
   border-radius: var(--br-25xl);
   background-color: var(--color-papayawhip);
   padding: var(--padding-47xl) 0 0;
@@ -78,22 +87,26 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (width <= 750px) {
   .competitive-compensation {
     padding-top: var(--padding-24xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .feature-icon-row {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
   }
+
   .competitive-compensation1 {
     font-size: var(--font-size-base);
     line-height: 43px;
   }
+
   .competitive-compensation {
     gap: var(--gap-lg);
   }

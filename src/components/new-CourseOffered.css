@@ -11,6 +11,7 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .course-satsvg-icon {
   width: 32px;
   height: 32px;
@@ -19,6 +20,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .course-satsvg,
 .spanchakra-avatar {
   border-radius: var(--br-9xs);
@@ -27,10 +29,12 @@
   align-items: center;
   justify-content: center;
 }
+
 .spanchakra-avatar {
   background-color: var(--color-seashell);
   flex-direction: row;
 }
+
 .python1 {
   position: relative;
   font-size: var(--font-size-xl);
@@ -42,11 +46,13 @@
   display: inline-block;
   min-width: 69px;
 }
+
 .divchakra-stack9,
 .python {
   display: flex;
   justify-content: flex-start;
 }
+
 .divchakra-stack9 {
   height: 26.1px;
   flex-direction: row;
@@ -55,6 +61,7 @@
   box-sizing: border-box;
   gap: var(--gap-3xs);
 }
+
 .python {
   cursor: pointer;
   border: 0;
@@ -65,6 +72,7 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .spanchakra-avatar1 {
   border-radius: var(--br-9xs);
   background-color: var(--color-dodgerblue-200);
@@ -73,6 +81,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .scratch1 {
   position: relative;
   font-size: var(--font-size-xl);
@@ -84,12 +93,14 @@
   display: inline-block;
   min-width: 76px;
 }
+
 .divchakra-stack10,
 .scratch {
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .divchakra-stack10 {
   align-self: stretch;
   height: 26px;
@@ -98,6 +109,7 @@
   padding: 0 var(--padding-5xs) 0;
   gap: var(--gap-3xs);
 }
+
 .scratch {
   cursor: pointer;
   border: 0;
@@ -109,6 +121,7 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .java1 {
   position: relative;
   font-size: var(--font-size-xl);
@@ -120,11 +133,13 @@
   display: inline-block;
   min-width: 46px;
 }
+
 .divchakra-stack11,
 .java {
   display: flex;
   box-sizing: border-box;
 }
+
 .divchakra-stack11 {
   align-self: stretch;
   height: 26.1px;
@@ -134,6 +149,7 @@
   padding: 0 var(--padding-5xs) 0;
   gap: var(--gap-4xs);
 }
+
 .java {
   cursor: pointer;
   border: 0;
@@ -147,6 +163,7 @@
   justify-content: space-between;
   min-height: 50px;
 }
+
 .swift1 {
   position: relative;
   font-size: var(--font-size-xl);
@@ -158,12 +175,14 @@
   display: inline-block;
   min-width: 51px;
 }
+
 .divchakra-stack12,
 .swift {
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
 }
+
 .divchakra-stack12 {
   align-self: stretch;
   height: 26.1px;
@@ -172,6 +191,7 @@
   padding: 0 var(--padding-5xs) 0;
   gap: var(--gap-3xs);
 }
+
 .swift {
   cursor: pointer;
   border: 0;
@@ -183,16 +203,19 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .algebra-wrapper {
   flex-direction: row;
   align-items: center;
 }
+
 .algebra,
 .algebra-wrapper,
 .divchakra-stack13 {
   display: flex;
   justify-content: flex-start;
 }
+
 .divchakra-stack13 {
   height: 26.1px;
   flex-direction: row;
@@ -201,6 +224,7 @@
   box-sizing: border-box;
   gap: var(--gap-3xs);
 }
+
 .algebra {
   cursor: pointer;
   border: 0;
@@ -211,6 +235,7 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .statistics1 {
   font-size: var(--font-size-xl);
   line-height: 24px;
@@ -219,6 +244,7 @@
   text-align: left;
   min-width: 92px;
 }
+
 .calculus1,
 .more,
 .statistics1 {
@@ -226,6 +252,7 @@
   font-weight: 600;
   display: inline-block;
 }
+
 .calculus1 {
   font-size: var(--font-size-xl);
   line-height: 24px;
@@ -234,17 +261,20 @@
   text-align: left;
   min-width: 84px;
 }
+
 .more {
   text-decoration: underline;
   line-height: 20px;
   min-width: 68px;
   max-height: 40px;
 }
+
 .vector-icon1 {
   width: 7.2px;
   height: 13.4px;
   position: relative;
 }
+
 .img {
   height: 13px;
   width: 10px;
@@ -255,6 +285,7 @@
   padding: var(--padding-11xs-3) 0 0 var(--padding-11xs);
   box-sizing: border-box;
 }
+
 .course-list,
 .course-offered,
 .link-button {
@@ -263,25 +294,28 @@
   justify-content: center;
   box-sizing: border-box;
 }
+
 .link-button {
   flex-direction: row;
   padding: var(--padding-6xs-9) 0 var(--padding-6xs-1) var(--padding-11xs);
   gap: var(--gap-3xs-5);
   min-width: 40px;
 }
+
 .course-list,
 .course-offered {
   max-width: 100%;
 }
+
 .course-list {
   width: 990px;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   padding: 0 var(--padding-69xl);
   gap: 23px 42px;
   min-height: 123px;
   font-size: var(--font-size-5xl);
 }
+
 .course-offered {
   align-self: stretch;
   overflow: hidden;
@@ -293,33 +327,39 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1425px) {
+
+@media screen and (width <= 1425px) {
   .course-list {
     padding-left: var(--padding-25xl);
     padding-right: var(--padding-25xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 825px) {
+
+@media screen and (width <= 825px) {
   .heading-21 {
     font-size: var(--font-size-5xl);
     line-height: 22px;
   }
+
   .course-list {
     gap: var(--gap-2xl);
     padding-left: var(--padding-3xl);
     padding-right: var(--padding-3xl);
     box-sizing: border-box;
   }
+
   .course-offered {
     gap: var(--gap-mid);
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .heading-21 {
     font-size: var(--font-size-lg);
     line-height: 17px;
   }
+
   .calculus1,
   .java1,
   .python1,
@@ -329,6 +369,7 @@
     font-size: var(--font-size-base);
     line-height: 19px;
   }
+
   .more {
     font-size: var(--font-size-lgi);
     line-height: 15px;

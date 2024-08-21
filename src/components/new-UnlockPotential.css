@@ -4,6 +4,7 @@
   position: relative;
   object-fit: cover;
 }
+
 .learn-more-about5 {
   margin: 0;
   align-self: stretch;
@@ -13,12 +14,14 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .welcome-to-cosmo2 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-lg);
   line-height: 28px;
 }
+
 .start-today {
   flex: 1;
   position: relative;
@@ -31,6 +34,7 @@
   display: inline-block;
   max-height: 23.02px;
 }
+
 .button6 {
   width: 229px;
   border-radius: var(--br-mid);
@@ -44,11 +48,13 @@
   min-width: 120.08px;
   white-space: nowrap;
 }
+
 .divchakra-stack6,
 .link9 {
   display: flex;
   align-items: flex-start;
 }
+
 .link9 {
   width: 162px;
   flex-direction: column;
@@ -56,6 +62,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
   box-sizing: border-box;
 }
+
 .divchakra-stack6 {
   cursor: pointer;
   border: 0;
@@ -65,6 +72,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .learn-more-about-us-group {
   flex: 1;
   display: flex;
@@ -78,6 +86,7 @@
   max-width: 100%;
   margin-left: -2px;
 }
+
 .cosmo-rocket-1-icon {
   height: 257px;
   width: 190px;
@@ -85,6 +94,7 @@
   object-fit: contain;
   margin-left: -2px;
 }
+
 .unlock-potential,
 .unlock-your-potential {
   display: flex;
@@ -92,9 +102,11 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .unlock-potential {
   margin: calc(5% + 20px) 0; 
 }
+
 .unlock-your-potential {
   flex: 1;
   border: 1px solid var(--color-black);
@@ -103,6 +115,7 @@
   justify-content: center;
   padding: var(--padding-39xl) var(--padding-66xl);
 }
+
 .unlock-potential {
   align-self: stretch;
   align-items: flex-start;
@@ -113,38 +126,46 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (width <= 1200px) {
   .learn-more-about-us-group {
     padding-left: var(--padding-8xl);
     padding-right: var(--padding-8xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 850px) {
+
+@media screen and (width <= 850px) {
   .learn-more-about5 {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .learn-more-about-us-group {
     gap: var(--gap-mid);
   }
+
   .unlock-your-potential {
     padding: var(--padding-19xl) var(--padding-23xl);
     box-sizing: border-box;
   }
+
   .unlock-potential {
     padding-bottom: var(--padding-39xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .learn-more-about5 {
     font-size: var(--font-size-7xl);
     line-height: 32px;
   }
+
   .learn-more-about-us-group {
     min-width: 100%;
   }
+
   .unlock-your-potential {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);

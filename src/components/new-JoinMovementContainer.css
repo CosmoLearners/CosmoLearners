@@ -9,6 +9,7 @@
   flex-shrink: 0;
   object-fit: cover;
 }
+
 .heading-22 {
   align-self: stretch;
   height: 96px;
@@ -19,6 +20,7 @@
   justify-content: center;
   flex-shrink: 0;
 }
+
 .start-learning-now {
   position: relative;
   font-size: var(--font-size-sm);
@@ -28,6 +30,7 @@
   color: var(--color-white);
   text-align: center;
 }
+
 .link-button1 {
   cursor: pointer;
   border: 0;
@@ -44,9 +47,11 @@
   white-space: nowrap;
   max-width: 100%;
 }
+
 .link-button1:hover {
   background-color: var(--color-slateblue);
 }
+
 .become-a-tutor1 {
   position: relative;
   font-size: var(--font-size-sm);
@@ -58,12 +63,14 @@
   display: inline-block;
   min-width: 106px;
 }
+
 .link-button2,
 .linkmargin {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
 }
+
 .link-button2 {
   cursor: pointer;
   border: 2px solid var(--color-lightgray-200);
@@ -77,11 +84,13 @@
   min-width: 120px;
   white-space: nowrap;
 }
+
 .link-button2:hover {
   background-color: var(--color-gainsboro-100);
   border: 2px solid var(--color-silver);
   box-sizing: border-box;
 }
+
 .linkmargin {
   width: 330px;
   flex-direction: column;
@@ -89,6 +98,7 @@
   padding: var(--padding-5xs) 0 0;
   max-width: 100%;
 }
+
 .divchakra-stack16,
 .for-parents,
 .movement-content {
@@ -96,6 +106,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .for-parents {
   width: 78px;
   position: relative;
@@ -107,28 +118,33 @@
   text-align: center;
   min-width: 78px;
 }
+
 .divchakra-stack16,
 .movement-content {
   flex-direction: column;
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .divchakra-stack16 {
   align-self: stretch;
   height: 96px;
   padding: 0 var(--padding-xl);
 }
+
 .movement-content {
   width: 834px;
   padding: var(--padding-xl) 0;
   gap: var(--gap-13xl);
 }
+
 .cloud-icon {
   width: 296px;
   flex: 1;
   position: relative;
   max-height: 100%;
 }
+
 .cloudlargerightsvg {
   align-self: stretch;
   height: 188px;
@@ -141,6 +157,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) var(--padding-12xs);
   box-sizing: border-box;
 }
+
 .rocket-clipart-1-icon {
   width: 206px;
   height: 205px;
@@ -149,12 +166,14 @@
   z-index: 1;
   margin-top: -95px;
 }
+
 .image-container,
 .join-movement-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .image-container {
   width: 228px;
   margin: 0 !important;
@@ -163,6 +182,7 @@
   left: 1221px;
   flex-direction: column;
 }
+
 .join-movement-container {
   align-self: stretch;
   overflow: hidden;
@@ -177,17 +197,20 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (width <= 1200px) {
   .join-movement-container {
     padding-left: var(--padding-17xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .heading-22 {
     font-size: var(--font-size-lg);
     line-height: 22px;
   }
+
   .movement-content {
     gap: var(--gap-base);
   }

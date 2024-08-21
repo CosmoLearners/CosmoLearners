@@ -7,6 +7,7 @@
   justify-content: center;
   max-width: 100%;
 }
+
 .learn-more-about7 {
   margin: 0;
   font-size: inherit;
@@ -14,10 +15,12 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .ready-to-be {
   font-size: var(--font-size-lg);
   line-height: 28px;
 }
+
 .start-today1 {
   flex: 1;
   position: relative;
@@ -30,6 +33,7 @@
   display: inline-block;
   max-height: 23.02px;
 }
+
 .button7 {
   width: 229px;
   border-radius: var(--br-mid);
@@ -43,11 +47,13 @@
   min-width: 120.08px;
   white-space: nowrap;
 }
+
 .learnmore-button,
 .link10 {
   display: flex;
   align-items: flex-start;
 }
+
 .link10 {
   width: 162px;
   flex-direction: column;
@@ -55,6 +61,7 @@
   padding: var(--padding-11xs-5) 0 var(--padding-11xs-5) 0;
   box-sizing: border-box;
 }
+
 .learnmore-button {
   cursor: pointer;
   border: 0;
@@ -64,6 +71,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+
 .learn-more-about-cosmo3 {
   align-self: stretch;
   display: flex;
@@ -80,11 +88,13 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 850px) {
+
+@media screen and (width <= 850px) {
   .learn-more-about7 {
     font-size: var(--font-size-16xl);
     line-height: 43px;
   }
+
   .learn-more-about-cosmo3 {
     gap: var(--gap-mid);
     padding-top: var(--padding-46xl);
@@ -92,7 +102,8 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .learn-more-about7 {
     font-size: var(--font-size-7xl);
     line-height: 32px;

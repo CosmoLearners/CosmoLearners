@@ -5,6 +5,7 @@
   object-fit: cover;
   min-height: 72px;
 }
+
 .logo-image-icon {
   align-self: stretch;
   width: 281px;
@@ -13,11 +14,13 @@
   object-fit: cover;
   min-height: 72px;
 }
+
 .cosmo-logo-edit1 {
   padding: 0 var(--padding-6xl);
   box-sizing: border-box;
   gap: var(--gap-3xs);
 }
+
 .cosmo-logo-edit-wrapper,
 .cosmo-logo-edit1 {
   display: flex;
@@ -26,10 +29,12 @@
   justify-content: flex-start;
   max-width: 100%;
 }
+
 .link-about3 {
   display: inline-block;
   min-width: 60px;
 }
+
 .link-about3,
 .link-courses3,
 .link-parents3 {
@@ -41,19 +46,23 @@
   color: inherit;
   cursor: pointer;
 }
+
 .link-courses3 {
   display: inline-block;
   min-width: 81px;
 }
+
 .link-parents3 {
   white-space: nowrap;
 }
+
 .divdivider-vertical3 {
   width: 1px;
   height: 40px;
   position: relative;
   background-color: var(--color-white);
 }
+
 .menu-divider {
   display: flex;
   flex-direction: column;
@@ -61,6 +70,7 @@
   justify-content: flex-start;
   padding: var(--padding-base) 0 0;
 }
+
 .book-an-appointment7 {
   text-decoration: none;
   position: relative;
@@ -70,12 +80,14 @@
   color: inherit;
   white-space: nowrap;
 }
+
 .appointment-link-container,
 .link12 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .link12 {
   align-self: stretch;
   border: 1px solid var(--color-goldenrod-100);
@@ -83,12 +95,14 @@
   padding: 0 var(--padding-3xs);
   cursor: pointer;
 }
+
 .appointment-link-container {
   flex: 1;
   flex-direction: column;
   padding: var(--padding-base-5) 0 0;
   text-align: center;
 }
+
 .menu-options,
 .navbar3 {
   display: flex;
@@ -96,6 +110,7 @@
   align-items: flex-start;
   max-width: 100%;
 }
+
 .menu-options {
   width: 845px;
   justify-content: flex-start;
@@ -103,6 +118,7 @@
   box-sizing: border-box;
   gap: var(--gap-lgi-2);
 }
+
 .navbar3 {
   align-self: stretch;
   backdrop-filter: blur(8px);
@@ -117,7 +133,8 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1225px) {
+
+@media screen and (width <= 1225px) {
   .menu-options {
     display: none;
   }

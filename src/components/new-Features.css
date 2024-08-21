@@ -4,12 +4,14 @@
   position: relative;
   flex-shrink: 0;
 }
+
 .feature-icon {
   margin-top: -83px;
   height: 45px;
   max-width: 100%;
   overflow: hidden;
 }
+
 .features-unlocking-cosmic {
   margin: 0;
   font-size: inherit;
@@ -17,6 +19,7 @@
   font-weight: 700;
   font-family: inherit;
 }
+
 .benefit-list,
 .features {
   align-self: stretch;
@@ -24,9 +27,9 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+
 .benefit-list {
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   padding: var(--padding-25xl) var(--padding-134xl) var(--padding-31xl);
@@ -35,12 +38,13 @@
   flex-shrink: 0;
   font-size: var(--font-size-3xl);
 }
+
 .features {
   background: linear-gradient(
     180deg,
     #f5c470 8%,
     #f5c470 35%,
-    rgba(255, 255, 255, 0)
+    rgb(255 255 255 / 0%)
   );
   flex-direction: column;
   align-items: flex-start;
@@ -52,28 +56,33 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-@media screen and (max-width: 1425px) {
+
+@media screen and (width <= 1425px) {
   .benefit-list {
     padding-left: var(--padding-57xl);
     padding-right: var(--padding-57xl);
     box-sizing: border-box;
   }
+
   .features {
     padding-top: var(--padding-33xl);
     padding-bottom: var(--padding-11xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 825px) {
+
+@media screen and (width <= 825px) {
   .features-unlocking-cosmic {
     font-size: var(--font-size-13xl);
     line-height: 22px;
   }
+
   .benefit-list {
     gap: var(--gap-3xl);
     padding: var(--padding-10xl) var(--padding-19xl) var(--padding-13xl);
     box-sizing: border-box;
   }
+
   .features {
     gap: var(--gap-lgi);
     padding-top: var(--padding-15xl);
@@ -81,7 +90,8 @@
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .features-unlocking-cosmic {
     font-size: var(--font-size-5xl);
     line-height: 17px;

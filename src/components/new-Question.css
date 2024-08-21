@@ -12,16 +12,17 @@
   max-width: 100%;
   padding-bottom: 40px; 
 }
+
 .accordion-faqs-parent {
   align-self: stretch;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: center;
   gap: var(--gap-5xl);
   max-width: 100%;
 }
+
 .description,
 .question-1-child {
   width: 788px;
@@ -33,6 +34,7 @@
   transition: max-height 0.3s ease, opacity 0.3s ease;
   overflow: hidden;
 }
+
 .question-1 {
   width: 928px;
   border-radius: var(--br-base);
@@ -54,6 +56,7 @@
 .question-1-child {
   max-height: 100%;
 }
+
 .description {
   font-size: var(--font-size-xl);
   letter-spacing: 0.3px;
@@ -61,29 +64,36 @@
   font-weight: 600;
   display: none; 
   color: white;  
+
  /* max-height: 0; */
+
   /* opacity: 0; */
+
   /* overflow: hidden; */
 }
+
 .description.show {
   max-height: 500px;
+
   /* opacity: 1; */
   display: inline-block; 
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (width <= 850px) {
   .accordion-faqs {
     font-size: var(--font-size-7xl);
     line-height: 35px;
     min-width: 100%;
   }
 }
-@media screen and (max-width: 450px) {
+
+@media screen and (width <= 450px) {
   .accordion-faqs {
     font-size: var(--font-size-lgi);
     line-height: 26px;
     min-width: 200px;
   }
+
   .description {
     font-size: var(--font-size-base);
     line-height: 35px;
