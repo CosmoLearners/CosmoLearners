@@ -284,52 +284,6 @@ const StoryJoinUsFooter = () => {
         </div>
 
 
-
-        {/* <div className="footer4">
-          <div className="divw-node-dafeecd6-e254-d620-group">
-            <div className="divw-node-dafeecd6-e254-d620-6">
-              <div className="divfooter-cali-rights1">
-                <div className="link-california-notice-group">
-                  <div className="link-california1">California Notice</div>
-                  <img
-                    className="ceb5d14e108cfa7e8f1779-privacy-icon1"
-                    loading="lazy"
-                    alt=""
-                    src="/63ceb5d14e108cfa7e8f1779-privacyoptions201webp@2x.png"
-                  />
-                  <div className="your-privacy-rights1">
-                    Your Privacy Rights
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="divfooter-grid-box-21">
-              <div className="divw-node-dafeecd6-e254-d620-7">
-                <div className="made-in-california-container1">
-                  <p className="made-in-california1">
-                    Made in California Copyright
-                  </p>
-                  <p className="all-rights-reserved1">
-                    © 2023. All Rights Reserved
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="divfooter-grid-box-31">
-              <div className="divfooter-legal-wrap1">
-                <div className="divbreadcrumb-item-wrap2">
-                  <div className="link-privacy1">Privacy Policy</div>
-                  <div className="div1">|</div>
-                </div>
-                <div className="divbreadcrumb-item-wrap3">
-                  <div className="link-terms1">Terms of Service</div>
-                  <div className="div2">|</div>
-                </div>
-                <div className="link-accessibility1">Accessibility</div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </footer>
     </section >
   );
