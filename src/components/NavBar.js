@@ -55,6 +55,7 @@ const NavBar = () => {
           loading="lazy"
           alt=""
           src="/cosmologoinvertoriginal-1@2x.png"
+          onClick={onLinkHOMEClick}
         />
         <img
           className="cosmo-logo-edit-child"
