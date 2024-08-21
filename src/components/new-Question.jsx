@@ -17,16 +17,16 @@ const Question = ({
     setToggleDescription(prevState => !prevState);    
   };
 
-  const accordionFAQsStyle = useMemo(() => {
-    return {
-      minWidth: propMinWidth,
-    };
-  }, [propMinWidth]);
+  // const accordionFAQsStyle = useMemo(() => {
+  //   return {
+  //     minWidth: propMinWidth,
+  //   };
+  // }, [propMinWidth]);
 
   return (
     <div className={`question-1 ${className}`}>
       <div className="accordion-faqs-parent">
-        <h2 className="accordion-faqs" style={accordionFAQsStyle}>
+        <h2 className="accordion-faqs" >
           {accordionFAQs}
         </h2>
         <ButtonDropdown onClick={setToggle} isOpen={toggleDescription} />

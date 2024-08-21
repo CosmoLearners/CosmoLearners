@@ -10,6 +10,7 @@ import FAQs from "../components/new-FAQs";
 import LearnMoreAboutCosmo from "../components/new-LearnMoreAboutCosmo";
 import Footer from "../components/Footer-main";
 import "./new-StudentsParents.css";
+import CollegesList from "../components/CollegesList1";
 
 const StudentsParents = () => {
   const navigate = useNavigate();
@@ -62,7 +63,8 @@ const StudentsParents = () => {
               </div>
             </div>
           </button>
-      <FrameComponent />
+      <CollegesList />
+      {/* <FrameComponent /> */}
       <FAQs />
       <LearnMoreAboutCosmo
         learnMoreAboutUs="Take the Leap Into Your Future"

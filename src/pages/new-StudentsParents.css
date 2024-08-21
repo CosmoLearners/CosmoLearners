@@ -324,6 +324,12 @@
   font-family: var(--font-inter);
   gap:  80px; 
 }
+
+#stu-par-college-list {
+  margin-bottom: 20%; 
+
+}
+
 @media screen and (max-width: 850px) {
   .check-out-our,
   .how-does-it,
