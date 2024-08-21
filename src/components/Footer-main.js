@@ -98,7 +98,7 @@ export default function Footer() {
                     <div className="divfooter-grid-box-3">
                         <div className="divfooter-legal-wrap">
                             <div className="divbreadcrumb-item-wrap">
-                                <div className="link-privacy">Privacy Policy</div>
+                                <div className="link-privacy">Privacy Policy </div>
                                 <div className="separator">|</div>
                             </div>
                             <div className="divbreadcrumb-item-wrap1">

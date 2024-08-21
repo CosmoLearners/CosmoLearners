@@ -1028,12 +1028,13 @@
 .book-an-appointment2 {
   position: relative;
   font-size: var(--font-size-13xl);
-  line-height: 20px;
+  line-height: 30px;
   text-transform: capitalize;
   font-family: var(--font-inter);
   color: var(--color-black);
   text-align: center;
   text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+  
 }
 .book-an-appointment-wrapper,
 .cosmo-logo-no-bg-1-parent {
@@ -1042,6 +1043,7 @@
   align-items: center;
   box-sizing: border-box;
   max-width: 100%;
+  
 }
 .book-an-appointment-wrapper {
   cursor: pointer;
@@ -1050,6 +1052,10 @@
   background-color: transparent;
   width: 434px;
   justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 .book-an-appointment-wrapper:hover {
   background-color: var(--color-darkslateblue-300);

@@ -70,7 +70,7 @@ const Footer3 = ({ className = "", cosmo12, ceb5d14e108cfa7e8f1779Pri }) => {
           <div className="divfooter-grid-box-33">
             <div className="divfooter-legal-wrap3">
               <div className="divbreadcrumb-item-wrap6">
-                <a className="link-privacy3">Privacy Policy</a>
+                <a className="link-privacy3">Privacy policy</a>
                 <div className="policy-separator">|</div>
               </div>
               <div className="divbreadcrumb-item-wrap7">
