@@ -77,7 +77,7 @@ const Footer1 = ({ className = "" }) => {
                 <div className="separator1">|</div>
               </div>
               <div className="divbreadcrumb-item-wrap5">
-                <div className="link-terms2">Terms of Service</div>
+                <div className="link-terms2">Terms of Services</div>
                 <div className="separator1">|</div>
               </div>
               <div className="link-accessibility2">Accessibility</div>

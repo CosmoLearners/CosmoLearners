@@ -82,7 +82,7 @@ export default function Footer() {
                                     alt=""
                                     src="/63ceb5d14e108cfa7e8f1779-privacyoptions201webp1@2x.png"
                                 />
-                                <div className="your-privacy-rights">Your Privacy Rights</div>
+                                <div className="your-privacy-rights" onClick={onClickPrivacyLink} >Your Privacy Rights</div>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ export default function Footer() {
                     <div className="divfooter-grid-box-3">
                         <div className="divfooter-legal-wrap">
                             <div className="divbreadcrumb-item-wrap">
-                                <div className="link-privacy">Privacy Policy</div>
+                                <div className="link-privacy" onClick={onClickPrivacyLink} >Privacy Policy</div>
                                 <div className="separator">|</div>
                             </div>
                             <div className="divbreadcrumb-item-wrap1">

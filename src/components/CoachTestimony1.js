@@ -8,16 +8,15 @@ const CoachTestimony1 = ({ ellipse3 }) => {
         <div className="helping-students-see-container">
           <span>
             <p className="helping-students-see">
-              "Helping students see the magic in numbers and equations is what I
-              love most about coaching at Cosmo. There’s a unique joy in guiding
-              them through their math journey and celebrating every 'aha' moment
-              together."
+              "With over a decade of teaching experience, I engage my students in building exciting projects 
+              and tackling complex problems, while fostering a deep love for programming and mathematics.
+              "
             </p>
             <p className="alex-r-msc-in-applied-math">
-              <b>Alex R., M.Sc. in Applied Mathematics</b>
+              <b>Hamza K., B.Eng in Electrical Engineering and Computer Science</b>
             </p>
             <p className="mit">
-              <b>MIT</b>
+              <b>UC Berkeley</b>
             </p>
           </span>
         </div>
