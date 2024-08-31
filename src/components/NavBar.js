@@ -54,7 +54,7 @@ const NavBar = () => {
           className="cosmo-logo-invert-original-1-icon"
           loading="lazy"
           alt=""
-          src="/cosmologoinvertoriginal-1@2x.png"
+          src="cosmologoinvertoriginal-1@2x.png"
           onClick={onLinkHOMEClick}
         />
         <img

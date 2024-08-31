@@ -13,6 +13,7 @@ import Courses from "./pages/Courses";
 import Form from "./pages/google-form"
 import StudentsParents from "./pages/new-StudentsParents"
 import PrivacyPolicy from "./pages/new-PrivacyPolicy"
+import Randompage from "./pages/Randompage";
 
 function App() {
   const action = useNavigationType();
@@ -73,6 +74,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Homepage />} />
+      {/* <Route path="/" element={< Randompage/>} /> */}
       <Route path="/become-a-tutor" element={<BecomeATutor />} />
       <Route path="/students&parents" element={<StudentsParents />} />
       <Route path="/aboutus" element={<AboutUs />} />

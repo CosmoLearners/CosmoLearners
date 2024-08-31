@@ -262,8 +262,8 @@ const navigate = useNavigate();
         </div>
 
         <div className="footer4-new">
-          <div class="footer-container">
-            <div class="california-notice-privacy-group">
+          <div className="footer-container">
+            <div className="california-notice-privacy-group">
               <div className="link-california1">California Notice</div>
               <img
                 className="ceb5d14e108cfa7e8f1779-privacy-icon1"
@@ -283,7 +283,7 @@ const navigate = useNavigate();
                 © 2023. All Rights Reserved
               </p>
             </div>
-            <div class="privacy-list">
+            <div className="privacy-list">
               <div className="link-privacy-group">
                 <div className="link-privacy1 privacy-list-item">Privacy Policy</div>
                 <div className="div1 privacy-list-item">|</div>

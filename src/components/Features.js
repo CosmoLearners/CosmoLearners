@@ -25,7 +25,7 @@ const Features = () => {
             <h1 className="features-unlocking-cosmic">
                 Features: Unlocking Cosmic Potential 🚀
             </h1>
-            <button class="btn-1" onClick={toggleVisibility} role="button">{visible ? 'Hide All' : 'Open All' }</button>
+            <button className="btn-1" onClick={toggleVisibility} role="button">{visible ? 'Hide All' : 'Open All' }</button>
 
             <div className="features-flexbox">
                 <div className={`single-feature ${visible ? 'show' : ''}`}>
