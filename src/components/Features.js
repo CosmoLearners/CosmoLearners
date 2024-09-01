@@ -190,62 +190,6 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="single-feature">
-                    <div className="project-learning-child" />
-                    <div className="project-image-container">
-                        <div className="project-image">
-                            <img
-                                className="planning-icon"
-                                loading="lazy"
-                                alt=""
-                                src="/planning@2x.png"
-                            />
-                        </div>
-                        <h3 className="project-based-learning">Project-Based Learning</h3>
-                    </div>
-                    <div className="project-description">
-                        <div className="boost-your-skills-container">
-                            <span>
-                                <i>Boost Your Skills:</i>
-                                <span>
-                                    {" "}
-                                    Our curriculum includes engaging projects that challenge
-                                    students to apply their knowledge in real-world scenarios.
-                                    These projects enhance problem-solving skills, creativity, and
-                                    critical thinking.rs
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="single-feature">
-                    <div className="safety-supportive-child" />
-                    <div className="safety-image-container">
-                        <div className="safety-image">
-                            <img
-                                className="safety-icon"
-                                loading="lazy"
-                                alt=""
-                                src="/p/safety-3@2x.png"
-                            />
-                        </div>
-                        <h3 className="safety-supportive-h3">Safety and Supportive Environment</h3>
-                    </div>
-                    <div className="safety-description">
-                        <div className="cosmic-community-container">
-                            <span>
-                                <i>Cosmic Community:</i>
-                                <span>
-                                    {" "}
-                                    At COSMO, we prioritize creating a safe and supportive learning environment
-                                    where students can thrive. We foster a sense of belonging and encourage
-                                    open communication.
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </section>
     );

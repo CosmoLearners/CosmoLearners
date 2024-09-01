@@ -2,7 +2,7 @@ import "./MathFrame.css";
 
 const MathFrame = () => {
   return (
-    <section className="programming-languages-parent">
+    <section className="programming-languages-parent" id="programming_languages_anchor">
       <b className="programming-languages">Programming Languages</b>
       <section className="programming-languages1">
 
@@ -55,65 +55,6 @@ const MathFrame = () => {
             <div class="description-text">Learn to create basic and complex websites with HTML, CSS, Javascript and a variety of Frameworks such as Flask.</div>
           </div>
         </div>
-        {/* <Python
-          rectangle32="/rectangle-32@2x.png"
-          python="Python"
-          embarkOnACodingJourneyWit="Embark on a coding journey with one of the most versatile programming languages."
-        /> */}
-        {/* <Python
-          rectangle32="/rectangle-32-1@2x.png"
-          python="Java"
-          embarkOnACodingJourneyWit="Dive into object-oriented programming with this robust language."
-          pythonFlex="1"
-          pythonPadding="var(--padding-smi-5) var(--padding-smi-5) var(--padding-mid-3)"
-          pythonMinWidth="83px"
-          pythonWidth="unset"
-          pythonMargin="unset"
-          pythonPosition="unset"
-          pythonTop="unset"
-          pythonLeft="unset"
-          frameDivPadding="0px var(--padding-51xl) 0px var(--padding-48xl-4)"
-          pythonMinWidth1="43px"
-          propHeight="unset"
-          embarkOnADisplay="unset"
-          embarkOnAMarginTop="unset"
-        />
-        <Python
-          rectangle32="/rectangle-32-2@2x.png"
-          python="C++"
-          embarkOnACodingJourneyWit="Master the fundamentals of this powerful, high-performance language."
-          pythonFlex="1"
-          pythonPadding="var(--padding-smi-5) var(--padding-smi-5) var(--padding-mid-3)"
-          pythonMinWidth="83px"
-          pythonWidth="unset"
-          pythonMargin="unset"
-          pythonPosition="unset"
-          pythonTop="unset"
-          pythonLeft="unset"
-          frameDivPadding="0px var(--padding-53xl) 0px var(--padding-49xl-4)"
-          pythonMinWidth1="40px"
-          propHeight="unset"
-          embarkOnADisplay="unset"
-          embarkOnAMarginTop="unset"
-        />
-        <Python
-          rectangle32="/rectangle-32-3@2x.png"
-          python="Scratch"
-          embarkOnACodingJourneyWit="Begin programming with a visual language perfect for beginners."
-          pythonFlex="1"
-          pythonPadding="var(--padding-smi-5) var(--padding-smi-5) var(--padding-mid-3)"
-          pythonMinWidth="83px"
-          pythonWidth="unset"
-          pythonMargin="unset"
-          pythonPosition="unset"
-          pythonTop="unset"
-          pythonLeft="unset"
-          frameDivPadding="0px var(--padding-36xl) 0px var(--padding-33xl-9)"
-          pythonMinWidth1="72px"
-          propHeight="unset"
-          embarkOnADisplay="unset"
-          embarkOnAMarginTop="unset"
-        /> */}
       </section>
     </section>
   );
