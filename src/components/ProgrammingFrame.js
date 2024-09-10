@@ -1,8 +1,26 @@
 import "./MathFrame.css";
+import { useLocation } from 'react-router-dom';
+import { useEffect } from "react";
+
 
 const MathFrame = () => {
+
+const location = useLocation(); 
+
+ useEffect(() => {
+    // Add a slight delay to ensure the page is fully loaded before attempting to scroll
+    if (location && location.hash) {
+      setTimeout(() => {
+        const element = document.querySelector(location.hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 0); // The delay can be adjusted if needed
+    }
+  }, [location]); 
+  
   return (
-    <section className="programming-languages-parent" id="programming_languages_anchor">
+    <section className="programming-languages-parent" id="programminglanguagesanchor">
       <b className="programming-languages">Programming Languages</b>
       <section className="programming-languages1">
 

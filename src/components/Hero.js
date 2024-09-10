@@ -1,13 +1,24 @@
+import { useCallback, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Hero.css";
 
+const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7";
 
-const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7"; 
+// const onGoogleFormClick = () => {
+//   window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
+// };
 
-const onGoogleFormClick = () => {
-  window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
-};
 
 const Hero = () => {
+
+  const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const onGoogleFormClick = useCallback(() => {
+    navigate("/appointment");
+    setMenuOpen(false); // Close menu on navigation
+  }, [navigate]);
+
   return (
     <section className="hero">
       <div className="the-first-step-into-your-cosmi-parent">
