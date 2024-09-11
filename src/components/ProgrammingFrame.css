@@ -80,7 +80,11 @@
   justify-content: flex-start;
   align-self: stretch;
   align-items: center;
-}
+ /* padding-bottom: 20px;
+  max-height: 100px;
+  overflow: hidden;
+*/
+  }
 
 .heading-text {
   position: relative;
