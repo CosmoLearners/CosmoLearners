@@ -195,7 +195,10 @@
   box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
   border-radius: var(--br-25xl);
   background-color: var(--color-papayawhip);
-
+  
+  transform-style: preserve-3d;
+  cursor: pointer;
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
 }
 
 /* .on-1-child {
@@ -219,6 +222,8 @@
   overflow: hidden;
   object-fit: cover;
   z-index: 1;
+  
+  
 }
 
 .features-unlocking-cosmic {
@@ -229,12 +234,14 @@
   display: none;
   opacity: 0;
   transition: opacity 0.5s ease;
-}
-
-.feature-text-box.show {
   display: block;
   opacity: 1;
 }
+
+/* .feature-text-box.show {
+  display: block;
+  opacity: 1;
+} */
 
 .single-feature {
   transition: transform 0.5s;
@@ -302,6 +309,27 @@
   }
 
 }
+/*=====================CARD FLIP=======================*/
+
+/* effect to flip */
+
+.single-feature.flipped {
+  --rotate-y: 180deg;
+}
+
+/* Adjust the individual front and back sides */
+.single-feature .front,
+.single-feature .back {
+  position: absolute;
+  padding: 1rem;
+  backface-visibility: hidden;
+}
+
+/* Back side */
+.single-feature .back {
+  transform: rotateY(180deg);
+}
+
 
 /* .progress-icon {
     align-self: stretch;

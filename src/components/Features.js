@@ -1,198 +1,59 @@
-// import ProgressTracking from "./ProgressTracking";
-// import Collaborate from "./Collaborate";
 import React, { useState } from 'react';
+import FlippableCard from './FlippableCard';
 import "./Features.css";
+import featuresList from './Featurelist';
 
 
 const Features = () => {
+  const [areAllFlipped, setAreAllFlipped] = useState(false);
+  const [flippedCards, setFlippedCards] = useState({});
 
-    const [visible, setVisible] = useState(false);
+  const toggleVisibility = () => {
+    const newState = !areAllFlipped;
+    setAreAllFlipped(newState);
+    setFlippedCards(featuresList.reduce((acc, feature) => {
+      acc[feature.id] = newState;
+      return acc;
+    }, {}));
+  };
 
-    const toggleVisibility = () => {
-        setVisible(!visible);
-    };
+  const handleCardFlip = (id) => {
+    setFlippedCards(prevState => ({
+      ...prevState,
+      [id]: !prevState[id],
+    }));
+  };
 
-    return (
-        <section className="features">
-            <div className="wrapper-progress-icon">
-                <img
-                    className="progress-icon"
-                    loading="lazy"
-                    alt=""
-                    src="/vector-2.svg"
-                />
-            </div>
-            <h1 className="features-unlocking-cosmic">
-                Features: Unlocking Cosmic Potential 🚀
-            </h1>
-            <button className="btn-1" onClick={toggleVisibility} role="button">{visible ? 'Hide All' : 'Open All' }</button>
+  return (
+    <section className="features">
+      <div className="wrapper-progress-icon">
+        <img
+          className="progress-icon"
+          loading="lazy"
+          alt=""
+          src="/vector-2.svg"
+        />
+      </div>
+      <h1 className="features-unlocking-cosmic">
+        Features: Unlocking Cosmic Potential 🚀
+      </h1>
 
-            <div className="features-flexbox">
-                <div className={`single-feature ${visible ? 'show' : ''}`}>
-                    <div className="single-feature-img-container">
-                        <img
-                            className="single-feature-img"
-                            loading="lazy"
-                            alt=""
-                            src="/oneonone-1@2x.png"
-                        />
-                    </div>
-                    <div className="feature-text-container">
-                        <h3 className="feature-text-header">
-                            Personalized 1-on-1 Private Classes
-                        </h3>
-                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
-                            <span>
-                                <i>Tailored Learning</i>
-                                <span>
-                                    : Our students benefit from one-on-one private classes with
-                                    experienced instructors. Each lesson is personalized to
-                                    match the student's pace and learning style, ensuring
-                                    maximum comprehension and growth.
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div className={`single-feature ${visible ? 'show' : ''}`}>
-                    <div className="single-feature-img-container">
-                        <img
-                            className="single-feature-img"
-                            loading="lazy"
-                            alt=""
-                            src="/planning@2x.png"
-                        />
-                    </div>
-                    <div className="feature-text-container">
-                        <h3 className="feature-text-header">
-                            Project-Based Learning
-                        </h3>
-                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
-                            <span>
-                                <i>Boost Your Skills:</i>
-                                <span>
-                                    {" "}
-                                    Our curriculum includes engaging projects that challenge
-                                    students to apply their knowledge in real-world scenarios.
-                                    These projects enhance problem-solving skills, creativity, and
-                                    critical thinking.
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div className={`single-feature ${visible ? 'show' : ''}`}>
-                    <div className="single-feature-img-container">
-                        <img
-                            className="single-feature-img"
-                            loading="lazy"
-                            alt=""
-                            src="/progress-2@2x.png"
-                        />
-                    </div>
-                    <div className="feature-text-container">
-                        <h3 className="feature-text-header">
-                        Progress Tracking
-                        </h3>
-                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
-                            <span>
-                                <i>Stay Informed: </i>
-                                <span>
-                                    {" "}
-                                    Parents and students can easily track their academic journey through our 
-                                    intuitive progress tracking system. Monitor performance, 
-                                    view completed assignments, and access valuable insights into 
-                                    your child's educational development.
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div className={`single-feature ${visible ? 'show' : ''}`}>
-                    <div className="single-feature-img-container">
-                        <img
-                            className="single-feature-img"
-                            loading="lazy"
-                            alt=""
-                            src="/collab-3@2x.png"
-                        />
-                    </div>
-                    <div className="feature-text-container">
-                        <h3 className="feature-text-header">
-                        Collaborative Group Classes
-                        </h3>
-                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
-                            <span>
-                                <i>Learn Together: </i>
-                                <span>
-                                    {" "}
-                                    COSMO also offers the opportunity for students 
-                                    to attend group classes, where they can interact,
-                                     share ideas, and collaborate with peers. Learning becomes 
-                                     a cosmic adventure when you explore together!
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+      <button className="btn-1" onClick={toggleVisibility} role="button">{areAllFlipped ? 'Hide All' : 'Open All'}</button>
 
-                <div className={`single-feature ${visible ? 'show' : ''}`}>
-                    <div className="single-feature-img-container">
-                        <img
-                            className="single-feature-img"
-                            loading="lazy"
-                            alt=""
-                            src="/achievement-2@2x.png"
-                        />
-                    </div>
-                    <div className="feature-text-container">
-                        <h3 className="feature-text-header">
-                        Achievement Showcase
-                        </h3>
-                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
-                            <span>
-                                <i>Celebrate Success: </i>
-                                <span>
-                                    {" "}
-                                    COSMO believes in recognizing and celebrating every 
-                                    achievement, big or small. Students can showcase their 
-                                    accomplishments, from mastering a programming language 
-                                    to acing a math quiz, in their personalized achievement 
-                                    portfolio.
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div className={`single-feature ${visible ? 'show' : ''}`}>
-                    <div className="single-feature-img-container">
-                        <img
-                            className="single-feature-img"
-                            loading="lazy"
-                            alt=""
-                            src="/safety-3@2x.png"
-                        />
-                    </div>
-                    <div className="feature-text-container">
-                        <h3 className="feature-text-header">
-                        Safety and Supportive Environment
-                        </h3>
-                        <div className={`feature-text-box ${visible ? 'show' : ''}`}>
-                            <span>
-                                <i>Cosmic Community: </i>
-                                <span>
-                                    {" "}
-                                    At COSMO, we prioritize creating a safe and supportive learning environment 
-                                    where students can thrive. We foster a sense of belonging and encourage
-                                    open communication.
-                                </span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+      <div className="features-flexbox">
+        {featuresList.map((feature) => (
+          <FlippableCard
+            key={feature.id}
+            front={feature.front}
+            back={feature.back}
+            isFlipped={flippedCards[feature.id] || areAllFlipped}
+            onClick={() => handleCardFlip(feature.id)}
+          />
+        ))}
+      </div>
+
+    </section>
+  );
 };
 
 export default Features;
