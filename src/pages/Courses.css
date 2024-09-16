@@ -43,10 +43,12 @@
   overflow-y: auto;
   align-items: flex-start;
   gap: var(--gap-81xl);
-  background-image: url("/public/courses@3x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  background-image: url("/public/background.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  /* background-size: cover; */
+  /* background-repeat: no-repeat;
+  background-position: top; */
   line-height: normal;
   letter-spacing: normal;
 }
