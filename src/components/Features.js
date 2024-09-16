@@ -4,10 +4,26 @@ import './Features.css';
 import featuresList from './Featurelist';
 
 const Features = () => {
-  const [expandedCardId, setExpandedCardId] = useState(null);
+  const [expandedCardId, setExpandedCardId] = useState([]);
 
-  const handleCardClick = (id) => {
-    setExpandedCardId(expandedCardId === id ? null : id); // 클릭한 카드가 이미 열려 있으면 닫기
+  // Toggle individual cards
+  const handleCardClick = (cardId) => {
+    if (expandedCardId.includes(cardId)) {
+      setExpandedCardId(expandedCardId.filter(id => id !== cardId));
+    } else {
+      setExpandedCardId([...expandedCardId, cardId]);
+    }
+  };
+
+  // Toggle visibility of all cards
+  const toggleVisibility = () => {
+    if (expandedCardId.length === featuresList.length) {
+      // If all cards are expanded, collapse them
+      setExpandedCardId([]);
+    } else {
+      // Otherwise, expand all cards
+      setExpandedCardId(featuresList.map(feature => feature.id));
+    }
   };
 
   return (
@@ -24,6 +40,10 @@ const Features = () => {
         Features: Unlocking Cosmic Potential 🚀
       </h1>
 
+      <button className="btn-1" onClick={toggleVisibility} role="button">
+        {expandedCardId.length === featuresList.length ? 'Hide All' : 'Open All'}
+      </button>
+
       <div className="features-flexbox">
         {featuresList.map((feature) => (
           <FeatureCard
@@ -31,8 +51,8 @@ const Features = () => {
             id={feature.id}
             front={feature.front}
             expand={feature.expand}
-            isExpanded={expandedCardId === feature.id} 
-            onClick={() => handleCardClick(feature.id)} 
+            isExpanded={expandedCardId.includes(feature.id)} // Check if card is expanded
+            onClick={() => handleCardClick(feature.id)} // Handle individual card clicks
           />
         ))}
       </div>

@@ -91,7 +91,7 @@
 
 .feature-text-box.show {
   opacity: 1;
-  max-height: 200px; /* 확장되었을 때 충분한 높이 */
+  max-height: 200px; 
 }
 
 @media screen and (width >= 2000px) {
@@ -125,12 +125,15 @@
   transition: transform 0.5s ease, max-height 0.5s ease;
   overflow: hidden;
   max-height: 300px; 
-  max-width: 350px;
+  max-width: 310px;
 }
 
 .single-feature.expanded {
   transform: scale(1.05);
   max-height: 540px; 
+  font-size: 15px;
+  overflow: visible;
+
 }
 
 .single-feature-img {
