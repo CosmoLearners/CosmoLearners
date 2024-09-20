@@ -9,16 +9,19 @@
     background-position: top;
     line-height: normal; */
     letter-spacing: normal;
-    overflow: hidden;  
+    overflow:visible;   
 }
 
 
 #google-form {
     width: 100%; 
     height: 1900px; 
-
     /* height: min(100%, 1900px); */
-}  
+    /* height: 100%;  */
+    position: relative;
+    letter-spacing: normal;
+    overflow:clip;   
+}
 
 
 

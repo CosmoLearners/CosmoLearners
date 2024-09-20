@@ -23,8 +23,10 @@ const Form = () => {
       {<NavBar />}
 
       <div id="google-form">
-        <iframe height="100%" width="100%" src="https://docs.google.com/forms/d/e/1FAIpQLSe2LgDbvYhP5K4zD707gB3V2MN0PHS6ZcmYG-b2vQ5iH6AE5g/viewform?embedded=true" scrolling="yes"
-          frameBorder="0" >Loading…</iframe>
+        {/* <iframe height="100%" width="100%" src="https://docs.google.com/forms/d/e/1FAIpQLSe2LgDbvYhP5K4zD707gB3V2MN0PHS6ZcmYG-b2vQ5iH6AE5g/viewform?embedded=true" scrolling="yes"
+          frameBorder="0" >Loading…</iframe> */}
+
+        <iframe aria-label='Free Trial Session ' height="100%" width="100%" frameborder="0" src='https://forms.zohopublic.com/cosmolearnersgm1/form/Requestafreetrial/formperma/n-27rTMnpQlJm5TR2k-7upOONCSxRMgOOmI8T9rYObM' scrolling="yes"></iframe>
       </div>
 
       <Footer />
