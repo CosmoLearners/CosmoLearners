@@ -10,8 +10,7 @@ const googleFormUrl = "https://forms.gle/8k6DMpSoKq8VjYjk7";
 // };
 
 
-
-const StoryJoinUsFooter = () => {
+  const StoryJoinUsFooter = () => {
 
 const navigate = useNavigate(); 
 // const onGoogleFormClick = () => { navigate("./google-form") }; 
@@ -20,6 +19,11 @@ const navigate = useNavigate();
     navigate("/appointment"); 
     // setMenuOpen(false); // Close menu on navigation
   }, [navigate]);
+
+  const onLinkPARENTSClick = useCallback(() => {
+    navigate("/students&parents");
+  }, [navigate]);
+
 
   return (
     <section className="story-join-us-footer">
@@ -56,7 +60,7 @@ const navigate = useNavigate();
       <div className="course-offered">
         <h3 className="heading-21">Become experts in Coding and Math!</h3>
         <div className="python-parent">
-          <button className="python">
+         < Link to="./courses#programminglanguagesanchor"> <button className="python"> 
             <div className="divchakra-stack8">
               <div className="spanchakra-avatar">
                 <div className="course-satsvg">
@@ -70,7 +74,8 @@ const navigate = useNavigate();
               <div className="python1">Python</div>
             </div>
           </button>
-          <button className="scratch">
+          </Link>
+          <Link to="./courses#programminglanguagesanchor"><button className="scratch">
             <div className="divchakra-stack9">
               <div className="spanchakra-avatar1">
                 <div className="course-satsvg1">
@@ -84,7 +89,8 @@ const navigate = useNavigate();
               <div className="scratch1">Scratch</div>
             </div>
           </button>
-          <button className="java">
+          </Link>
+           <Link to="./courses#programminglanguagesanchor"><button className="java">
             <div className="divchakra-stack10">
               <div className="spanchakra-avatar2">
                 <div className="course-satsvg2">
@@ -97,22 +103,24 @@ const navigate = useNavigate();
               </div>
               <div className="java1">Java</div>
             </div>
-          </button>
-          <button className="swift">
+          </button>  
+          </Link>
+           <Link to="./courses#programminglanguagesanchor"><button className="swift">
             <div className="divchakra-stack11">
               <div className="spanchakra-avatar3">
                 <div className="course-satsvg3">
                   <img
                     className="course-satsvg-icon3"
                     alt=""
-                    src="/coursesatsvg-3@2x.png"
+                    src="/rectangle-32-2@2x.png"
                   />
                 </div>
               </div>
-              <div className="swift1">Swift</div>
+              <div className="swift1">C++</div>
             </div>
           </button>
-          <button className="algebra">
+          </Link>
+           <Link to="./courses#mathanchor"><button className="algebra">
             <div className="divchakra-stack12">
               <div className="spanchakra-avatar4">
                 <div className="course-satsvg4">
@@ -128,7 +136,8 @@ const navigate = useNavigate();
               </div>
             </div>
           </button>
-          <button className="statistics">
+          </Link>
+           <Link to="./courses#mathanchor"><button className="statistics">
             <div className="divchakra-stack13">
               <div className="spanchakra-avatar5">
                 <div className="course-satsvg5">
@@ -142,7 +151,8 @@ const navigate = useNavigate();
               <div className="statistics1">Statistics</div>
             </div>
           </button>
-          <button className="calculus">
+          </Link>
+          <Link to="./courses#mathanchor"> <button className="calculus">
             <div className="divchakra-stack14">
               <div className="spanchakra-avatar6">
                 <div className="course-satsvg6">
@@ -156,8 +166,9 @@ const navigate = useNavigate();
               <div className="calculus1">Calculus</div>
             </div>
           </button>
+          </Link>
           <div className="link-button">
-            <h3 className="more">More!</h3>
+            <Link to="/courses"> <h3 className="more">More!</h3></Link>
             <div className="img">
               <img
                 className="shape-creator-icon"
@@ -169,7 +180,6 @@ const navigate = useNavigate();
         </div>
       </div>
       <div className="frame-group">
-        {/* <div className="frame-wrapper"> */}
         <div className="frame-container">
 
           <div className="heading-2-join-our-movement-parent">
@@ -200,7 +210,7 @@ const navigate = useNavigate();
                   </button>
                 </div>
                 <div className="linkmargin1">
-                  <button className="link-button3" onClick={onGoogleFormClick} >
+                  <button className="link-button3" onClick={onLinkPARENTSClick} >
                     <div className="for-parents">For Parents</div>
                   </button>
                 </div>
@@ -220,7 +230,6 @@ const navigate = useNavigate();
             </div>
           </div>
 
-          {/* </div> */}
         </div>
       </div>
       <footer className="footer3">
@@ -239,6 +248,7 @@ const navigate = useNavigate();
                 <div className="item-link7">< Link to="./aboutus">Newsroom</Link></div>
                 <div className="item-link8">< Link to="./privacy-policy">Privacy and Trust</Link></div>
               </div>
+
             </div>
             <div className="divw-node-dafeecd6-e254-d620-5">
               <div className="heading-4margin1">

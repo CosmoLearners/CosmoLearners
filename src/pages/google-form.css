@@ -1,33 +1,46 @@
+
 .form-container {
     width: 100%; 
-    height: 100%; 
     position: relative;
-    background-image: url("/public/aboutus@3x.png");
-
+    background-image: url("/public/background.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    
     /* background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    line-height: normal; */
-    letter-spacing: normal;
-    overflow: hidden;  
+    line-height: normal; 
+    /* overflow:visible;    */
+} 
+
+
+#google-form {
+    margin: 0px; 
+    height: 2000px; 
+    padding: 0px; 
+    overflow: hidden; 
+}
+
+#zoho-form { 
+    overflow: hidden; 
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+    height: 100%; 
+    width: 100%; 
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
 }
 
 
-#google-form {
-    width: 100%; 
-    height: 1900px; 
-
-    /* height: min(100%, 1900px); */
-}  
-
-
-
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
 
 #google-form {
     width: 100%; 
-    height: 800px; 
+    height: 2900px; 
     overflow-y: clip; 
 }
 
-} */
+}

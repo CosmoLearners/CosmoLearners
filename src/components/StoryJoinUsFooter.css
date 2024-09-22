@@ -1642,6 +1642,7 @@
 
   .more {
     font-size: var(--font-size-lgi);
+    color: white; 
     line-height: 15px;
   }
 

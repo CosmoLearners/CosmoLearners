@@ -5,7 +5,7 @@ const ProgrammingFrame  = () => {
   return (
         <section className="programming-languages-parent">
           <b className="programming-languages">Math</b>
-          <section className="programming-languages1">
+          <section className="programming-languages1"  id="mathanchor">
     
             <div class="course-item">
               <div class="course-img-wrapper"> 
