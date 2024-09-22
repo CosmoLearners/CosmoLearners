@@ -748,9 +748,9 @@
   position: relative;
 
   /* overflow-y: auto; */
-  background-image: url("/public/aboutus@3x.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("/public/background.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
