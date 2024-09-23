@@ -53,7 +53,7 @@ const navigate = useNavigate();
           <b>COSMO SCHOLAR:</b>
           <span>
             {" "}
-            Students Want to Learn, Teachers Want to Teach, We Connect Them.
+            Your pathway to coding and math excellence, one fun project at a time. 
           </span>
         </h2>
       </div>
