@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.2ede916d.css",
-    "main.js": "./static/js/main.6fcecba5.js",
+    "main.css": "./static/css/main.24fe5ace.css",
+    "main.js": "./static/js/main.3e0682d4.js",
     "static/js/453.4a52eb9f.chunk.js": "./static/js/453.4a52eb9f.chunk.js",
     "static/media/homepage@3x.png": "./static/media/homepage@3x.bf53d5db3cf7d433083d.png",
-    "static/media/privacy-policy@3x.png": "./static/media/privacy-policy@3x.a05d8b566bddd5951d7a.png",
+    "static/media/background.jpg": "./static/media/background.a686c21ef8a432b3342b.jpg",
     "static/media/scholarkid-2@2x.png": "./static/media/scholarkid-2@2x.3e77e1a8e71dabde61a4.png",
     "static/media/aboutus@3x.png": "./static/media/aboutus@3x.d6e6b7caa61a8d8d5218.png",
-    "static/media/courses@3x.png": "./static/media/courses@3x.587023720720952e7fc2.png",
     "static/media/why-cosmo@3x.png": "./static/media/why-cosmo@3x.049edd4b96db2d4eba9e.png",
-    "static/media/become-a-tutor@3x.png": "./static/media/become-a-tutor@3x.003803267cae653251ae.png",
-    "static/media/students--parents@3x.png": "./static/media/students--parents@3x.eb743a7150f72979cc32.png",
     "index.html": "./index.html",
     "static/media/chevron-down-solid.svg": "./static/media/chevron-down-solid.79d81965807ebaf4751fdc49e7912b18.svg",
     "static/media/chevron-up-solid.svg": "./static/media/chevron-up-solid.ebbe90c64cad53c64e4c6505c998a157.svg",
-    "main.2ede916d.css.map": "./static/css/main.2ede916d.css.map",
-    "main.6fcecba5.js.map": "./static/js/main.6fcecba5.js.map",
+    "main.24fe5ace.css.map": "./static/css/main.24fe5ace.css.map",
+    "main.3e0682d4.js.map": "./static/js/main.3e0682d4.js.map",
     "453.4a52eb9f.chunk.js.map": "./static/js/453.4a52eb9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ede916d.css",
-    "static/js/main.6fcecba5.js"
+    "static/css/main.24fe5ace.css",
+    "static/js/main.3e0682d4.js"
   ]
 }
