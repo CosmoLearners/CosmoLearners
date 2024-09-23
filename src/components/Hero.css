@@ -203,12 +203,6 @@
 
 .hero {
   align-self: stretch;
-  background: linear-gradient(
-    -90deg,
-    rgb(0 0 0 / 77%),
-    rgb(0 0 0 / 3%) 99.99%,
-    transparent
-  );
   overflow: hidden;
   flex-shrink: 0;
   display: flex;
