@@ -109,14 +109,17 @@
   gap: 60px;
   font-size: var(--font-size-medium);
   min-height: 800px;
+  overflow: hidden;
+  padding-bottom: 100px;
 }
+
 
 .single-feature {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 25px 10px;
+  padding: 25px;
   box-sizing: border-box;
   /* gap: var(--gap-17xl); */
   box-shadow: 10px 10px 4px rgb(0 0 0 / 25%);
