@@ -1,5 +1,5 @@
 
-  # cosmo_scholar (Copy)
+  # COSMO SCHOLAR: Learn programming and math from top educators. FREE SESSION available.  
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
