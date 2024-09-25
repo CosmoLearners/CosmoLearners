@@ -109,7 +109,6 @@
   gap: 60px;
   font-size: var(--font-size-medium);
   min-height: 800px;
-  overflow: hidden;
   padding-bottom: 100px; /* not beyond the the section */
 }
 
