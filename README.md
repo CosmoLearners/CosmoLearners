@@ -1,11 +1,7 @@
+# COSMO SCHOLAR: Learn programming and math from top educators. FREE SESSION available.  
 
-  # cosmo_scholar (Copy)
+Project-Based Learning for Programming and Math. 
+Hyper-focused setting, either 1-on-1 or small group. 
+Designed to optimize your child's learning potential.
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
-
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) Create a virtual enviorment e.g with virtualenv <environment_name>, then activate with `venv\Scripts\activate` on Windows or source `venv/bin/activate` for linux
-  3) In the terminal, run `npm install`
-  4) Run `npm start` to view project in browser
-  
+At Cosmo, they students build fun projects while gaining an appreciation for the world of technology.  
