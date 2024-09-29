@@ -7,6 +7,7 @@
   padding: 0 0 var(--padding-108xl-5);
   box-sizing: border-box;
   max-width: 100%;
+  overflow: hidden;
 }
 
 @media screen and (width <= 1425px) {
