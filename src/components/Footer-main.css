@@ -85,6 +85,7 @@
     background-color: transparent;
     box-sizing: border-box;
     margin-left: 10%;
+    overflow: hidden;
 
     /* line-height: 40px;  */
 
@@ -128,7 +129,7 @@
   .footer-logo {
     flex: 1;
     justify-content: space-between;
-
+    align-items: center;
     /* padding: 0 120px; */
     box-sizing: border-box;
 
@@ -372,7 +373,7 @@
     }
 
     .appointment-button {
-      font-size: 20px; 
+      font-size: 5vh; 
     }
   }
 
@@ -398,12 +399,10 @@
     }
 
     .book-an-appointment {
-      font-size: 15px;
       line-height: 80px !important;
     }
 
     .appointment-button {
-      font-size: 20px; 
     }
 
   }
@@ -540,3 +539,23 @@
     }
   }
   
+/* 
+  .cosmo-1-2 {
+    max-height: 420px;
+    max-width: 420px;
+    position: relative;
+    object-fit: cover;
+  }
+
+   */
+.cosmo-1-2 {
+  max-height: 420px;
+  max-width: 420px;
+  width: auto;
+  height: auto;
+
+  min-width: 150px;
+  min-height: 150px;
+
+}
+
