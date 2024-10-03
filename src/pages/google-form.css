@@ -1,4 +1,11 @@
 
+body {
+
+    overflow-x: hidden; 
+
+}
+
+
 .form-container {
     width: 100%; 
     position: relative;
