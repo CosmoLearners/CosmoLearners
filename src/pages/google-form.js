@@ -10,6 +10,9 @@ const onGoogleFormClick = () => {
   window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
 };
 
+const GoogleFormClick = () => {
+  window.open(googleFormUrl, '_blank'); // Opens the Google Form in a new tab
+};
 
 const Form = () => {
   const navigate = useNavigate();
