@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.73d4da33.css",
-    "main.js": "./static/js/main.60868db6.js",
-    "static/js/453.4a52eb9f.chunk.js": "./static/js/453.4a52eb9f.chunk.js",
+    "main.css": "./static/css/main.efb5d5d9.css",
+    "main.js": "./static/js/main.6893b7bb.js",
+    "static/js/453.a5c80133.chunk.js": "./static/js/453.a5c80133.chunk.js",
     "static/media/homepage@3x.png": "./static/media/homepage@3x.bf53d5db3cf7d433083d.png",
     "static/media/background.jpg": "./static/media/background.a686c21ef8a432b3342b.jpg",
     "static/media/scholarkid-2@2x.png": "./static/media/scholarkid-2@2x.3e77e1a8e71dabde61a4.png",
@@ -11,12 +11,12 @@
     "index.html": "./index.html",
     "static/media/chevron-down-solid.svg": "./static/media/chevron-down-solid.79d81965807ebaf4751fdc49e7912b18.svg",
     "static/media/chevron-up-solid.svg": "./static/media/chevron-up-solid.ebbe90c64cad53c64e4c6505c998a157.svg",
-    "main.73d4da33.css.map": "./static/css/main.73d4da33.css.map",
-    "main.60868db6.js.map": "./static/js/main.60868db6.js.map",
-    "453.4a52eb9f.chunk.js.map": "./static/js/453.4a52eb9f.chunk.js.map"
+    "main.efb5d5d9.css.map": "./static/css/main.efb5d5d9.css.map",
+    "main.6893b7bb.js.map": "./static/js/main.6893b7bb.js.map",
+    "453.a5c80133.chunk.js.map": "./static/js/453.a5c80133.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73d4da33.css",
-    "static/js/main.60868db6.js"
+    "static/css/main.efb5d5d9.css",
+    "static/js/main.6893b7bb.js"
   ]
 }
