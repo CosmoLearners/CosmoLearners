@@ -95,7 +95,7 @@
 
 @media screen and (width <= 450px) {
   .what-makes-us {
-    font-size: var(--font-size-7xl);
+    font-size: var(--font-size-5xl);
     line-height: 32px;
     flex-direction: column;
     margin-top:-9rem;

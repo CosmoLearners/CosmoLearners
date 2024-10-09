@@ -208,6 +208,11 @@
   .divchakra-stack3 {
     margin-top: 20px; 
   }
+  
+  .coach-text-description {
+    font-size: var(--font-size-3xl);
+    line-height: 43px;
+  }
 }
 
 @media screen and (width <= 450px) {
