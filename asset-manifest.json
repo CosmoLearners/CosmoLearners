@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.efb5d5d9.css",
+    "main.css": "./static/css/main.2c1e9c6f.css",
     "main.js": "./static/js/main.6893b7bb.js",
     "static/js/453.a5c80133.chunk.js": "./static/js/453.a5c80133.chunk.js",
     "static/media/homepage@3x.png": "./static/media/homepage@3x.bf53d5db3cf7d433083d.png",
@@ -11,12 +11,12 @@
     "index.html": "./index.html",
     "static/media/chevron-down-solid.svg": "./static/media/chevron-down-solid.79d81965807ebaf4751fdc49e7912b18.svg",
     "static/media/chevron-up-solid.svg": "./static/media/chevron-up-solid.ebbe90c64cad53c64e4c6505c998a157.svg",
-    "main.efb5d5d9.css.map": "./static/css/main.efb5d5d9.css.map",
+    "main.2c1e9c6f.css.map": "./static/css/main.2c1e9c6f.css.map",
     "main.6893b7bb.js.map": "./static/js/main.6893b7bb.js.map",
     "453.a5c80133.chunk.js.map": "./static/js/453.a5c80133.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efb5d5d9.css",
+    "static/css/main.2c1e9c6f.css",
     "static/js/main.6893b7bb.js"
   ]
 }
