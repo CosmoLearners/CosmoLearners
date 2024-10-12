@@ -12,7 +12,7 @@ body {
     background-image: url("/public/background.jpg");
     background-size: 100%;
     background-repeat: repeat-y;
-    
+    width: 100%; 
     /* background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
