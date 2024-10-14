@@ -23,10 +23,13 @@ const FrameComponent = () => {
           {frameList.map((frame) => (
             <div key={frame.id} className="review-list">
               <div className="review-text">
-                <p>{frame.express}</p>
+                <p>
+                  <span className="quote-mark">“</span>
+                  {frame.express} 
+                </p>
               </div>
               <div className="review-img">
-                {frame.profile} {/* Render the image here */}
+                {frame.profile}
               </div>
             </div>
           ))}

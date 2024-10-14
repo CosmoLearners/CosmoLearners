@@ -449,3 +449,10 @@
     max-height: 50%; 
   }
 }
+
+.quote-mark {
+  font-size: 100px; 
+  line-height: 1;  
+  color: var(--color-cadetblue);
+  display: inline-block; 
+}
