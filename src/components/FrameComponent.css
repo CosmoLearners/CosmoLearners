@@ -388,7 +388,6 @@
   gap: 20px; /* Add some space between review lists */
   align-items: center;
   height: 80vh;
-  overflow: scroll;
 }
 
 .review-list {
@@ -398,32 +397,37 @@
   justify-content: space-around;
   font-size: large;
   font-weight: bold;
-  border: 1px solid #ddd; 
+  /* border: 1px solid #ddd;  */
   padding: 10px;
   width: 80%; 
   height: 80%;
   gap: 10%;
-  overflow: scroll;
+  overflow: clip;
+
 }
 
 .review-text {
   flex: 4; 
   padding-right: 20px; 
-  text-align: center;
+  text-align: left;
   max-height: 100%;
-  line-height: 28px
+  line-height: 28px;
+  overflow: auto;
+
 }
 
 .review-img {
   flex: 1; 
-  max-width: 20%; 
-  overflow: clip;
-  
+  max-width: 20%;   
 }
 
 .review-list img {
   max-width: 100%;
   height: auto; 
+  border: #ddd;
+  border: 9px solid var(--color-darkslateblue-100);
+
+  
 }
 
 .review-list:nth-child(even) {
@@ -437,10 +441,11 @@
   .review-text {
     flex: 1 1 100%; 
     width: 100%; 
-    text-align: center; 
+    text-align: left; 
     padding-right: 0; 
   }
   .review-list{
-    gap: 0; 
+    gap: 0;
+    max-height: 50%; 
   }
 }
