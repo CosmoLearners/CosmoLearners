@@ -388,6 +388,7 @@
   gap: 20px; /* Add some space between review lists */
   align-items: center;
   height: 80vh;
+  overflow: scroll;
 }
 
 .review-list {
@@ -402,26 +403,44 @@
   width: 80%; 
   height: 80%;
   gap: 10%;
-  overflow: auto;
+  overflow: scroll;
 }
 
 .review-text {
   flex: 4; 
   padding-right: 20px; 
   text-align: center;
+  max-height: 100%;
+  line-height: 28px
 }
 
 .review-img {
   flex: 1; 
-  max-width: 20%; /* Ensure the image has a maximum width */
-
+  max-width: 20%; 
+  overflow: clip;
+  
 }
 
 .review-list img {
-  max-width: 100%; /* Ensure image fits within its container */
-  height: auto; /* Maintain aspect ratio */
+  max-width: 100%;
+  height: auto; 
 }
 
 .review-list:nth-child(even) {
-  flex-direction: row-reverse; /* Reverse the order of text and image for even items */
+  flex-direction: row-reverse; 
+}
+
+@media screen and (max-width: 850px) {
+  .review-list img {
+    display: none;
+  }
+  .review-text {
+    flex: 1 1 100%; 
+    width: 100%; 
+    text-align: center; 
+    padding-right: 0; 
+  }
+  .review-list{
+    gap: 0; 
+  }
 }
