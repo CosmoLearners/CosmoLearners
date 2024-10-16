@@ -12,7 +12,7 @@ const FrameComponent = () => {
             href="https://emojipedia.org/speaker-low-volume"
             target="_blank"
           >
-            <span className="span">{` `}</span>
+            <span className="span">{``}</span>
           </a>
         </h1>
         <div className="review-slider">
@@ -25,6 +25,7 @@ const FrameComponent = () => {
               <div className="review-text">
                 <p>
                   <span className="quote-mark">“</span>
+                  <p></p>
                   {frame.express} 
                 </p>
               </div>

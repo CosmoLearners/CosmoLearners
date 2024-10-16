@@ -385,7 +385,7 @@
 .review-container {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Add some space between review lists */
+  gap: 20px; 
   align-items: center;
   height: 80vh;
 }
@@ -394,16 +394,15 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: large;
   font-weight: bold;
   /* border: 1px solid #ddd;  */
-  padding: 10px;
+  
   width: 80%; 
   height: 80%;
   gap: 10%;
   overflow: clip;
-
 }
 
 .review-text {
@@ -417,15 +416,14 @@
 }
 
 .review-img {
-  flex: 1; 
-  max-width: 20%;   
+  flex: 1.4; 
 }
 
 .review-list img {
   max-width: 100%;
   height: auto; 
   border: #ddd;
-  border: 9px solid var(--color-darkslateblue-100);
+  /* border: 9px solid var(--color-cadetblue); */
 
   
 }
@@ -442,7 +440,7 @@
     flex: 1 1 100%; 
     width: 100%; 
     text-align: left; 
-    padding-right: 0; 
+    padding-right: 0;
   }
   .review-list{
     gap: 0;
@@ -451,8 +449,6 @@
 }
 
 .quote-mark {
-  font-size: 100px; 
-  line-height: 1;  
+  font-size: 10vw; 
   color: var(--color-cadetblue);
-  display: inline-block; 
 }
