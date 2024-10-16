@@ -412,7 +412,6 @@
   max-height: 100%;
   line-height: 28px;
   overflow: auto;
-
 }
 
 .review-img {
@@ -441,6 +440,7 @@
     width: 100%; 
     text-align: left; 
     padding-right: 0;
+    overflow: visible;
   }
   .review-list{
     gap: 0;
@@ -449,6 +449,10 @@
 }
 
 .quote-mark {
-  font-size: 10vw; 
+  font-size: 7vw; 
+  color: var(--color-mediumpurple);
+}
+
+.name-tag{
   color: var(--color-cadetblue);
 }

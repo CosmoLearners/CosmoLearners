@@ -20,7 +20,7 @@ const frameList = [
     },
     {
         id: 1,
-        name: 'Sarah W., Age 13',
+        name: 'Jason M., High School Junior',
         profile: (
             <img
                 className="boy-review-1-icon"

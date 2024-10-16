@@ -27,6 +27,8 @@ const FrameComponent = () => {
                   <span className="quote-mark">“</span>
                   <p></p>
                   {frame.express} 
+                  <p></p>
+                  <b className="name-tag"> {frame.name} </b>
                 </p>
               </div>
               <div className="review-img">
