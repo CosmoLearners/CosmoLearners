@@ -398,28 +398,30 @@
   font-size: large;
   font-weight: bold;
   border: 1px solid #ddd; 
-  padding: 10px;
+  padding: 10%;
   width: 80%; 
   height: 80%;
   gap: 10%;
   overflow: auto;
+
 }
 
 .review-text {
   flex: 4; 
   padding-right: 20px; 
-  text-align: center;
+  text-align: left;
 }
 
 .review-img {
   flex: 1; 
   max-width: 20%; /* Ensure the image has a maximum width */
 
+
 }
 
 .review-list img {
   max-width: 100%; /* Ensure image fits within its container */
-  height: auto; /* Maintain aspect ratio */
+  height: 80%; /* Maintain aspect ratio */
 }
 
 .review-list:nth-child(even) {
