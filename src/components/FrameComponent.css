@@ -451,6 +451,9 @@
   color: var(--color-mediumpurple);
 }
 
+.review-list:nth-child(2) .quote-mark {
+  color: var(--color-khaki);
+}
 .name-tag{
   color: var(--color-cadetblue);
 }
