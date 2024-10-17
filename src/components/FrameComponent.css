@@ -242,27 +242,7 @@
   display: none;
 }
 
-.girl-review-1-icon1 {
-  position: absolute;
-  height: calc(100% - 0.1px);
-  top: 0.1px;
-  bottom: 0;
-  left: 9px;
-  max-height: 100%;
-  width: 205.7px;
-  object-fit: cover;
-  z-index: 1;
-}
 
-.boy-review-1-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 2;
-}
 
 .student-images {
   height: 308.2px;
@@ -399,4 +379,81 @@
     padding-bottom: var(--padding-35xl);
     box-sizing: border-box;
   }
+}
+
+/* =============================================== */
+.review-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  align-items: center;
+  height: auto;
+}
+
+.review-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
+  font-weight: bold; 
+  width: 80%; 
+  height: auto;
+  gap: 10%;
+  overflow: visible;
+}
+
+.review-text {
+  flex: 4;
+  padding-right: 20px;
+  text-align: left;
+  max-height: 1000px;
+  line-height: 28px;
+  transition: height 0.3s ease;
+}
+
+.review-img {
+  flex: 1.4; 
+}
+
+.review-list img {
+  max-width: 100%;
+  height: auto; 
+  border: #ddd;
+  /* border: 9px solid var(--color-cadetblue); */
+
+  
+}
+
+.review-list:nth-child(even) {
+  flex-direction: row-reverse; 
+}
+
+@media screen and (max-width: 850px) {
+  .review-list img {
+    display: none;
+  }
+  .review-text {
+    flex: 1 1 100%; 
+    width: 100%; 
+    text-align: left; 
+    padding-right: 0;
+    overflow: visible;
+  }
+  .review-list{
+    gap: 0;
+    max-height: 50%; 
+  }
+}
+
+.quote-mark {
+  font-size: 7vw; 
+  color: var(--color-mediumpurple);
+}
+
+.review-list:nth-child(2) .quote-mark {
+  color: var(--color-khaki);
+}
+.name-tag{
+  color: var(--color-cadetblue);
 }
